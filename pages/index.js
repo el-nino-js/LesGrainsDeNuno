@@ -1,10 +1,15 @@
 import NextLink from 'next/link'
-import { Button, Container, Box, Heading, Image, Link, useColorModeValue } from "@chakra-ui/react"
+import { Button, Container, Box, Heading, Image, Link, List, ListItem, useColorModeValue, SimpleGrid, Icon } from "@chakra-ui/react"
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout, { article } from '../components/layouts/article'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { GridItem } from '../components/grid-item'
+import thumbYoutube from '../public/images/2021/jacob.jpg'
+
+import Head from 'next/head'
 
 const Page = () => {
     return (
@@ -84,8 +89,40 @@ const Page = () => {
                             <BioYear>2020</BioYear>
                             Complété un Baccalauréat en Génie Logiciel; Gradué à l'école Polytechnique Montréal
                         </BioSection>
-                    
                 </Section> 
+                <Section delay={0.3} >
+                    <Heading as="h3" variant="section-title">
+                        On the web
+                    </Heading>
+                    <List>
+                        <ListItem>
+                            <Link href="https://github.com/el-nino-js" target="_blank">
+                                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}>
+                                    @elNino.js
+                                </Button>
+                            </Link>
+                        </ListItem>
+                        <ListItem>
+                            <Link href="https://www.instagram.com/nuninho.js/" target="_blank">
+                                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoInstagram} />}>
+                                    @elNino.js
+                                </Button>
+                            </Link>
+                        </ListItem>
+                        <ListItem>
+                            <Link href="https://www.twitter.com/nuninho.js/" target="_blank">
+                                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter} />}>
+                                    @elNino.js
+                                </Button>
+                            </Link>
+                        </ListItem>
+                    </List>
+                    <SimpleGrid columns={[1,2,2]} gap={6}>
+                        <GridItem href="https://www.youtube.com/channel/UCmAaLnYWgos2NhWluNeKxwg" title="Je suis une saucisse" thumbnail={thumbYoutube}>
+                        My Youtube Channel
+                        </GridItem>    
+                    </SimpleGrid>
+                </Section>
             </Container>
         </Layout>
     )

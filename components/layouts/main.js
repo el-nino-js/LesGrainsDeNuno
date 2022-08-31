@@ -3,8 +3,16 @@ import Navbar from '../navbar'
 import NoSsr from '../no-ssr'
 import { Box, Container } from '@chakra-ui/react'
 import VoxelDog from '../voxel-dog'
+import ScriptServer from '../script_server'
+import Script from 'next/script'
 
 const Main = ({children, router}) => {
+
+
+  
+
+    
+  
     return (
         <Box as="main" pb={8}>
             <Head>

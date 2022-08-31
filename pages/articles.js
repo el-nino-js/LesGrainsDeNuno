@@ -5,8 +5,11 @@ import { ArticleGridItem } from '../components/grid-item'
 import thumbJacobLeCoq from '../public/images/2021/jacob.jpg'
 import thumbSantaClaus from '../public/images/2021/camille.jpg'
 import thumbBaby from '../public/images/2021/baby.jpg'
-import thumbLena from '../public/images/2021/lena.png'
 
+import NextLink from 'next/link'
+import Image from 'next/image'
+import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
+import { Global } from '@emotion/react'
 
 const Articles = () => {
 return (
@@ -42,7 +45,7 @@ return (
                 </ArticleGridItem>
             </Section>
             <Section delay={0.5}>
-                <ArticleGridItem id="lena" title="Lena" thumbnail={thumbLena}>
+                <ArticleGridItem id="lena" title="Lena" thumbnail={thumbBaby}>
                     Pourquoi Lena est tout simplement la meilleure waifu?
                 </ArticleGridItem>
             </Section>    
