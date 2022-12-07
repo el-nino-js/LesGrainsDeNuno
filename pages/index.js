@@ -7,16 +7,17 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout, { article } from '../components/layouts/article'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import { GridItem } from '../components/grid-item'
-import thumbYoutube from '../public/images/2021/jacob.jpg'
+import thumbYoutube from '../public/images/saucisse.png'
 
-import Head from 'next/head'
 
 const Page = () => {
+    const angelIG = "https://www.instagram.com/nuninho.js/"
+    const devilIG = "https://www.instagram.com/djizzkstra/"
     return (
         <Layout>
             <Container>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} align="center">
-                    Hello, I&apos;m a full-stack developper kawaii based in Montreal UwU
+                <i><b>Aucune histoire ne bat le <br></br> talent inébranlable du Japon. - N-G S-Pinto</b> <br></br> «Propos pris hors-contexte par Kenny Nguyen»</i>
                 </Box>
 
                 <Box display={{md: 'flex'}}>
@@ -24,7 +25,7 @@ const Page = () => {
                         <Heading as="h2" variant="page-title">
                             Nuno Silva-Pinto
                         </Heading>
-                        <i>Aucune histoire ne bat le talent inébranlable du Japon.</i>
+                        <i>Aspirant à l'ingénierie logiciel <br/> M.Sc.A en Cyber-Sécurité (en cours) <br/> Détenteur d'un doctorat en clanchage à Mario-Kart <br/>  Wannabe barista pseudo-notoire </i>
                     </Box>
                     <Box flexShrink={0}
                         mt={{ base: 4, md: 0 }}
@@ -46,15 +47,36 @@ const Page = () => {
                     <Heading as="h3" variant="section-title">
                     Travail
                     </Heading>
-                    <Paragraph>Nuno est un ingénieur logiciel diplômé de l'école Polytechnique Montréal.
-                        Il parfait actuellement une maîtrise-recherche en génie informatique qu'il spécialise en cyber-securité.
-                        En plus de ce domaine qu'il affectionne, il travail également dans l'avionique et dans les ontologies.
-                        Curieux de nature, il a un tour de main pour tout ce qui touche à la photographie argentique. Pour finir, il est un
-                        fervant disciple de l'{' '}
+                    <Paragraph>
+                        Bon, autant faire un «à propos» puisque je suis doué avec les causes perdues. Pourquoi pas une présentation
+                        de mon intérêt pour la photographie argentique. Je développe mes films quelques mois après avoir pris mes photos. Visages de longue date ou éphémères, même
+                        engorgées de grains, mon coeur rebondit de ces faces sur le papier. Encore mieux, s'il s'agit d'un ancien colloque lithuanien avec un beau sourire hypnotisant, la gorge immaculée de sang après avoir mal
+                        débouché une Super Bock le jour de son anniversaire. Abraço si tu me lis Julius.
+                        <br></br><br></br>
+                        Je peux sinon vous faire perdurer mon{' '}
+                        <NextLink href="http://www.nihongonosekai.com/newspapers/Japanese_Naturally/articles/19930822jn.htm">
+                            <Link href="http://www.nihongonosekai.com/newspapers/Japanese_Naturally/articles/19930822jn.htm">jiko manzoku</Link>
+                        </NextLink>,
+                        en vous décrivant  mon amour pour la {' '}
+                         <NextLink href="https://www.imdb.com/name/nm0234237/?ref_=tt_ov_st">
+                            <Link href="https://www.imdb.com/name/nm0234237/?ref_=tt_ov_st">soupe à la tomate</Link>
+                        </NextLink>
+                        , de mon {' '} 
+                        <NextLink href="https://www.youtube.com/watch?v=r3fD5FPQBtI">
+                            <Link href="https://www.youtube.com/watch?v=r3fD5FPQBtI">queer </Link>
+                        </NextLink>
+                        
+                         spectrum, de mon mémoire sur papirus de 20 pages sur «Pourquoi B... est un Masterpiece», de
+                        mon Top 10 des recettes de {' '}
+                        <NextLink href="https://www.ricardocuisine.com/">
+                            <Link href="https://www.ricardocuisine.com/">Ricardo mon boy</Link>
+                        </NextLink>
+                        , ou de ma religion assumée en tant que fervant disciple de l'{' '}
                         <NextLink href="https://encredemine.wordpress.com/">
                             <Link href="https://encredemine.wordpress.com/">Asatoïsme</Link>
-                        </NextLink>
-                        .
+                        </NextLink>.
+                        <br></br><br></br>
+                        Ou bien je peux juste vous laisser vous faire une idée à travers mes clichés. Le plus y a du grain, le plus c'est «real».
                     </Paragraph>
                     <Box aligne="center" my={4}>
                         <NextLink href="/articles">
@@ -70,11 +92,15 @@ const Page = () => {
                     </Heading>
                         <BioSection>
                             <BioYear>1995</BioYear>
-                            Né à Montréal/<strike>Tio'tia:ke</strike>/Mooniyang, Québec.   
+                            Né à Montréal/Mooniyang, Québec.  
                         </BioSection>
                         <BioSection>
-                            <BioYear>2020</BioYear>
-                            Complété un Baccalauréat en Génie Logiciel; Gradué à l'école Polytechnique Montréal
+                            <BioYear>2021</BioYear>
+                            Complète un Baccalauréat en Génie Logiciel à l'École Polytechnique Montréal
+                        </BioSection>
+                        <BioSection>
+                            <BioYear>2023</BioYear>
+                            Tel l'élargissement d'une station métro sur la ligne bleu, le retard pour cette section ne nous quittera plus.
                         </BioSection>
                 </Section>
                 <Section delay={0.2}>
@@ -82,17 +108,12 @@ const Page = () => {
                         J'♥
                     </Heading>
                         <BioSection>
-                            <BioYear>1995</BioYear>
-                            Né à Montréal/<strike>Tio'tia:ke</strike>/Mooniyang, Québec.   
-                        </BioSection>
-                        <BioSection>
-                            <BioYear>2020</BioYear>
-                            Complété un Baccalauréat en Génie Logiciel; Gradué à l'école Polytechnique Montréal
+                        Les chats
                         </BioSection>
                 </Section> 
                 <Section delay={0.3} >
                     <Heading as="h3" variant="section-title">
-                        On the web
+                        Sur la toile
                     </Heading>
                     <List>
                         <ListItem>
@@ -103,9 +124,10 @@ const Page = () => {
                             </Link>
                         </ListItem>
                         <ListItem>
-                            <Link href="https://www.instagram.com/nuninho.js/" target="_blank">
+                            
+                            <Link href={useColorModeValue(angelIG, devilIG)} target="_blank">
                                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoInstagram} />}>
-                                    @elNino.js
+                                {useColorModeValue('@nuninho.js', '@djizzkstra')}
                                 </Button>
                             </Link>
                         </ListItem>

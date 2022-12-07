@@ -31,7 +31,7 @@ const Logo = ( ) => {
                         fontWeight="bold"
                          ml={3}
                     >
-                        Les Grains à Nuno
+                        Poussin des forêts
                     </Text>
                 </LogoBox>
             </a>

@@ -24,7 +24,7 @@ const LinkItem = ({ href, path, children}) => {
         <NextLink href={href}>
             <Link
                 p={2}
-                bg={active ? 'glassTeal' : undefined}
+                bg={active ? 'glasseTeal' : undefined}
                 color={active ? '#202023' : inactiveColor}
             >
                 {children}
@@ -76,6 +76,9 @@ const Navbar = props => {
                 <LinkItem href="/posts" path={path}>
                 Posts
                 </LinkItem>
+                <LinkItem href="/menu" path={path}>
+                La Graine à Nuno
+                </LinkItem>
                 </Stack>
         <Box flex={1} align="right">
             <ThemeToggleButton />
@@ -99,6 +102,9 @@ const Navbar = props => {
                 </NextLink>
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
+                </NextLink>
+                <NextLink href="/menu" passHref>
+                  <MenuItem as={Link}>La Graine à Nuno</MenuItem>
                 </NextLink>
                 
               </MenuList>

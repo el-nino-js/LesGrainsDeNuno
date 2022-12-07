@@ -2,8 +2,8 @@ import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
 import { ArticleGridItem } from '../components/grid-item'
 
-import thumbJacobLeCoq from '../public/images/2021/jacob.jpg'
-import thumbSantaClaus from '../public/images/2021/camille.jpg'
+import velvia50lagosthumbnail from '../public/images/2018/velvia50lagos/21.jpg'
+import vanessanuthumbnail from '../public/images/2018/velvia50lagos/21.jpg'
 import thumbBaby from '../public/images/2021/baby.jpg'
 
 import NextLink from 'next/link'
@@ -20,13 +20,13 @@ return (
 
         <SimpleGrid columns={[1,1,2]} gap={6}>
             <Section delay={0.3}>
-                <ArticleGridItem id="jacoblecoq" title="JacobLeCoq" thumbnail={thumbJacobLeCoq}>
-                    Un vivifiante sortie avec Jacob le coq!  
+                <ArticleGridItem id="velvia50lagos" title="Velvia50Lagos" thumbnail={velvia50lagosthumbnail}>
+                    Diapositive Velvia 50 - Praias de Lagos
                 </ArticleGridItem>
             </Section>
             <Section delay={0.4}>
-                <ArticleGridItem id="santaclaus" title="SantaClaus" thumbnail={thumbSantaClaus}>
-                    Le monde secret du Père Noël avec Cam et Gabriela
+                <ArticleGridItem id="vanessa" title="Vanessa" thumbnail={vanessanuthumbnail}>
+                    Tout ce qui repose provient de la lumière de l'autre
                 </ArticleGridItem>
             </Section>
         </SimpleGrid>

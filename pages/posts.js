@@ -1,12 +1,7 @@
-import { Container, Heading, SimpleGrid} from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Box, AspectRatio} from '@chakra-ui/react'
 import Layout from '../components/layouts/article' 
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-
-
-import thumbJacobLeCoq from '../public/images/2021/jacob.jpg'
-import thumbSantaClaus from '../public/images/2021/camille.jpg'
-import thumbBaby from '../public/images/2021/baby.jpg'
 import thumbSaucisse from '../public/images/saucisse.png'
 
 const Posts = () => (
@@ -17,67 +12,18 @@ const Posts = () => (
             </Heading>
             <Section delay={0.1}>
                 <SimpleGrid column={[1,2,2]} gap={6}>
-                    <GridItem 
-                    title="Je suis une saucisse" 
-                    thumbnail={thumbSaucisse} 
-                    href="https://www.youtube.com/watch?v=v9ImDjnIiKk">
-
-                    </GridItem>
+                <Box mx={4} mb={4}>
+                <Box
                     
-                </SimpleGrid>
-                <SimpleGrid column={[1,2,2]} gap={6}>
-                    <GridItem 
-                    title="Je suis une saucisse" 
-                    thumbnail={thumbSaucisse} 
-                    href="https://www.youtube.com/watch?v=v9ImDjnIiKk">
-
-                    </GridItem>
-                    
+                /><AspectRatio maxW='560px' ratio={1}>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/v9ImDjnIiKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </AspectRatio>
+                </Box>
                 </SimpleGrid>
                 
             </Section>
-            <Section delay={0.1}>
-                <SimpleGrid column={[1,2,2]} gap={6}>
-                    <GridItem 
-                    title="Je suis une saucisse" 
-                    thumbnail={thumbSaucisse} 
-                    href="https://www.youtube.com/watch?v=v9ImDjnIiKk">
-
-                    </GridItem>
-                    
-                </SimpleGrid>
-                <SimpleGrid column={[1,2,2]} gap={6}>
-                    <GridItem 
-                    title="Je suis une saucisse" 
-                    thumbnail={thumbSaucisse} 
-                    href="https://www.youtube.com/watch?v=v9ImDjnIiKk">
-
-                    </GridItem>
-                    
-                </SimpleGrid>
-                
-            </Section>
-            <Section delay={0.1}>
-                <SimpleGrid column={[1,2,2]} gap={6}>
-                    <GridItem 
-                    title="Je suis une saucisse" 
-                    thumbnail={thumbSaucisse} 
-                    href="https://www.youtube.com/watch?v=v9ImDjnIiKk">
-
-                    </GridItem>
-                    
-                </SimpleGrid>
-                <SimpleGrid column={[1,2,2]} gap={6}>
-                    <GridItem 
-                    title="Je suis une saucisse" 
-                    thumbnail={thumbSaucisse} 
-                    href="https://www.youtube.com/watch?v=v9ImDjnIiKk">
-
-                    </GridItem>
-                    
-                </SimpleGrid>
-                
-            </Section>
+          
+           
         </Container>
     </Layout>
 
