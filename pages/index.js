@@ -19,7 +19,7 @@ const Page = () => {
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} align="center">
                 <i><b>Aucune histoire ne bat le <br></br> talent inébranlable du Japon. - N-G S-Pinto</b> <br></br> «Propos pris hors-contexte par Kenny Nguyen»</i>
                 </Box>
-
+                <br/>
                 <Box display={{md: 'flex'}}>
                     <Box flexGrow={1}>
                         <Heading as="h2" variant="page-title">
@@ -30,9 +30,11 @@ const Page = () => {
                     <Box flexShrink={0}
                         mt={{ base: 4, md: 0 }}
                         ml={{ md: 6 }}
+                        paddingTop={30}
                         textAlign="center">
                     <Image 
                         borderColor="whiteAlpha.800"
+                        
                         borderWidth={2}
                         borderStyle="solid"
                         maxWidth="100px"
@@ -139,11 +141,7 @@ const Page = () => {
                             </Link>
                         </ListItem>
                     </List>
-                    <SimpleGrid columns={[1,2,2]} gap={6}>
-                        <GridItem href="https://www.youtube.com/channel/UCmAaLnYWgos2NhWluNeKxwg" title="Je suis une saucisse" thumbnail={thumbYoutube}>
-                        My Youtube Channel
-                        </GridItem>    
-                    </SimpleGrid>
+                    
                 </Section>
             </Container>
         </Layout>

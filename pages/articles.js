@@ -3,7 +3,7 @@ import Section from '../components/section'
 import { ArticleGridItem } from '../components/grid-item'
 
 import velvia50lagosthumbnail from '../public/images/2018/velvia50lagos/21.jpg'
-import vanessanuthumbnail from '../public/images/2018/velvia50lagos/21.jpg'
+import vanessanuthumbnail from '../public/images/2022/vanessa/vanessa_article.png'
 import thumbBaby from '../public/images/2021/baby.jpg'
 
 import NextLink from 'next/link'
