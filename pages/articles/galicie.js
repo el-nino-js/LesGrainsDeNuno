@@ -1,6 +1,7 @@
-import { Container, Badge, Heading, Link, List, ListItem} from '@chakra-ui/react'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, ArticleImage, Meta } from '../../components/article'
+/* eslint-disable react/no-unescaped-entities */
+import { Container, Badge, Heading} from '@chakra-ui/react'
+
+import { Title } from '../../components/article'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 import Paragraph from '../../components/paragraph'
@@ -60,96 +61,96 @@ const Article = () => {
                 <a name="port"></a>
                     <h2 className={s.h2}>Mon Portfolio</h2>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/azh4dcvjne6rgie/Image%201%20%2033%20%282%29.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/azh4dcvjne6rgie/Image%201%20%2033%20%282%29.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic1}></Image>
                         </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/f3a1m3858rqflgr/portra400-seville162.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/f3a1m3858rqflgr/portra400-seville162.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic2}></Image>
                         </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/jpgnefdkr0g0606/portra400-seville165.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/jpgnefdkr0g0606/portra400-seville165.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic3}></Image></a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/3j1wnsobwx8l9fj/portra400-seville166.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/3j1wnsobwx8l9fj/portra400-seville166.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic4}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/4d3spsgfwa2m4t1/portra400-seville170.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/4d3spsgfwa2m4t1/portra400-seville170.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic5}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/eufo4e7e3plmthb/portra400-seville172.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/eufo4e7e3plmthb/portra400-seville172.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic6}></Image>
                         </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/8tv8mvmefbsn6bu/portra400-seville173.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/8tv8mvmefbsn6bu/portra400-seville173.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic7}></Image>
                         </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/upnwwxyqwgwo9he/velvia50175.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/upnwwxyqwgwo9he/velvia50175.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic8}></Image>
                         </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/t1loo45qadyi111/velvia50176.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/t1loo45qadyi111/velvia50176.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic9}></Image></a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/1r4vcc3liogedqw/velvia50179.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/1r4vcc3liogedqw/velvia50179.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic10}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/vdn3bfd0gdidnmq/velvia50180.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/vdn3bfd0gdidnmq/velvia50180.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic11}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/db2vmg9fxj841tn/velvia50181.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/db2vmg9fxj841tn/velvia50181.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic12}></Image>
                         </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/s0oj518yrno30bt/velvia50183.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/s0oj518yrno30bt/velvia50183.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic13}></Image>
                         </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/dsybpjmj3g091ri/velvia50184.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/dsybpjmj3g091ri/velvia50184.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic14}></Image>
                         </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/m45sxg74i9ft2h2/velvia50186.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/m45sxg74i9ft2h2/velvia50186.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic15}></Image></a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/r25i2fsb3bzhofu/velvia50187.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/r25i2fsb3bzhofu/velvia50187.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic16}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/49l030209adti8t/velvia50188.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/49l030209adti8t/velvia50188.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic17}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/mhbix4ifopf371a/velvia50191.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/mhbix4ifopf371a/velvia50191.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic18}></Image>
                         </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/mgbdr354s0pw8qx/velvia50194.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/mgbdr354s0pw8qx/velvia50194.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic19}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/6xzbmj5op0bwhvy/velvia50195.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/6xzbmj5op0bwhvy/velvia50195.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic20}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/gqnz15oyuew7f25/velvia50197.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/gqnz15oyuew7f25/velvia50197.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic21}></Image>
                         </a>
     

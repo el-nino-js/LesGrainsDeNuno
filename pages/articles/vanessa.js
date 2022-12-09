@@ -1,6 +1,6 @@
-import { Container, Badge, Heading, Link, List, ListItem} from '@chakra-ui/react'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, ArticleImage, Meta } from '../../components/article'
+/* eslint-disable react/no-unescaped-entities */
+import { Container, Badge, Heading, Link} from '@chakra-ui/react'
+import { Title } from '../../components/article'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 import Paragraph from '../../components/paragraph'
@@ -8,7 +8,6 @@ import NextLink from 'next/link'
 
 import s from '../components/style.module.css'
 import pic1 from '../../public/images/2022/vanessa/2.jpg'
-import pic2 from '../../public/images/2022/vanessa/3.jpg'
 import pic3 from '../../public/images/2022/vanessa/4.jpg'
 import pic4 from '../../public/images/2022/vanessa/5.jpg'
 import pic5 from '../../public/images/2022/vanessa/6.jpg'
@@ -54,35 +53,35 @@ const Article = () => {
                     <h2 className={s.h2}>Mon Portfolio</h2>
                     
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/6vi7nowdpelydwf/Vanessa-6.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/6vi7nowdpelydwf/Vanessa-6.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic5}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/j2kbb2gvnlwwg2z/Vanessa-5.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/j2kbb2gvnlwwg2z/Vanessa-5.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic4}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/ys3f9syjaxu9uk0/Vanessa-9.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/ys3f9syjaxu9uk0/Vanessa-9.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic8}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/ngt44e6k0iyxceh/Vanessa-4.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/ngt44e6k0iyxceh/Vanessa-4.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic3}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/qoyqp6kq2ww3rpu/Vanessa-8.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/qoyqp6kq2ww3rpu/Vanessa-8.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic7}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/gsrycbpiu4vcp9f/Vanessa-7.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/gsrycbpiu4vcp9f/Vanessa-7.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic6}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/lvnfbwal6fl3zwj/Vanessa-11.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/lvnfbwal6fl3zwj/Vanessa-11.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic10}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/7bmct5u16oadyid/Vanessa-10.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/7bmct5u16oadyid/Vanessa-10.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic9}></Image> </a>
                     </section>
                     
