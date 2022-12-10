@@ -111,7 +111,11 @@ const Page = () => {
                         J'♥
                     </Heading>
                         <BioSection>
-                        Les chats
+                            {' '}
+                        <NextLink href="/articles/chats">
+                            <Link href="/articles/chats">Les chats</Link>
+                        </NextLink>
+                      
                         </BioSection>
                 </Section> 
                 <Section delay={0.3} >
