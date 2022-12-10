@@ -21,6 +21,8 @@ import pic9 from '../../public/images/2022/cat/9.jpg'
 import pic10 from '../../public/images/2022/cat/10.jpg'
 import pic11 from '../../public/images/2022/cat/11.jpg'
 import pic12 from '../../public/images/2022/cat/12.jpg'
+import pic13 from '../../public/images/2022/cat/13.jpg'
+import pic14 from '../../public/images/2022/cat/14.jpg'
 
 
 
@@ -145,6 +147,14 @@ const Article = () => {
                         , "https://www.dropbox.com/s/m12rmf4uxh0n01b/11.jpg?raw=1")} target="_blank" rel="noreferrer">
                         <Image  className={s.onethirdportimage} src= {useColorModeValue(pic12, pic11)}></Image> </a> 
                         <p className={s.sub} >Juan Bautista</p>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/s/ve6n0dckl2cicrd/14.jpg?raw=1"
+                        , "https://www.dropbox.com/s/em0jk6zf6lut2vo/13.jpg?raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic14, pic13)}></Image> </a> 
+                        <p className={s.sub} >Lily</p>
                     </section>
                     
                     
