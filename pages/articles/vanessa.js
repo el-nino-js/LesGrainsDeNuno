@@ -28,7 +28,7 @@ const Article = () => {
             <Title>
               Numérique - Vanessa <Badge>2022</Badge>
             </Title>
-                <P>Tu voulais qu'on collabore ensemble, un projet plus intimes pour nous exposer. Je préfère montrer mon pellage de caribou sur Instagram et que cela
+                <P>Tu souhaitais qu'on collabore ensemble, un projet plus intime pour nous exposer. Je préfère montrer mon pellage de caribou sur Instagram et que cela
                     serve de subterfuge pour recréer l'essentiel de l'intimité. Ma maladresse fut de trop en montrer. Mon allégresse fut que nos récits se soient réuni. 
 
                 </P>
