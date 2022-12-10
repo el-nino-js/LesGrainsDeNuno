@@ -160,12 +160,9 @@ const Article = () => {
                         </a>
                         <section>
                             <h2 className={s.h2}>Nota Bene</h2>
-                            <Paragraph>J'men bats les c**illes chui fire !
+                            <Paragraph>Arrivederci
                             </Paragraph>
                         </section>
-                      
-                   
-            
             </Container>
         </Layout>
     )
