@@ -2,13 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.html",
-  "/articles": "pages/articles.html",
-  "/articles/galicie": "pages/articles/galicie.html",
-  "/articles/jacoblecoq": "pages/articles/jacoblecoq.html",
-  "/articles/vanessa": "pages/articles/vanessa.html",
-  "/articles/velvia50lagos": "pages/articles/velvia50lagos.html",
-  "/": "pages/index.html",
-  "/portfolio": "pages/portfolio.html",
-  "/posts": "pages/posts.html"
+  "/articles/chats": "pages/articles/chats.js"
 }

@@ -5,6 +5,7 @@ import { ArticleGridItem } from '../components/grid-item'
 import velvia50lagosthumbnail from '../public/images/2018/velvia50lagos/21.jpg'
 import vanessanuthumbnail from '../public/images/2022/vanessa/vanessa_article.png'
 import thumbBaby from '../public/images/2021/baby.jpg'
+import thumbCat from '../public/images/2022/cat/cathumbnail.png'
 
 import NextLink from 'next/link'
 import Image from 'next/image'
@@ -45,8 +46,8 @@ return (
                 </ArticleGridItem>
             </Section>
             <Section delay={0.5}>
-                <ArticleGridItem id="lena" title="Lena" thumbnail={thumbBaby}>
-                    Pourquoi Lena est tout simplement la meilleure waifu?
+                <ArticleGridItem id="chats" title="Chats" thumbnail={thumbCat}>
+                    Palmarès des plus beaux chats
                 </ArticleGridItem>
             </Section>    
         </SimpleGrid>

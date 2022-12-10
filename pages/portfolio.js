@@ -5,12 +5,13 @@ import { Container, Heading, SimpleGrid} from '@chakra-ui/react'
 import Layout from '../components/layouts/article' 
 import Paragraph from '../components/paragraph'
 import s from './components/style.module.css'
-import pic1 from '../public/images/img/photography-1.png'
-import pic2 from '../public/images/img/photography-2.png'
-import pic3 from '../public/images/img/photography-3.png'
-import pic4 from '../public/images/img/photography-4.png'
-import pic5 from '../public/images/img/photography-5.png'
-import pic6 from '../public/images/img/photography-6.png'
+import pic0 from '../public/images/nunobnw.jpg'
+import pic1 from '../public/images/Portofolio/thumbnail.jpg'
+import pic2 from '../public/images/Portofolio/thumbnail.jpg'
+import pic3 from '../public/images/Portofolio/thumbnail.jpg'
+import pic4 from '../public/images/Portofolio/thumbnail.jpg'
+import pic5 from '../public/images/Portofolio/thumbnail.jpg'
+import pic6 from '../public/images/Portofolio/thumbnail.jpg'
 import Image from 'next/image'
 
 const Portfolio = () => (
@@ -26,35 +27,35 @@ const Portfolio = () => (
                 </Paragraph>
             </section>
             <section className={s.sidebar}>
-                <img className={s.img} src="https://static.pexels.com/photos/50567/girl-female-model-pretty-50567.jpeg"></img>
+                <Image className={s.img} src={pic0}></Image>
             </section>
             <div className={s.clearfix}></div>
                 <a name="port"></a>
-                    <h2 className={s.h2}>My Portfolio</h2>
+                    <h2 className={s.h2}>Mon Portfolio</h2>
                     <section className={s.onethirdport}>
-                        <a href="https://static.pexels.com/photos/246368/pexels-photo-246368.jpeg" target="_blank">
+                        <a href="https://www.dropbox.com/s/3h420kmd24d5vjx/thumbnail.jpg?raw=1" target="_blank">
                         <Image className={s.onethirdportimage} src={pic1}></Image>
                         </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://static.pexels.com/photos/246368/pexels-photo-246368.jpeg" target="_blank">
+                        <a href="https://www.dropbox.com/s/3h420kmd24d5vjx/thumbnail.jpg?raw=1" target="_blank">
                         <Image className={s.onethirdportimage} src={pic2}></Image>
                         </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://static.pexels.com/photos/246368/pexels-photo-246368.jpeg" target="_blank">
+                        <a href="https://www.dropbox.com/s/3h420kmd24d5vjx/thumbnail.jpg?raw=1" target="_blank">
                         <Image className={s.onethirdportimage} src={pic3}></Image></a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://static.pexels.com/photos/246368/pexels-photo-246368.jpeg" target="_blank">
+                        <a href="https://www.dropbox.com/s/3h420kmd24d5vjx/thumbnail.jpg?raw=1" target="_blank">
                         <Image className={s.onethirdportimage} src={pic4}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://static.pexels.com/photos/246368/pexels-photo-246368.jpeg" target="_blank">
+                        <a href="https://www.dropbox.com/s/3h420kmd24d5vjx/thumbnail.jpg?raw=1" target="_blank">
                         <Image className={s.onethirdportimage} src={pic5}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://static.pexels.com/photos/246368/pexels-photo-246368.jpeg" target="_blank">
+                        <a href="https://www.dropbox.com/s/3h420kmd24d5vjx/thumbnail.jpg?raw=1" target="_blank">
                         <Image className={s.onethirdportimage} src={pic6}></Image>
                         </a>
     
@@ -81,7 +82,7 @@ const Portfolio = () => (
                         <h2 className={s.h2}>Contacter-moi</h2>
                         <section className={s.contact}>
                             <p className={s.contactp}>Mon nom  <br className={s.break}></br> <a href="nuno.silva-pinto@outlook.com"></a><br className={s.break}></br> 1-800-888-888</p>
-                            <p className={s.contactp}>123 Rue des Penis</p><br className={s.break}></br> <p className={s.contactp}> Montreal</p><br className={s.break}></br> <p className={s.contactp} >Quebec</p>
+                            <p className={s.contactp}>123 Fake Street</p><br className={s.break}></br> <p className={s.contactp}> Montreal</p><br className={s.break}></br> <p className={s.contactp} >Quebec</p>
                         </section>
                     <div className={s.clearfix}></div>
         </Container>

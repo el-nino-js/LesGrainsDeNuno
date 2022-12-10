@@ -6,9 +6,6 @@ import { BioSection, BioYear } from '../components/bio'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout, { article } from '../components/layouts/article'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import { GridItem } from '../components/grid-item'
-import thumbYoutube from '../public/images/saucisse.png'
-
 
 const Page = () => {
     const angelIG = "https://www.instagram.com/nuninho.js/"
@@ -17,7 +14,7 @@ const Page = () => {
         <Layout>
             <Container>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} align="center">
-                <i><b>Aucune histoire ne bat le <br></br> talent inébranlable du Japon. - N-G S-Pinto</b> <br></br> «Propos pris hors-contexte par Kenny Nguyen»</i>
+                <i><b>Aucune histoire ne bat le <br></br> talent inébranlable du Japon. - Nuno-G S-Pinto</b> <br></br> «Propos pris hors-contexte par Kenny N.»</i>
                 </Box>
                 <br/>
                 <Box display={{md: 'flex'}}>
@@ -47,15 +44,15 @@ const Page = () => {
                 </Box>
                 <Section delay={0.1}>
                     <Heading as="h3" variant="section-title">
-                    Travail
+                    Bonjour / Oi
                     </Heading>
                     <Paragraph>
-                        Bon, autant faire un «à propos» puisque je suis doué avec les causes perdues. Pourquoi pas une présentation
-                        de mon intérêt pour la photographie argentique. Je développe mes films quelques mois après avoir pris mes photos. Visages de longue date ou éphémères, même
-                        engorgées de grains, mon coeur rebondit de ces faces sur le papier. Encore mieux, s'il s'agit d'un ancien colloque lithuanien avec un beau sourire hypnotisant, la gorge immaculée de sang après avoir mal
+                        Autant faire un «à propos» puisque je suis doué avec les causes perdues. Alors, j'apprécie la photographie et surtout la photographie
+                        argentique. Visages de longue date ou éphémères, même engorgées de grains, mon coeur rebondit de ces faces sur le papier. Encore mieux, s'il s'agit 
+                        d'un ancien colloque lituanien avec un beau sourire hypnotisant, la gorge immaculée de sang après avoir mal
                         débouché une Super Bock le jour de son anniversaire. Abraço si tu me lis Julius.
                         <br></br><br></br>
-                        Je peux sinon vous faire perdurer mon{' '}
+                        &nbsp; Je peux sinon vous faire perdurer ce{' '}
                         <NextLink href="http://www.nihongonosekai.com/newspapers/Japanese_Naturally/articles/19930822jn.htm">
                             <Link href="http://www.nihongonosekai.com/newspapers/Japanese_Naturally/articles/19930822jn.htm">jiko manzoku</Link>
                         </NextLink>,
@@ -63,12 +60,16 @@ const Page = () => {
                          <NextLink href="https://www.imdb.com/name/nm0234237/?ref_=tt_ov_st">
                             <Link href="https://www.imdb.com/name/nm0234237/?ref_=tt_ov_st">soupe à la tomate</Link>
                         </NextLink>
-                        , de mon {' '} 
-                        <NextLink href="https://www.youtube.com/watch?v=r3fD5FPQBtI">
-                            <Link href="https://www.youtube.com/watch?v=r3fD5FPQBtI">queer </Link>
+                        , de mon timey wimey {' '} 
+                        <NextLink href="https://www.youtube.com/watch?v=M7EXlS9-XpU">
+                            <Link href="https://www.youtube.com/watch?v=M7EXlS9-XpU">queer </Link>
                         </NextLink>
                         
-                         spectrum, de mon mémoire sur papirus de 20 pages sur «Pourquoi B... est un Masterpiece», de
+                         spectrum, de mon mémoire sur papirus de 20 pages sur «Pourquoi {' '}
+                         <NextLink href="https://myanimelist.net/profile/nunudes">
+                            <Link href="https://myanimelist.net/profile/nunudes">B... </Link>
+                        </NextLink>
+                         est un Masterpiece», de
                         mon Top 10 des recettes de {' '}
                         <NextLink href="https://www.ricardocuisine.com/">
                             <Link href="https://www.ricardocuisine.com/">Ricardo mon boy</Link>
@@ -78,7 +79,7 @@ const Page = () => {
                             <Link href="https://encredemine.wordpress.com/">Asatoïsme</Link>
                         </NextLink>.
                         <br></br><br></br>
-                        Ou bien je peux juste vous laisser vous faire une idée à travers mes clichés. Le plus y a du grain, le plus c'est «real».
+                        &nbsp; Voilà, pour le reste, vous pouvez visiter mes clichés. Le plus y a du grain, le plus c'est «real».
                     </Paragraph>
                     <Box aligne="center" my={4}>
                         <NextLink href="/articles">
@@ -102,7 +103,7 @@ const Page = () => {
                         </BioSection>
                         <BioSection>
                             <BioYear>2023</BioYear>
-                            Tel l'élargissement d'une station métro sur la ligne bleu, le retard pour cette section ne nous quittera plus.
+                            Tel l'élargissement d'une station de métro montréalaise sur la ligne bleu, le retard pour cette section ne vous quittera plus.
                         </BioSection>
                 </Section>
                 <Section delay={0.2}>
@@ -141,7 +142,6 @@ const Page = () => {
                             </Link>
                         </ListItem>
                     </List>
-                    
                 </Section>
             </Container>
         </Layout>
