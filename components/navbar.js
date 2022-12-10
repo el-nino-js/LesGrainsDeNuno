@@ -77,7 +77,7 @@ const Navbar = props => {
                 Posts
                 </LinkItem>
                 <LinkItem href="/menu" path={path}>
-                La Graine à Nuno
+                La Graine à Nuno ☕
                 </LinkItem>
                 </Stack>
         <Box flex={1} align="right">
