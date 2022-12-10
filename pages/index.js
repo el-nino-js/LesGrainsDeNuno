@@ -5,7 +5,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout, { article } from '../components/layouts/article'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoVue, IoLogoSnapchat } from 'react-icons/io5'
 
 const Page = () => {
     const angelIG = "https://www.instagram.com/nuninho.js/"
@@ -147,6 +147,13 @@ const Page = () => {
                                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter} />}>
                                     @elNino.js
                                 </Button>
+                            </Link>
+                        </ListItem>
+                        <ListItem>
+                            <Link href="https://www.twitter.com/nuninho.js/" target="_blank">
+                            <Button variant="ghost" colorScheme="teal" leftIcon={useColorModeValue(<Icon as={IoLogoVue} />, <Icon as={IoLogoSnapchat} />)}>
+                                {useColorModeValue('À vous la Vue', 'À moi ton 🍑 ')}   
+                            </Button>
                             </Link>
                         </ListItem>
                     </List>
