@@ -160,7 +160,7 @@ const Article = () => {
                         </a>
                         <section>
                             <h2 className={s.h2}>Nota Bene</h2>
-                            <Paragraph> T'es quelqu'un avec qui j'aurais voulu rester encore un peu.
+                            <Paragraph>J'men bats les c**illes chui fire !
                             </Paragraph>
                         </section>
                       

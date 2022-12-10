@@ -1,5 +1,5 @@
 import NextLink from 'next/link'
-import { Button, Container, Box, Heading, Image, Link, List, ListItem, useColorModeValue, SimpleGrid, Icon } from "@chakra-ui/react"
+import { Button, Container, Box, Heading, Image, Link, List, ListItem, useColorModeValue, SimpleGrid, Icon, Audio } from "@chakra-ui/react"
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
@@ -13,6 +13,7 @@ const Page = () => {
     return (
         <Layout>
             <Container>
+                
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} align="center">
                 <i><b>Aucune histoire ne bat le <br></br> talent inébranlable du Japon. - Nuno-G S-Pinto</b> <br></br> «Propos pris hors-contexte par Kenny N.»</i>
                 </Box>
@@ -22,13 +23,14 @@ const Page = () => {
                         <Heading as="h2" variant="page-title">
                             Nuno Silva-Pinto
                         </Heading>
-                        <i>Aspirant à l'ingénierie logiciel <br/> M.Sc.A en Cyber-Sécurité (en cours) <br/> Détenteur d'un doctorat en clanchage à Mario-Kart <br/>  Wannabe barista pseudo-notoire </i>
+                        <i>Aspirant à l'ingénierie logiciel <br/> M.Sc.A en Génie Informatique Cyber-Sec (en cours) <br/> Détenteur d'un doctorat en clanchage à Mario-Kart <br/> Grimpeur intermédiaire V3-V6 <br/>  Wannabe barista pseudo-notoire </i>
                     </Box>
                     <Box flexShrink={0}
                         mt={{ base: 4, md: 0 }}
                         ml={{ md: 6 }}
                         paddingTop={30}
                         textAlign="center">
+             
                     <Image 
                         borderColor="whiteAlpha.800"
                         
@@ -59,18 +61,20 @@ const Page = () => {
                         en vous décrivant  mon amour pour la {' '}
                          <NextLink href="https://www.imdb.com/name/nm0234237/?ref_=tt_ov_st">
                             <Link href="https://www.imdb.com/name/nm0234237/?ref_=tt_ov_st">soupe à la tomate</Link>
+                        </NextLink>, 
+                         de mon mémoire sur papirus de 20 pages sur «Pourquoi {' '}
+                         <NextLink href="https://myanimelist.net/profile/nunudes">
+                            <Link href="https://myanimelist.net/profile/nunudes">B... </Link>
                         </NextLink>
-                        , de mon timey wimey {' '} 
+                         est un Masterpiece»
+                         
+                         , de mon timey wimey {' '} 
                         <NextLink href="https://www.youtube.com/watch?v=M7EXlS9-XpU">
                             <Link href="https://www.youtube.com/watch?v=M7EXlS9-XpU">queer </Link>
                         </NextLink>
                         
-                         spectrum, de mon mémoire sur papirus de 20 pages sur «Pourquoi {' '}
-                         <NextLink href="https://myanimelist.net/profile/nunudes">
-                            <Link href="https://myanimelist.net/profile/nunudes">B... </Link>
-                        </NextLink>
-                         est un Masterpiece», de
-                        mon Top 10 des recettes de {' '}
+                         spectrum,
+                        de mon Top 10 des recettes de {' '}
                         <NextLink href="https://www.ricardocuisine.com/">
                             <Link href="https://www.ricardocuisine.com/">Ricardo mon boy</Link>
                         </NextLink>

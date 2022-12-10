@@ -7,6 +7,7 @@ import Paragraph from '../../components/paragraph'
 import NextLink from 'next/link'
 
 import s from '../components/style.module.css'
+import cathumb from '../../public/images/2022/cat/catthumb.jpg'
 import pic0 from '../../public/images/2022/cat/0.jpg'
 import pic1 from '../../public/images/2022/cat/1.jpg'
 import pic2 from '../../public/images/2022/cat/2.jpg'
@@ -39,19 +40,52 @@ const Article = () => {
             <section className={s.leftcolumn}>
                 <Heading as="h2" className={s.h2}>Remerciement</Heading>
                 <Paragraph  > 
-                <NextLink href="https://www.vanessamassera.com ">
-                    <Link href="https://www.vanessamassera.com ">Vanessa Massera</Link>
+                Dédicace à ces fantastiques owners qui excellent dans l'art de faire ronronner ces précieux matous : 
+                <NextLink href="https://www.instagram.com/borismaurice21/">
+                    <Link href="https://www.instagram.com/borismaurice21/"> Marie-Anne, </Link>
                 </NextLink>
-                , spécialisée en acoustique, exprime ses idées poétiques ancrées des différents milieux auquel elle se retrouve inspirée.
 
+                <NextLink href="https://www.instagram.com/tiny.pixel/">
+                    <Link href="https://www.instagram.com/tiny.pixel/">Étienne, </Link>
+                </NextLink>
+
+                <NextLink href="https://www.instagram.com/marie_lourioux/">
+                    <Link href="https://www.instagram.com/marie_lourioux/">Marie, </Link>
+                </NextLink>
+
+                <NextLink href="https://www.youtube.com/watch?v=jw5BDjsgLO8">
+                    <Link href="https://www.youtube.com/watch?v=jw5BDjsgLO8">Alex, </Link>
+                </NextLink>
+
+                <NextLink href="https://www.instagram.com/mariwavelapierre/8">
+                    <Link href="https://www.instagram.com/mariwavelapierre/">Marie-Ève, </Link>
+                </NextLink>
+
+                <NextLink href="https://www.instagram.com/joocy_joosteen/">
+                    <Link href="https://www.instagram.com/joocy_joosteen/">Justine, </Link>
+                </NextLink>
+
+                <NextLink href="https://www.instagram.com/jacklariviere90/">
+                    <Link href="https://www.instagram.com/jacklariviere90/">Jacob, </Link>
+                </NextLink>
+
+                <NextLink href="https://www.instagram.com/polimodom/">
+                    <Link href="https://www.instagram.com/polimodom/">Hector,  </Link>
+                </NextLink>
+
+                <NextLink href="https://www.instagram.com/ariel.pn/">
+                    <Link href="https://www.instagram.com/ariel.pn/">et Ariel.  </Link>
+                </NextLink>
+                
+                
                 </Paragraph>
             </section>
             <section className={s.sidebar}>
-                <Image className={s.img} src={pic1}></Image>
+                <Image className={s.img} src={cathumb}></Image>
             </section>
             <div className={s.clearfix}></div>
                 <a name="port"></a>
-                    <h2 className={s.h2}>Les {useColorModeValue("minous", "voyous")}</h2>
+                    <h2 className={s.h2}>{useColorModeValue("Minous", "Voyous")}</h2>
                     <section className={s.onethirdport}>
                         <a 
                         href={useColorModeValue("https://www.dropbox.com/s/g54m97mzzuhuhxy/1.jpg?raw=1"
@@ -107,13 +141,13 @@ const Article = () => {
                 
                     <section className={s.onethirdport}>
                         <a 
-                        href={useColorModeValue("https://www.dropbox.com/s/m12rmf4uxh0n01b/11.jpg?raw=1"
-                        , "https://www.dropbox.com/s/q1fdz4mq09x50by/12.jpg?raw=1")} target="_blank" rel="noreferrer">
-                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic11, pic12)}></Image> </a> 
+                        href={useColorModeValue("https://www.dropbox.com/s/q1fdz4mq09x50by/12.jpg?raw=1"
+                        , "https://www.dropbox.com/s/m12rmf4uxh0n01b/11.jpg?raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic12, pic11)}></Image> </a> 
                         <p className={s.sub} >Juan Bautista</p>
                     </section>
                     
-                 
+                    
                 
                    
                     <div className={s.clearfix}></div>

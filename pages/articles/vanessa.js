@@ -41,7 +41,7 @@ const Article = () => {
                 <NextLink href="https://www.vanessamassera.com ">
                     <Link href="https://www.vanessamassera.com ">Vanessa Massera</Link>
                 </NextLink>
-                , spécialisée en acoustique, exprime ses idées poétiques ancrées des différents milieux auquel elle se retrouve inspirée.
+                , spécialisée en éléctro-acoustique, exprime ses idées poétiques ancrées des différents milieux auquel elle se retrouve inspirée.
 
                 </Paragraph>
             </section>
@@ -50,20 +50,18 @@ const Article = () => {
             </section>
             <div className={s.clearfix}></div>
                 <a name="port"></a>
-                    <h2 className={s.h2}>Mon Portfolio</h2>
+                    <h2 className={s.h2}>Expo</h2>
                     
                     <section className={s.onethirdport}>
                         <a href="https://www.dropbox.com/s/6vi7nowdpelydwf/Vanessa-6.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic5}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/j2kbb2gvnlwwg2z/Vanessa-5.jpg?raw=1" target="_blank" rel="noreferrer">
-                        <Image className={s.onethirdportimage} src={pic4}></Image> </a>
-                    </section>
-                    <section className={s.onethirdport}>
                         <a href="https://www.dropbox.com/s/ys3f9syjaxu9uk0/Vanessa-9.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic8}></Image> </a>
                     </section>
+                    
+                    
                     <section className={s.onethirdport}>
                         <a href="https://www.dropbox.com/s/ngt44e6k0iyxceh/Vanessa-4.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic3}></Image> </a>
@@ -72,22 +70,17 @@ const Article = () => {
                         <a href="https://www.dropbox.com/s/qoyqp6kq2ww3rpu/Vanessa-8.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic7}></Image> </a>
                     </section>
-                    <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/gsrycbpiu4vcp9f/Vanessa-7.jpg?raw=1" target="_blank" rel="noreferrer">
-                        <Image className={s.onethirdportimage} src={pic6}></Image> </a>
-                    </section>
+                    
+                    
                     <section className={s.onethirdport}>
                         <a href="https://www.dropbox.com/s/lvnfbwal6fl3zwj/Vanessa-11.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic10}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/7bmct5u16oadyid/Vanessa-10.jpg?raw=1" target="_blank" rel="noreferrer">
-                        <Image className={s.onethirdportimage} src={pic9}></Image> </a>
+                        <a href="https://www.dropbox.com/s/gsrycbpiu4vcp9f/Vanessa-7.jpg?raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic6}></Image> </a>
                     </section>
                     
-                 
-                
-                   
                     <div className={s.clearfix}></div>
                         <a name="serv">
                     
