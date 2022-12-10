@@ -58,7 +58,7 @@ const Article = () => {
             </section>
             <div className={s.clearfix}></div>
                 <a name="port"></a>
-                    <h2 className={s.h2}>Mon Portfolio</h2>
+                    <h2 className={s.h2}>Diapo</h2>
                     <section className={s.onethirdport}>
                         <a href="https://www.dropbox.com/s/azh4dcvjne6rgie/Image%201%20%2033%20%282%29.jpg?raw=1" target="_blank">
                         <Image className={s.onethirdportimage} src={pic1}></Image>
