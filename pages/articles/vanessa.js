@@ -41,7 +41,8 @@ const Article = () => {
                 <NextLink href="https://www.vanessamassera.com ">
                     <Link href="https://www.vanessamassera.com ">Vanessa Massera</Link>
                 </NextLink>
-                , spécialisée en éléctro-acoustique, exprime ses idées poétiques ancrées des différents milieux auquel elle se retrouve inspirée.
+                , spécialisée en éléctro-acoustique, exprime ses idées poétiques. Elles sont ancrées à travers les différents
+                 milieux auquel elle s'en retrouve inspirée.
 
                 </Paragraph>
             </section>

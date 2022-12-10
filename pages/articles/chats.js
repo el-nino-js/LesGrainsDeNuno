@@ -70,7 +70,7 @@ const Article = () => {
                 </NextLink>
 
                 <NextLink href="https://www.instagram.com/polimodom/">
-                    <Link href="https://www.instagram.com/polimodom/">Hector,  </Link>
+                    <Link href="https://www.instagram.com/polimodom/">Hector  </Link>
                 </NextLink>
 
                 <NextLink href="https://www.instagram.com/ariel.pn/">
@@ -85,7 +85,7 @@ const Article = () => {
             </section>
             <div className={s.clearfix}></div>
                 <a name="port"></a>
-                    <h2 className={s.h2}>{useColorModeValue("Minous", "Voyous")}</h2>
+                    <h2 className={s.h2}>{useColorModeValue("Bisous-Minous", "Canaillous-Voyous")}</h2>
                     <section className={s.onethirdport}>
                         <a 
                         href={useColorModeValue("https://www.dropbox.com/s/g54m97mzzuhuhxy/1.jpg?raw=1"
@@ -157,7 +157,12 @@ const Article = () => {
                         <section>
                             <h2 className={s.h2}>Nota Bene</h2>
                             <Paragraph>
-                            Pour une douce dédicace de vos {useColorModeValue("adorables bisous-minous","affreux démons")}, envoyez-moi vos photos à el_psy_congroo@outlook.com
+                            Pour une douce dédicace de votre {useColorModeValue("adorable boule de poils","affreux démon")}, envoyez-moi vos photos à 
+                            {''}
+                            <NextLink href="mailto:el_psy_congroo@outlook.com">
+                                <Link href="mailto:el_psy_congroo@outlook.com"> el_psy_congroo@outlook.com</Link>
+                            </NextLink>
+
                             </Paragraph>
                         </section>
                       
