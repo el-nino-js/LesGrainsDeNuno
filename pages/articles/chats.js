@@ -167,7 +167,7 @@ const Article = () => {
                         <section>
                             <h2 className={s.h2}>Nota Bene</h2>
                             <Paragraph>
-                            Pour une douce dédicace de votre {useColorModeValue("adorable boule de poils","affreux démon")}, envoyez-moi vos photos à 
+                            Pour une douce dédicace de votre {useColorModeValue("adorable boule de poils","affreux démon")}, envoyez vos photos à 
                             {''}
                             <NextLink href="mailto:el_psy_congroo@outlook.com">
                                 <Link href="mailto:el_psy_congroo@outlook.com"> el_psy_congroo@outlook.com</Link>

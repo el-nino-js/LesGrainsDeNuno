@@ -49,7 +49,7 @@ const Page = () => {
                     Bonjour / Oi
                     </Heading>
                     <Paragraph>
-                        Autant faire un «à propos» puisque je suis doué avec les causes perdues. Alors, j'apprécie la photographie et surtout la photographie
+                        Amateur de photographie et surtout de photographie
                         argentique. Visages de longue date ou éphémères, même engorgées de grains, mon coeur rebondit de ces faces sur le papier. Encore mieux, s'il s'agit 
                         d'un ancien colloque lituanien avec un beau sourire hypnotisant, la gorge immaculée de sang après avoir mal
                         débouché une Super Bock le jour de son anniversaire. Abraço si tu me lis Julius.

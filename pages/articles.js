@@ -4,6 +4,12 @@ import { ArticleGridItem } from '../components/grid-item'
 
 import velvia50lagosthumbnail from '../public/images/2018/velvia50lagos/lagothumbnail.png'
 import vanessanuthumbnail from '../public/images/2022/vanessa/vanessa_article.png'
+
+import fjordthumbnail from '../public/images/2018/velvia50lagos/fjord.png'
+import ir200thumbnail from '../public/images/2018/velvia50lagos/ir200.png'
+import fragmentthumbnail from '../public/images/2018/velvia50lagos/fragment.png'
+
+
 import thumbBaby from '../public/images/2021/baby.jpg'
 import thumbCat from '../public/images/2022/cat/cathumbnail.png'
 
@@ -30,6 +36,28 @@ return (
                     Tout ce qui repose provient de la lumière de l'autre
                 </ArticleGridItem>
             </Section>
+        </SimpleGrid>
+
+        <SimpleGrid columns={[1,1,2]} gap={6}>
+            <Section delay={0.3}>
+                <ArticleGridItem id="washix" title="Fragment d'automne" thumbnail={fragmentthumbnail}>
+                    Washi X - Fragment d'automne
+                </ArticleGridItem>
+            </Section>
+            <Section delay={0.4}>
+                <ArticleGridItem id="infrared" title="Infrarouge - Ourondo" thumbnail={ir200thumbnail}>
+                    IR Rollei 200 - Ourondo
+                </ArticleGridItem>
+            </Section>
+        </SimpleGrid>
+
+        <SimpleGrid columns={[1,1,2]} gap={6}>
+            <Section delay={0.3}>
+                <ArticleGridItem id="Ektar 100" title="Fjord" thumbnail={fjordthumbnail}>
+                    Ektar 100 - Fjord
+                </ArticleGridItem>
+            </Section>
+            
         </SimpleGrid>
 
         <Section delay={0.2}>

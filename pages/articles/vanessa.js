@@ -41,8 +41,8 @@ const Article = () => {
                 <NextLink href="https://www.vanessamassera.com ">
                     <Link href="https://www.vanessamassera.com ">Vanessa Massera</Link>
                 </NextLink>
-                , spécialisée en éléctro-acoustique, exprime ses idées poétiques. Elles sont ancrées à travers les différents
-                 milieux auquel elle s'en retrouve inspirée.
+                , spécialisée en éléctroacoustique, exprime ses idées poétiques. Elles sont ancrées à travers les différents
+                 milieux auxquels elle s'en retrouve inspirée.
 
                 </Paragraph>
             </section>
@@ -77,10 +77,7 @@ const Article = () => {
                         <a href="https://www.dropbox.com/s/lvnfbwal6fl3zwj/Vanessa-11.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic10}></Image> </a>
                     </section>
-                    <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/gsrycbpiu4vcp9f/Vanessa-7.jpg?raw=1" target="_blank" rel="noreferrer">
-                        <Image className={s.onethirdportimage} src={pic6}></Image> </a>
-                    </section>
+                    
                     
                     <div className={s.clearfix}></div>
                         <a name="serv">
