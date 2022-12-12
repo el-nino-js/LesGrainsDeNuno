@@ -27,8 +27,8 @@ return (
 
         <SimpleGrid columns={[1,1,2]} gap={6}>
             <Section delay={0.3}>
-                <ArticleGridItem id="velvia50lagos" title="Velvia50Lagos" thumbnail={velvia50lagosthumbnail}>
-                    Diapositive Velvia 50 - Praias de Lagos
+                <ArticleGridItem id="velvia50lagos" title="Velvia 50" thumbnail={velvia50lagosthumbnail}>
+                    Praias de Lagos
                 </ArticleGridItem>
             </Section>
             <Section delay={0.4}>
@@ -41,12 +41,12 @@ return (
         <SimpleGrid columns={[1,1,2]} gap={6}>
             <Section delay={0.3}>
                 <ArticleGridItem id="washix" title="Fragment d'automne" thumbnail={fragmentthumbnail}>
-                    Washi X - Fragment d'automne
+                    Washi X - Fragments d'automne
                 </ArticleGridItem>
             </Section>
             <Section delay={0.4}>
-                <ArticleGridItem id="infrared" title="Infrarouge - Ourondo" thumbnail={ir200thumbnail}>
-                    IR Rollei 200 - Ourondo
+                <ArticleGridItem id="rolleiir200" title="Rollei Infrared 200" thumbnail={ir200thumbnail}>
+                    La cerise sur le Fundão
                 </ArticleGridItem>
             </Section>
         </SimpleGrid>
