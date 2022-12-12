@@ -45,7 +45,7 @@ return (
                 </ArticleGridItem>
             </Section>
             <Section delay={0.4}>
-                <ArticleGridItem id="rolleiir200" title="Rollei Infrared 200" thumbnail={ir200thumbnail}>
+                <ArticleGridItem id="rolleiir200" title="Rollei Infrared 400" thumbnail={ir200thumbnail}>
                     La cerise sur le Fundão
                 </ArticleGridItem>
             </Section>

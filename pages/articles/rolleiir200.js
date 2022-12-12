@@ -26,7 +26,7 @@ const Article = () => {
         <Layout Title="RolleiIR200">
             <Container>
             <Title>
-              Rollei INFRARED 200 - La cerise sur le Fundão <Badge>2022</Badge>
+              Rollei INFRARED 400 - La cerise sur le Fundão <Badge>2022</Badge>
             </Title>
                 <P>J'expérimente mon premier film infrarouge avec un filtre R72 en me baladant dans le petit village d'Ourondo au Portugal, là où mon père a grandi.
                     
