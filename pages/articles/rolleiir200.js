@@ -38,8 +38,8 @@ const Article = () => {
                     un point appelé l'<i>infrared focus shift</i> (IFS). Les plus vieilles caméras et lentilles
                     sont souvent meilleurs pour de la photo IR, elles auront une ligne rouge ou un «R» pour aider à s'ajuster à l'IFS. Détail que je n'ai
                     appris qu'après avoir shooter mon film ({useColorModeValue('il', 'iel')} pleure et s'affesse dans un coin). <br/>
-                    #3. <b>Le révélateur Rodinal offre des résultats granuleux décevants.</b> Je vois déjà ses détracteurs jubiler leurs babines. De ce que j'en lis en ligne, il n'est pas recommandé pour de l'IR. Mes recherches pour un
-                    bon révélateur IR disponible en magasin sont encore en cours... <br/>
+                    #3. <b>Le révélateur Rodinal offre des résultats décevants trop granuleux.</b> Je vois déjà ses détracteurs jubiler leurs babines. De ce que j'en lis en ligne, il n'est pas recommandé pour de la rollei IR. Mes recherches pour un
+                    bon révélateur décent ET disponible en magasin sont encore en cours... <br/>
                     <br/>
                     Pour davantage d'information, le site de 
                         <NextLink href="https://www.markcassino.com/b2evolution/index.php/rollei_ir_400_first_impressions?blog=2">
