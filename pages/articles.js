@@ -8,6 +8,7 @@ import vanessanuthumbnail from '../public/images/2022/vanessa/vanessa_article.pn
 import fjordthumbnail from '../public/images/2018/velvia50lagos/fjord.png'
 import ir200thumbnail from '../public/images/2018/velvia50lagos/ir200.png'
 import fragmentthumbnail from '../public/images/2018/velvia50lagos/fragment.png'
+import galiciethumbnail from '../public/images/ArticlesThumbnail/galiciethumbnail.jpg'
 
 
 import thumbBaby from '../public/images/2021/baby.jpg'
@@ -55,6 +56,11 @@ return (
             <Section delay={0.3}>
                 <ArticleGridItem id="Ektar 100" title="Fjord" thumbnail={fjordthumbnail}>
                     Ektar 100 - Fjord
+                </ArticleGridItem>
+            </Section>
+            <Section delay={0.3}>
+                <ArticleGridItem id="galicie" title="Velvia 100" thumbnail={galiciethumbnail}>
+                    Bateau,Vigo, Tiago et Porto
                 </ArticleGridItem>
             </Section>
             

@@ -51,7 +51,7 @@ const Page = () => {
                     <Paragraph>
                         Amateur de photographie et surtout de photographie
                         argentique. Visages de longue date ou éphémères, même engorgées de grains, mon coeur rebondit de ces faces sur le papier. Encore mieux, s'il s'agit 
-                        d'un ancien colloque lituanien avec un beau sourire hypnotisant, la gorge immaculée de sang après avoir mal
+                        d'un ancien colloque lituanien souriant, la gorge immaculée de sang après avoir mal
                         débouché une Super Bock le jour de son anniversaire. Abraço si tu me lis Julius.
                         <br></br><br></br>
                         &nbsp; Je peux sinon vous faire perdurer ce{' '}
@@ -83,7 +83,7 @@ const Page = () => {
                             <Link href="https://encredemine.wordpress.com/">Asatoïsme</Link>
                         </NextLink>.
                         <br></br><br></br>
-                        &nbsp; Voilà, pour le reste, vous pouvez visiter mes clichés. Le plus y a du grain, le plus c'est «real».
+                        &nbsp; Pour de plus ample découverte, vous pouvez visiter mes clichés à votre rythme.
                     </Paragraph>
                     <Box aligne="center" my={4}>
                         <NextLink href="/articles">
@@ -152,7 +152,7 @@ const Page = () => {
                         <ListItem>
                             <Link href="https://www.twitter.com/nuninho.js/" target="_blank">
                             <Button variant="ghost" colorScheme="teal" leftIcon={useColorModeValue(<Icon as={IoLogoVue} />, <Icon as={IoLogoSnapchat} />)}>
-                                {useColorModeValue('À vous la Vue', 'À moi ton 🍑 ')}   
+                                {useColorModeValue('À vous la Vue', 'À moi ton 🍑')}   
                             </Button>
                             </Link>
                         </ListItem>
