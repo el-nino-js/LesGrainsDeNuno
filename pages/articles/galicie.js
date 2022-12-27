@@ -39,11 +39,10 @@ const Article = () => {
             <Title>
               Velvia 100 - Péninsule Ibérique <Badge>2022</Badge>
             </Title>
-                <P>Si vous aimez la couleur, optez pour de la Fuji Velvia. Ce n'est pas pour rien qu'elle est considérée comme un standard
-             professionnel pour la nature et les paysages depuis son introduction en 1990. Pourquoi? Parce que 1 2 3 Soleil! Tout rayon n'en ressort que de manière sublime. Les couleurs chaudes n'en sont que plus chaleureuses
-             et vives. Le crépuscule et les lumières de l'après-midi n'en sont que plus beaux que la réalité. Le tout biensur à condition de
-             PARFAITEMENT bien l'exposer. Voyez cette pellicule comme un test de conduite, parce qu'elle ne vous pardonnera pas d'un stop.
-
+                <P>
+                On s'est lancé dans une partie de «Attrape-moi si tu peux». Sous la chaleur du sable chaud de Péniche, jusqu'aux pluies intermittentes
+                de la Galicie. À l'entrée de la ville de Vigo, un géant panneau publicitaire du magasin «ToySexShop Vigo».
+                La fête sainte de l'Assomption n'aura offerte comme courbe que des devantures vérouillées. 
                 </P>
                 
                 <a name="about"/>
@@ -51,7 +50,7 @@ const Article = () => {
             <section className={s.leftcolumn}>
                 <Heading as="h2" className={s.h2}>À Propos</Heading>
                 <Paragraph text-indent={6} className={s.p}> 
-                La plage est un lieu pour renaitre. Coucou
+                Mobile, je reconnais le plaisir que je chasse.
                 </Paragraph>
             </section>
             <section className={s.sidebar}>
@@ -59,7 +58,7 @@ const Article = () => {
             </section>
             <div className={s.clearfix}></div>
                 <a name="port"></a>
-                    <h2 className={s.h2}>Mon Portfolio</h2>
+                    <h2 className={s.h2}>Trivago</h2>
                     <section className={s.onethirdport}>
                         <a href="https://www.dropbox.com/s/avebfat4skkn8x3/1.jpg??raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic1}></Image>
@@ -160,10 +159,9 @@ const Article = () => {
                     
                         </a>
                         <section>
-                            <h2 className={s.h2}>Mes Services</h2>
-                            <Paragraph>Dev Stop Fix Dev Stop Fix Dev Stop Fix Dev Stop Fix Dev Stop Fix Dev Stop Fix
-                                 Dev Stop Fix Dev Stop Fix Dev Stop Fix Dev Stop Fix Dev Stop Fix Dev Stop Fix Dev Stop Fix Dev Stop Fix 
-                                 Dev Stop Fix Dev Stop Fix Dev Stop Fix Dev Stop Fix Dev Stop Fix 
+                            <h2 className={s.h2}>Nota Bene</h2>
+                            <Paragraph>
+                            Entrain d'écouter 🎵 Westfall - Okkervil Rivwer 🎵 
                             </Paragraph>
                         </section>
                       
@@ -174,11 +172,7 @@ const Article = () => {
                             </div>
                         </section>
                     <div className={s.clearfix}></div>
-                        <h2 className={s.h2}>Contacter-moi</h2>
-                        <section className={s.contact}>
-                            <p className={s.contactp}>Mon nom  <br className={s.break}></br> <a href="nuno.silva-pinto@outlook.com"></a><br className={s.break}></br> 1-800-888-888</p>
-                            <p className={s.contactp}>123 Rue des Penis</p><br className={s.break}></br> <p className={s.contactp}> Montreal</p><br className={s.break}></br> <p className={s.contactp} >Quebec</p>
-                        </section>
+                      
                     <div className={s.clearfix}></div>
             
             </Container>

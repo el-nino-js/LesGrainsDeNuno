@@ -41,7 +41,7 @@ return (
 
         <SimpleGrid columns={[1,1,2]} gap={6}>
             <Section delay={0.3}>
-                <ArticleGridItem id="washix" title="Fragment d'automne" thumbnail={fragmentthumbnail}>
+                <ArticleGridItem id="washix" title="Washi X" thumbnail={fragmentthumbnail}>
                     Washi X - Fragments d'automne
                 </ArticleGridItem>
             </Section>
@@ -60,7 +60,7 @@ return (
             </Section>
             <Section delay={0.3}>
                 <ArticleGridItem id="galicie" title="Velvia 100" thumbnail={galiciethumbnail}>
-                    Bateau,Vigo, Tiago et Porto
+                    Un bateau, vers Vigo, direction San Tiago, c'est Trivago
                 </ArticleGridItem>
             </Section>
             

@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/articles.js"
     ],
-    "/articles/galicie": [
+    "/articles/washix": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/articles/galicie.js"
+      "static/chunks/pages/articles/washix.js"
     ]
   },
   "ampFirstPages": []
