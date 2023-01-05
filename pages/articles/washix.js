@@ -93,12 +93,12 @@ const Article = () => {
                     </section>
 
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/87p3awm9pe1j8d6/10.jpg?raw=1" target="_blank" rel="noreferrer">
+                        <a href="https://www.dropbox.com/s/bjkxboxmb1pj8rb/9.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic8}></Image> </a>
                     </section>
 
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/syuyrwr0af3hhdc/12.jpg?raw=1" target="_blank" rel="noreferrer">
+                        <a href="https://www.dropbox.com/s/87p3awm9pe1j8d6/10.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic9}></Image> </a>
                     </section>
 

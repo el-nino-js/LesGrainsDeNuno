@@ -9,6 +9,7 @@ import fjordthumbnail from '../public/images/2018/velvia50lagos/fjord.png'
 import ir200thumbnail from '../public/images/2018/velvia50lagos/ir200.png'
 import fragmentthumbnail from '../public/images/2018/velvia50lagos/fragment.png'
 import galiciethumbnail from '../public/images/ArticlesThumbnail/galiciethumbnail.jpg'
+import portothumbnail from '../public/images/ArticlesThumbnail//portophoto.jpg'
 
 
 import thumbBaby from '../public/images/2021/baby.jpg'
@@ -42,7 +43,7 @@ return (
         <SimpleGrid columns={[1,1,2]} gap={6}>
             <Section delay={0.3}>
                 <ArticleGridItem id="washix" title="Washi X" thumbnail={fragmentthumbnail}>
-                    Washi X - Fragments d'automne
+                    Fragments d'automne
                 </ArticleGridItem>
             </Section>
             <Section delay={0.4}>
@@ -63,6 +64,16 @@ return (
                     Un bateau, vers Vigo, direction San Tiago, c'est Trivago
                 </ArticleGridItem>
             </Section>
+            
+        </SimpleGrid>
+
+        <SimpleGrid columns={[1,1,2]} gap={6}>
+            <Section delay={0.3}>
+                <ArticleGridItem id="japanstreetexpo" title="JCH StreetPan 400" thumbnail={portothumbnail}>
+                    Porto Camera Hunter
+                </ArticleGridItem>
+            </Section>
+            
             
         </SimpleGrid>
 
