@@ -55,8 +55,8 @@ return (
 
         <SimpleGrid columns={[1,1,2]} gap={6}>
             <Section delay={0.3}>
-                <ArticleGridItem id="Ektar 100" title="Fjord" thumbnail={fjordthumbnail}>
-                    Ektar 100 - Fjord
+                <ArticleGridItem id="ektar100fjord" title="Ektar 100" thumbnail={fjordthumbnail}>
+                Fjord di Latte
                 </ArticleGridItem>
             </Section>
             <Section delay={0.3}>
@@ -85,7 +85,7 @@ return (
         </Section>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
-            <Section>
+            <Section >
                 <ArticleGridItem id="baby" title="Baby" thumbnail={thumbBaby}>
                     1001 astuces pour être un kawaii baby (づ｡◕‿‿◕｡)づ
                 </ArticleGridItem>

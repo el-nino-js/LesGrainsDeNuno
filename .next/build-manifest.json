@@ -25,15 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/articles/japanstreetexpo": [
+    "/articles": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/articles/japanstreetexpo.js"
+      "static/chunks/pages/articles.js"
     ],
-    "/articles/washix": [
+    "/articles/ektar100fjord": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/articles/washix.js"
+      "static/chunks/pages/articles/ektar100fjord.js"
     ]
   },
   "ampFirstPages": []
