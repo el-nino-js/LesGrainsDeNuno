@@ -174,7 +174,7 @@ const Article = () => {
                         href={useColorModeValue("https://www.dropbox.com/s/38eptmqar9xwl5r/15.jpg?raw=1"
                         , "https://www.dropbox.com/s/nrofphoawywjuhm/16.jpg?raw=1")} target="_blank" rel="noreferrer">
                         <Image  className={s.onethirdportimage} src= {useColorModeValue(pic15, pic16)}></Image> </a> 
-                        <p className={s.sub} >Fripouille</p>
+                        <p className={s.sub} >Frimousse</p>
                     </section>
 
                     <section className={s.onethirdport}>
