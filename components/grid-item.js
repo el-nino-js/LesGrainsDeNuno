@@ -41,6 +41,24 @@ export const ArticleGridItem = ({children, id, title, thumbnail}) => (
     </Box>    
 )
 
+export const ArticleGridItemExt = ({children,link, title, thumbnail}) => (
+    <Box w="100%" align="center">
+            <LinkBox cursor="pointer">
+            <a title="Chats"
+                        href={link}
+                         target="_blank" rel="noreferrer">
+                        <Image  src= {thumbnail}></Image> </a> 
+                <LinkOverlay href={link} >
+                    <Text  mt={2} fontSize={20}>
+                        {title}
+                    </Text>
+                </LinkOverlay>
+                <Text fontSize={14}>{children}</Text>
+            </LinkBox>
+        
+    </Box>    
+)
+
 export const GridItemStyle = () => (
     <Global styles={`
         .grid-item-thumbnail {

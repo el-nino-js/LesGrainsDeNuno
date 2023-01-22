@@ -1,6 +1,6 @@
 import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
-import { ArticleGridItem } from '../components/grid-item'
+import { ArticleGridItem, ArticleGridItemExt } from '../components/grid-item'
 
 import velvia50lagosthumbnail from '../public/images/2018/velvia50lagos/lagothumbnail.png'
 import vanessanuthumbnail from '../public/images/2022/vanessa/vanessa_article.png'
@@ -10,6 +10,7 @@ import ir200thumbnail from '../public/images/2018/velvia50lagos/ir200.png'
 import fragmentthumbnail from '../public/images/2018/velvia50lagos/fragment.png'
 import galiciethumbnail from '../public/images/ArticlesThumbnail/galiciethumbnail.jpg'
 import portothumbnail from '../public/images/ArticlesThumbnail//portophoto.jpg'
+import pophothumbnail from '../public/images/ArticlesThumbnail//pophothumbnail.png'
 
 
 import thumbBaby from '../public/images/2021/baby.jpg'
@@ -85,11 +86,14 @@ return (
         </Section>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
-            <Section >
-                <ArticleGridItem id="baby" title="Baby" thumbnail={thumbBaby}>
-                    1001 astuces pour être un kawaii baby (づ｡◕‿‿◕｡)づ
-                </ArticleGridItem>
-            </Section>
+            
+
+            <Section delay={0.5}>
+                <ArticleGridItemExt link="https://popho.ca" title="Popho Camera Co." thumbnail={pophothumbnail}>
+                    Le distributeur de films en ligne le plus abordable du Canada
+                </ArticleGridItemExt>
+            </Section>  
+
             <Section delay={0.5}>
                 <ArticleGridItem id="chats" title="Chats" thumbnail={thumbCat}>
                     Palmarès des plus beaux chats

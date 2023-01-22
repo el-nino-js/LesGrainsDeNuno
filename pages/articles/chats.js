@@ -23,6 +23,10 @@ import pic11 from '../../public/images/2022/cat/11.jpg'
 import pic12 from '../../public/images/2022/cat/12.jpg'
 import pic13 from '../../public/images/2022/cat/13.jpg'
 import pic14 from '../../public/images/2022/cat/14.jpg'
+import pic15 from '../../public/images/2022/cat/15.jpg'
+import pic16 from '../../public/images/2022/cat/16.jpg'
+import pic17 from '../../public/images/2022/cat/17.jpg'
+import pic18 from '../../public/images/2022/cat/18.jpg'
 
 
 
@@ -72,7 +76,15 @@ const Article = () => {
                 </NextLink>
 
                 <NextLink href="https://www.instagram.com/polimodom/">
-                    <Link href="https://www.instagram.com/polimodom/">Hector  </Link>
+                    <Link href="https://www.instagram.com/polimodom/">Hector,  </Link>
+                </NextLink>
+
+                <NextLink href="https://www.instagram.com/galen_pics/">
+                    <Link href="https://www.instagram.com/galen_pics/">Galen, </Link>
+                </NextLink>
+
+                <NextLink href="https://www.instagram.com/alicesblle/">
+                    <Link href="https://www.instagram.com/alicesblle/">Alice,  </Link>
                 </NextLink>
 
                 <NextLink href="https://www.instagram.com/ariel.pn/">
@@ -147,6 +159,22 @@ const Article = () => {
                         , "https://www.dropbox.com/s/m12rmf4uxh0n01b/11.jpg?raw=1")} target="_blank" rel="noreferrer">
                         <Image  className={s.onethirdportimage} src= {useColorModeValue(pic12, pic11)}></Image> </a> 
                         <p className={s.sub} >Juan Bautista</p>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/s/x2dajapmh1ipmq9/17.jpg?raw=1"
+                        , "https://www.dropbox.com/s/pijtbsjefpxi871/18.jpg?raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic17, pic18)}></Image> </a> 
+                        <p className={s.sub} >Mochi</p>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/s/38eptmqar9xwl5r/15.jpg?raw=1"
+                        , "https://www.dropbox.com/s/nrofphoawywjuhm/16.jpg?raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic15, pic16)}></Image> </a> 
+                        <p className={s.sub} >Fripouille</p>
                     </section>
 
                     <section className={s.onethirdport}>
