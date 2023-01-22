@@ -163,9 +163,9 @@ const Article = () => {
 
                     <section className={s.onethirdport}>
                         <a 
-                        href={useColorModeValue("https://www.dropbox.com/s/x2dajapmh1ipmq9/17.jpg?raw=1"
-                        , "https://www.dropbox.com/s/pijtbsjefpxi871/18.jpg?raw=1")} target="_blank" rel="noreferrer">
-                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic17, pic18)}></Image> </a> 
+                        href={useColorModeValue("https://www.dropbox.com/s/pijtbsjefpxi871/18.jpg?raw=1"
+                        , "https://www.dropbox.com/s/x2dajapmh1ipmq9/17.jpg?raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic18, pic17)}></Image> </a> 
                         <p className={s.sub} >Mochi</p>
                     </section>
 
