@@ -12,6 +12,7 @@ import galiciethumbnail from '../public/images/ArticlesThumbnail/galiciethumbnai
 import portothumbnail from '../public/images/ArticlesThumbnail//portophoto.jpg'
 import pophothumbnail from '../public/images/ArticlesThumbnail//pophothumbnail.png'
 import luminarthumbnail from '../public/images/ArticlesThumbnail//luminarnyc.png'
+import nycthumbnail from '../public/images/ArticlesThumbnail//cnycthumbnail.png'
 
 
 import thumbBaby from '../public/images/2021/baby.jpg'
@@ -78,9 +79,20 @@ return (
             
             <Section delay={0.3}>
                 <ArticleGridItem id="luminarnyc" title="Luminar 100" thumbnail={luminarthumbnail}>
-                    20/100 À l'extérieur 
+                    Some like it Hot
                 </ArticleGridItem>
             </Section>
+            
+        </SimpleGrid>
+
+        <SimpleGrid columns={[1,1,2]} gap={6}>
+            <Section delay={0.3}>
+                <ArticleGridItem id="cinestill800tnyc" title="Cinestill 800T" thumbnail={nycthumbnail}>
+                    Some like to Jaywalk
+                </ArticleGridItem>
+            </Section>
+            
+            
             
         </SimpleGrid>
 

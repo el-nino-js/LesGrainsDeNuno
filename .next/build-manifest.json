@@ -35,6 +35,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/articles.js"
     ],
+    "/articles/cinestill800tnyc": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/articles/cinestill800tnyc.js"
+    ],
     "/articles/luminarnyc": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
