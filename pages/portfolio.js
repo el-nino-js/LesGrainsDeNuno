@@ -6,7 +6,7 @@ import Layout from '../components/layouts/article'
 import Paragraph from '../components/paragraph'
 import s from './components/style.module.css'
 import pic0 from '../public/images/nunobnw.jpg'
-import pic1 from '../public/images/Portofolio/thumbnail.jpg'
+import pic1 from '../public/images/2022/lumnyc/1.jpg'
 import pic2 from '../public/images/Portofolio/thumbnail.jpg'
 import pic3 from '../public/images/Portofolio/thumbnail.jpg'
 import pic4 from '../public/images/Portofolio/thumbnail.jpg'
@@ -33,7 +33,7 @@ const Portfolio = () => (
                 <a name="port"></a>
                     <h2 className={s.h2}>Mon Portfolio</h2>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/3h420kmd24d5vjx/thumbnail.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/s/mcbtz6b1fpksmoo/11.jpg?raw=1" target="_blank">
                         <Image className={s.onethirdportimage} src={pic1}></Image>
                         </a>
                     </section>

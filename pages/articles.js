@@ -11,6 +11,7 @@ import fragmentthumbnail from '../public/images/2018/velvia50lagos/fragment.png'
 import galiciethumbnail from '../public/images/ArticlesThumbnail/galiciethumbnail.jpg'
 import portothumbnail from '../public/images/ArticlesThumbnail//portophoto.jpg'
 import pophothumbnail from '../public/images/ArticlesThumbnail//pophothumbnail.png'
+import luminarthumbnail from '../public/images/ArticlesThumbnail//luminarnyc.png'
 
 
 import thumbBaby from '../public/images/2021/baby.jpg'
@@ -75,8 +76,16 @@ return (
                 </ArticleGridItem>
             </Section>
             
+            <Section delay={0.3}>
+                <ArticleGridItem id="luminarnyc" title="Luminar 100" thumbnail={luminarthumbnail}>
+                    20/100 À l'extérieur 
+                </ArticleGridItem>
+            </Section>
             
         </SimpleGrid>
+
+        
+
 
         <Section delay={0.2}>
             <Divider my={6} />
