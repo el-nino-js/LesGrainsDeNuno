@@ -29,7 +29,7 @@ const Article = () => {
                         <NextLink href="https://popho.ca/fr/products/popho-luminar-100-color-negative-film-35mm-36exp">
                             <Link href="https://popho.ca/fr/products/popho-luminar-100-color-negative-film-35mm-36exp"> Popho Luminar 100</Link>
                         </NextLink>,
-                ce nouveau film négatif couleur équilibré à la lumière du jour à vitesse ISO de 100. Aussi connu sous le nom de Santa Color ou 
+                        ce nouveau film négatif couleur équilibré à la lumière du jour à vitesse ISO de 100. Aussi connu sous le nom de Santa Color ou 
                 Washi X (auquel j'ai déjà soumis un 
                 
                         <NextLink href="https://poussindesforets.com/articles/washix">
@@ -42,7 +42,7 @@ const Article = () => {
                 <br></br> <br></br>
 
                 La saison hivernale offre des résultats beaucoup moins intéressants que l'orange pétant de l'automne. La jungle urbaine demeure tout de même un lieu
-                où les guirlandes, les néons et la nightlife sont légion, surtout en hiver. Bref, je vous recommande de vous munir d'un trepied et de partir à la chasse à la luminothérapie entre amis.
+                où les guirlandes, les néons et la nightlife sont légion, surtout en hiver. Bref, je vous recommande de vous munir d'un trépied et de partir à la chasse à la luminothérapie entre amis.
                 
                 </P>
                 <br/> <br/>

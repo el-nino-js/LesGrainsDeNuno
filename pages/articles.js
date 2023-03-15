@@ -13,6 +13,7 @@ import portothumbnail from '../public/images/ArticlesThumbnail//portophoto.jpg'
 import pophothumbnail from '../public/images/ArticlesThumbnail//pophothumbnail.png'
 import luminarthumbnail from '../public/images/ArticlesThumbnail//luminarnyc.png'
 import nycthumbnail from '../public/images/ArticlesThumbnail//cnycthumbnail.png'
+import ektachromethumbnail from '../public/images/ArticlesThumbnail//ektachromethumbnail.png'
 
 
 import thumbBaby from '../public/images/2021/baby.jpg'
@@ -91,12 +92,13 @@ return (
                     Some like to Jaywalk
                 </ArticleGridItem>
             </Section>
-            
-            
-            
-        </SimpleGrid>
 
-        
+            <Section delay={0.3}>
+                <ArticleGridItem id="ektachrome" title="Ektachrome" thumbnail={ektachromethumbnail}>
+                    Studs, Yo!
+                </ArticleGridItem>
+            </Section>
+        </SimpleGrid>
 
 
         <Section delay={0.2}>

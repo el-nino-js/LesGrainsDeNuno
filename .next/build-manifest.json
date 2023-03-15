@@ -35,15 +35,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/articles.js"
     ],
-    "/articles/cinestill800tnyc": [
+    "/articles/ektachrome": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/articles/cinestill800tnyc.js"
+      "static/chunks/pages/articles/ektachrome.js"
     ],
-    "/articles/luminarnyc": [
+    "/portfolio": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/articles/luminarnyc.js"
+      "static/chunks/pages/portfolio.js"
     ]
   },
   "ampFirstPages": []

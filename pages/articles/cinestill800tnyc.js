@@ -32,7 +32,7 @@ const Article = () => {
                 Une nouvelle année pleine de couleurs. Roulant ma bobine dans ma nikon FM2 dans un bar à pétanque. Après avoir perdu 5x dans une machine à pince dans l'espoir de gagner le toutou du Kirby Gourmet. 
                 
                 Halation et haute vitesse ont mené plusieurs photographes à se jeter sur de la photo de nuit sous Cinestill 800T (Kodak Vision 3 500T). Attention
-                à ne pas se limiter. On peut prendre le temps d'apprécier des portraits en studio ou en lumière du jour. Résultats surprenants, colorés parfois controversés, mais quand bien même uniques! On lui laisse sa touche de S-E-X-Y-ish.
+                à ne pas se limiter. On peut prendre le temps d'apprécier des portraits en studio ou en lumière du jour. Résultats surprenants, colorés, parfois controversés, mais quand bien même uniques! On lui laisse sa touche de S-E-X-Y-ish.
                 </P>
                 <br/> <br/>
                 <a name="about"/>
