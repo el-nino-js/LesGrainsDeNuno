@@ -13,6 +13,7 @@ import portothumbnail from '../public/images/ArticlesThumbnail//portophoto.jpg'
 import pophothumbnail from '../public/images/ArticlesThumbnail//pophothumbnail.png'
 import luminarthumbnail from '../public/images/ArticlesThumbnail//luminarnyc.png'
 import nycthumbnail from '../public/images/ArticlesThumbnail//cnycthumbnail.png'
+import coloremthumbnail from '../public/images/ArticlesThumbnail//coloremThumbnail.jpg'
 import ektachromethumbnail from '../public/images/ArticlesThumbnail//ektachromethumbnail.png'
 
 
@@ -100,6 +101,13 @@ return (
             </Section>
         </SimpleGrid>
 
+        <SimpleGrid columns={[1,1,2]} gap={6}>
+            <Section delay={0.3}>
+                <ArticleGridItem id="mineur" title="Adox Color Mission 200" thumbnail={coloremthumbnail}>
+                    Wolfram Alpha 
+                </ArticleGridItem>
+            </Section>
+        </SimpleGrid>
 
         <Section delay={0.2}>
             <Divider my={6} />
