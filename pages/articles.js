@@ -15,6 +15,7 @@ import luminarthumbnail from '../public/images/ArticlesThumbnail//luminarnyc.png
 import nycthumbnail from '../public/images/ArticlesThumbnail//cnycthumbnail.png'
 import coloremthumbnail from '../public/images/ArticlesThumbnail//coloremThumbnail.jpg'
 import ektachromethumbnail from '../public/images/ArticlesThumbnail//ektachromethumbnail.png'
+import sucrethumbnail from '../public/images/ArticlesThumbnail//sucrethumbnail.png'
 
 
 import thumbBaby from '../public/images/2021/baby.jpg'
@@ -105,6 +106,12 @@ return (
             <Section delay={0.3}>
                 <ArticleGridItem id="mineur" title="Adox Color Mission 200" thumbnail={coloremthumbnail}>
                     Wolfram Alpha 
+                </ArticleGridItem>
+            </Section>
+
+            <Section delay={0.3}>
+                <ArticleGridItem id="sucre" title="Luminaire 100" thumbnail={sucrethumbnail}>
+                    Qualité Sucrée
                 </ArticleGridItem>
             </Section>
         </SimpleGrid>
