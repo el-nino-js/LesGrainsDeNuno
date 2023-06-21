@@ -25,7 +25,7 @@ import Image from 'next/image'
 
 const Article = () => {
     return (
-        <Layout Title="Adox Mission Color 400">
+        <Layout Title="Luminaire 100 - Qualité Sucré">
             <Container>
             <Title>
               Luminaire 100 - Qualité Sucré <Badge>2023</Badge>
