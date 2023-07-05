@@ -126,9 +126,9 @@ const Article = () => {
 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 <Paragraph><b>Act II</b></Paragraph>
                 <P>
-                Un engin prenant la forme d'un camescope des années 80. Il peut prendre jusqu'à 75 poses par rouleaux. Au risque d'entendre certaines opprobres, elle est de surcroit un SLR construit avec un triple zoom. 
-                Yashica Samurai x3.0 est un petit bijou de transport, d'épargne argentique et de style. Plutôt que de prendre des photos en 24 x 36mm images, ce demi-format opte pour du 17 x 24mm, ce qui double la longueur du rouleau.
-                Bon, sans rien cacher, c'est son design futuristiquement laid qui m'a enjoliver l'âme. 
+                Un engin prenant la forme d'un caméscope des années 80. Il peut prendre jusqu'à 75 poses par rouleaux. Au risque d'entendre certains opprobres, elle est de surcroit un SLR construit avec un triple zoom. 
+                Yashica Samurai x3.0 est un petit bijou de transport, d'épargne argentique et de style. Plutôt que de prendre des photos en 24 x 36 mm, ce demi-format opte pour du 17 x 24 mm, ce qui double la longueur du rouleau.
+                Bon, sans rien cacher, c'est son design futuristiquement laid qui m'a enjolivé l'âme. 
                 </P>
                 <br></br>
                     <section className={s.onethirdport}>
@@ -164,7 +164,7 @@ const Article = () => {
                         <section>
                             <h2 className={s.h2}>Nota Bene</h2>
                             <p>
-                            Un tronc qui veut des caresses, un tronc qui veut se faire jouer
+                            Un tronc qui veut des caresses, un tronc qui veut se faire jouer. Ce soir je joue du Didgeridoo.
                             </p>
                         </section>
             </Container>
