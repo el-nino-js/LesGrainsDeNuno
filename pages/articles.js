@@ -16,6 +16,7 @@ import nycthumbnail from '../public/images/ArticlesThumbnail//cnycthumbnail.png'
 import coloremthumbnail from '../public/images/ArticlesThumbnail//coloremThumbnail.jpg'
 import ektachromethumbnail from '../public/images/ArticlesThumbnail//ektachromethumbnail.png'
 import sucrethumbnail from '../public/images/ArticlesThumbnail//sucrethumbnail.png'
+import fp4euthumbnail from '../public/images/ArticlesThumbnail//fp4euthumbnail.png'
 
 
 import thumbBaby from '../public/images/2021/baby.jpg'
@@ -114,6 +115,16 @@ return (
                     Qualité Sucrée
                 </ArticleGridItem>
             </Section>
+        </SimpleGrid>
+
+        <SimpleGrid columns={[1,1,2]} gap={6}>
+            <Section delay={0.3}>
+                <ArticleGridItem id="fp4eu" title="Ilford FP4+" thumbnail={fp4euthumbnail}>
+                    Voyage de Maître Partie 7/7
+                </ArticleGridItem>
+            </Section>
+
+            
         </SimpleGrid>
 
         <Section delay={0.2}>
