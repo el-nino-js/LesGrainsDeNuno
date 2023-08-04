@@ -124,6 +124,13 @@ return (
                 </ArticleGridItem>
             </Section>
 
+            <Section delay={0.3}>
+                <ArticleGridItem id="goldparis" title="Kodak Gold 200" thumbnail={fp4euthumbnail}>
+                    Voyage de Maître Partie 7/7
+                </ArticleGridItem>
+            </Section>
+
+
             
         </SimpleGrid>
 
