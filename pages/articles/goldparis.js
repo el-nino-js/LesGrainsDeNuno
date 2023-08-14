@@ -12,13 +12,15 @@ import pic1 from '../../public/images/2023/gold200/2.jpg'
 import pic2 from '../../public/images/2023/gold200/3.jpg'
 import pic3 from '../../public/images/2023/gold200/4.jpg'
 import pic4 from '../../public/images/2023/gold200/5.jpg'
-import pic5 from '../../public/images/2023/fp4/6.jpg'
-import pic6 from '../../public/images/2023/fp4/7.jpg'
-import pic7 from '../../public/images/2023/fp4/8.jpg'
-import pic8 from '../../public/images/2023/fp4/9.jpg'
-import pic9 from '../../public/images/2023/fp4/10.jpg'
-import pic10 from '../../public/images/2023/fp4/11.jpg'
+import pic5 from '../../public/images/2023/gold200/6.jpg'
+import pic6 from '../../public/images/2023/gold200/7.jpg'
+import pic7 from '../../public/images/2023/gold200/8.jpg'
+import pic8 from '../../public/images/2023/gold200/9.jpg'
+import pic9 from '../../public/images/2023/gold200/10.jpg'
 
+//eta 30 min
+//ajouter liens dropbox pour les pics
+//thumbnail
 
 import Image from 'next/image'
 
@@ -33,7 +35,7 @@ const Article = () => {
              ses couleurs sont plutôt saturées, ce qui en fait une excellente pellicule pour les photos en extérieur lors de journées ensoleillées. 
              Un moment où la Kodak Gold excelle c'est définitivement lors du golden hour.  <br></br> C’est là que ses teintes chaudes ressortent
             des couleurs dorées resplendissantes. La ville de Paris, en cet instant, devient un véritable havre de paix. Avec
-            ses long couchées de soleil, elle peut bien arborer, avec chauvinisme, son titre de Ville Lumière. <br></br><br></br>
+            ses long couchées de soleil, elle dégage, avec chauvinisme, son titre de Ville Lumière. <br></br><br></br>
 
                 <a name="about"/>
         <div className={s.clearfix}></div>
@@ -77,33 +79,28 @@ const Article = () => {
                     </section>
 
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/su22kp2nwmcivyt/6.jpg?raw=1" target="_blank" rel="noreferrer">
+                        <a href="https://www.dropbox.com/scl/fi/e9oaqduq0m3lagh5o6gmv/6.jpg?rlkey=3e71xdw2ikgrunqo41ypsp776&raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic5}></Image> </a>
                     </section>
 
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/kjdrviw1ui6efj5/7.jpg?raw=1" target="_blank" rel="noreferrer">
+                        <a href="https://www.dropbox.com/scl/fi/887tbkyht9kh3y1utg9mg/7.jpg?rlkey=9fc5i2mae1g1ssbzm5nqkpyra&raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic6}></Image> </a>
                     </section>
 
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/ahmulpi4ifwptmv/8.jpg?raw=1" target="_blank" rel="noreferrer">
+                        <a href="https://www.dropbox.com/scl/fi/1j5o1pslo793epe95qiag/8.jpg?rlkey=jzjtzgilhzetfoauq6o77lnmq&raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic7}></Image> </a>
                     </section>
 
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/yoixkbbqdybd1yj/9.jpg?raw=1" target="_blank" rel="noreferrer">
+                        <a href="https://www.dropbox.com/scl/fi/1kz73fwia1acgu3m2lwpq/9.jpg?rlkey=isqn2sx0aaifaubbwpga00s1t&raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic8}></Image> </a>
                     </section>
 
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/ekkiaza2s3egjzu/10.jpg?" target="_blank" rel="noreferrer">
+                        <a href="https://www.dropbox.com/scl/fi/umvablygzkf8fh74djufo/10.jpg?rlkey=rr5at556rplertpjbkoafslw5&raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic9}></Image> </a>
-                    </section>
-
-                    <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/7xu4hq5gj8y5t9z/11.jpg?raw=1" target="_blank" rel="noreferrer">
-                        <Image className={s.onethirdportimage} src={pic10}></Image> </a>
                     </section>
 
                     <div className={s.clearfix}></div>
