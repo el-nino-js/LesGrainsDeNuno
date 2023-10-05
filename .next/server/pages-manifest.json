@@ -3,7 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/404": "pages/404.js",
-  "/portfolio": "pages/portfolio.js",
-  "/articles": "pages/articles.js",
-  "/articles/goldparis": "pages/articles/goldparis.js"
+  "/portfolio": "pages/portfolio.js"
 }

@@ -30,15 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/articles": [
+    "/articles/sucre": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/articles.js"
-    ],
-    "/articles/goldparis": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/articles/goldparis.js"
+      "static/chunks/pages/articles/sucre.js"
     ],
     "/portfolio": [
       "static/chunks/webpack.js",
