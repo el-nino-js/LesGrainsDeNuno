@@ -34,6 +34,9 @@ import pic_5 from '../../public/images/2023/ouronolum/6.jpg'
 import pic_6 from '../../public/images/2023/ouronolum/7.jpg'
 import pic_7 from '../../public/images/2023/ouronolum/8.jpg'
 import pic_8 from '../../public/images/2023/ouronolum/9.jpg'
+import pic_9 from '../../public/images/2023/ouronolum/10.jpg'
+import pic_10 from '../../public/images/2023/ouronolum/11.jpg'
+import pic_11 from '../../public/images/2023/ouronolum/12.jpg'
 
 import Image from 'next/image'
 
@@ -217,6 +220,20 @@ const Article = () => {
                         <Image className={s.onethirdportimage} src={pic_8}></Image> </a>
                     </section>
 
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/97xrotlw0ta49qcvbw51a/10.jpg?rlkey=zv1h1dys2yaa7q4nfxejbg23e&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic_9}></Image> </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/ef4rk8wlk6jxjp4ap7xe8/11.jpg?rlkey=sozfs1xitg3bkwz29k7zk5euw&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic_10}></Image> </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/g4ddyqlhzvih245ehne8x/12.jpg?rlkey=ww5ib34fte43yjra8dytabl4t&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic_11}></Image> </a>
+                    </section>
 
                     <div className={s.clearfix}></div>
                         <a name="serv">

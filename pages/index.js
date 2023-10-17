@@ -23,7 +23,7 @@ const Page = () => {
                         <Heading as="h2" variant="page-title">
                             Nuno Silva-Pinto
                         </Heading>
-                        <i>Aspirant à l'ingénierie logicielle <br/> M.Sc.A en Génie Informatique Cyber-Sec (en cours) <br/> Détenteur d'un doctorat en clanchage à Mario-Kart <br/> Grimpeur intermédiaire V3-V6 <br/>  Wannabe barista pseudo-notoire </i>
+                        <i>Aspirant à l'ingénierie logicielle <br/> M.Sc.A en Génie Informatique Cyber-Sec <br/> Détenteur d'un doctorat en clanchage à Mario-Kart <br/> Grimpeur intermédiaire V3-V6 (jaune) <br/> ex-barista notoire </i>
                     </Box>
                     <Box flexShrink={0}
                         mt={{ base: 4, md: 0 }}
@@ -49,10 +49,7 @@ const Page = () => {
                     Bonjour / Oi
                     </Heading>
                     <Paragraph>
-                        Amateur de photographie et surtout de photographie
-                        argentique. Visages de longue date ou éphémères, même engorgées de grains, mon coeur rebondit de ces faces sur le papier. Encore mieux, s'il s'agit 
-                        d'un ancien colloque lituanien souriant, la gorge immaculée de sang après avoir mal
-                        débouché une Super Bock le jour de son anniversaire. Abraço si tu me lis Julius.
+                        Amateur de photographie argentique
                         <br></br><br></br>
                         &nbsp; Je peux sinon vous faire perdurer ce{' '}
                         <NextLink href="http://www.nihongonosekai.com/newspapers/Japanese_Naturally/articles/19930822jn.htm">
@@ -83,7 +80,7 @@ const Page = () => {
                             <Link href="https://encredemine.wordpress.com/">Asatoïsme</Link>
                         </NextLink>.
                         <br></br><br></br>
-                        &nbsp; Pour de plus ample découverte, vous pouvez visiter mes clichés à votre rythme.
+                        &nbsp; Pour de plus ample découverte, votre visite est la bienvenue.
                     </Paragraph>
                     <Box aligne="center" my={4}>
                         <NextLink href="/articles">
