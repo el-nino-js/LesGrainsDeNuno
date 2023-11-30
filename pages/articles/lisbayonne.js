@@ -44,7 +44,7 @@ Le décalage de couleur d'une sous-exposition offre toutefois aux ombres une tei
                 <a name="about"/>
         <div className={s.clearfix}></div>
             <section className={s.leftcolumn}>
-                <Heading as="h2" className={s.h2}>Desassossego</Heading>
+                <Heading as="h2" className={s.h2}>Comboio</Heading>
                 <Paragraph text-indent={6} className={s.p}> 
                 Un univers entier accompagne mes nuits. Sa nostalgie illumine les collines 
                 </Paragraph>
@@ -119,7 +119,7 @@ Le décalage de couleur d'une sous-exposition offre toutefois aux ombres une tei
 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 <Paragraph><b>Acte II</b></Paragraph>
                 <P>
-                Rouler avec le jour, un beau matin, pour filer sur une faible pluie, se transformant en un vent qui, à mesure que le soleil se couche, se fait border par la brise de la lune.
+                Rouler avec le jour, un beau matin, pour filer sur une faible pluie, se transformant en un vent. Le soleil se couche. La villa se fait border par la brise de la lune.
                 Méditer à nez sur un pas balbutiant, l'avoir sur le dos. Piétonnier, pliés sur deux terres. Si une vague vient à passer, l'extase revient devant tant d'années de temps.
                 <br></br>
                     <section className={s.onethirdport}>
@@ -140,9 +140,10 @@ Le décalage de couleur d'une sous-exposition offre toutefois aux ombres une tei
                         <section>
                             <h2 className={s.h2}>Nota Bene</h2>
                             <p>
-                            Desassossego de não ter teorias, mesmo quando o instinto é certo - Woof
+                            Desassossego de não ter teorias, mesmo quando o instinto é certo
                             </p>
                         </section>
+                        </P>
             </Container>
         </Layout>
     )
