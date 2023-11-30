@@ -17,6 +17,8 @@ import pic6 from '../../public/images/2023/lisbayonne/7.jpg'
 import pic7 from '../../public/images/2023/lisbayonne/8.jpg'
 import pic8 from '../../public/images/2023/lisbayonne/9.jpg'
 import pic9 from '../../public/images/2023/lisbayonne/10.jpg'
+import pic10 from '../../public/images/2023/lisbayonne/11.jpg'
+import pic11 from '../../public/images/2023/lisbayonne/12.jpg'
 
 
 
@@ -54,8 +56,8 @@ Le décalage de couleur d'une sous-exposition offre toutefois aux ombres une tei
            
             <div className={s.clearfix}></div>
                 <a name="port"></a>
-                    <h2 className={s.h2}>Didgeridoo</h2>
-                    <Paragraph><b>Act I</b></Paragraph>
+                    <h2 className={s.h2}>Santos</h2>
+                    <Paragraph><b>Acte I</b></Paragraph>
                 <P>
                Retrouver une zone familière, cette fois en enfilant un nouveau domino pour le bal masqué. Des rencontres se forment à travers
                les visages chaleureux qui virvoltent sur leurs rêves. Les changements se sont produits, pour le mieux.
@@ -115,29 +117,30 @@ Le décalage de couleur d'une sous-exposition offre toutefois aux ombres une tei
 
 
 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-<Paragraph><b>Act II</b></Paragraph>
+<Paragraph><b>Acte II</b></Paragraph>
                 <P>
-                
-                </P>
+                Rouler avec le jour, un beau matin, pour filer sur une faible pluie, se transformant en un vent qui, à mesure que le soleil se couche, se fait border par la brise de la lune.
+                Méditer à nez sur un pas balbutiant, l'avoir sur le dos. Piétonnier, pliés sur deux terres. Si une vague vient à passer, l'extase revient devant tant d'années de temps.
                 <br></br>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/1ch9w6td4rkzass/1.png?raw=1" target="_blank" rel="noreferrer">
-                        <Image className={s.onethirdportimage} src={pic0}></Image> </a>
+                        <a href="https://www.dropbox.com/scl/fi/xue5dakevv9e4eki1doqt/11.jpg?rlkey=lmk1ev3nyp5ts2mi2zdb4u1lz&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic10}></Image> </a>
                     </section>
 
-                   
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/xue5dakevv9e4eki1doqt/11.jpg?rlkey=lmk1ev3nyp5ts2mi2zdb4u1lz&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic11}></Image> </a>
+                    </section>
 
-                 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-
+                <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 
                     <div className={s.clearfix}></div>
                         <a name="serv">
-                    
                         </a>
                         <section>
                             <h2 className={s.h2}>Nota Bene</h2>
                             <p>
-                            ...o sagrado instinto de nao ter teorias... - Fernando Pessoa
+                            Desassossego de não ter teorias, mesmo quando o instinto é certo - Woof
                             </p>
                         </section>
             </Container>
