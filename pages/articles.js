@@ -16,8 +16,10 @@ import nycthumbnail from '../public/images/ArticlesThumbnail//cnycthumbnail.png'
 import coloremthumbnail from '../public/images/ArticlesThumbnail//coloremThumbnail.jpg'
 import ektachromethumbnail from '../public/images/ArticlesThumbnail//ektachromethumbnail.png'
 import sucrethumbnail from '../public/images/ArticlesThumbnail//sucrethumbnail.png'
+import portra160sudthumbnail from '../public/images/ArticlesThumbnail//portra160sudthumbnail.png'
+import cinestill400dlisbayonnethumbnail from '../public/images/ArticlesThumbnail//cinestill400dlisbayonnethumbnail.png'
+import gold200paristhumbnail from '../public/images/ArticlesThumbnail//gold200paristhumbnail.png'
 import fp4euthumbnail from '../public/images/ArticlesThumbnail//fp4euthumbnail.png'
-
 
 import thumbBaby from '../public/images/2021/baby.jpg'
 import thumbCat from '../public/images/2022/cat/cathumbnail.png'
@@ -120,13 +122,13 @@ return (
         <SimpleGrid columns={[1,1,2]} gap={6}>
             <Section delay={0.3}>
                 <ArticleGridItem id="fp4eu" title="Ilford FP4+" thumbnail={fp4euthumbnail}>
-                    Voyage de Maître Partie 7/7
+                    Muito Legaw
                 </ArticleGridItem>
             </Section>
 
             <Section delay={0.3}>
-                <ArticleGridItem id="goldparis" title="Kodak Gold 200" thumbnail={fp4euthumbnail}>
-                    Voyage de Maître Partie 7/7
+                <ArticleGridItem id="goldparis" title="Kodak Gold 200" thumbnail={gold200paristhumbnail}>
+                    Génies en Herbe
                 </ArticleGridItem>
             </Section>
             
@@ -134,8 +136,14 @@ return (
 
         <SimpleGrid columns={[1,1,2]} gap={6}>
             <Section delay={0.3}>
-                <ArticleGridItem id="lisbayonne" title="Cinestill 400D" thumbnail={fp4euthumbnail}>
+                <ArticleGridItem id="lisbayonne" title="Cinestill 400D" thumbnail={cinestill400dlisbayonnethumbnail}>
                     Saudade
+                </ArticleGridItem>
+            </Section>
+
+            <Section delay={0.3}>
+                <ArticleGridItem id="portra160sudfrance" title="Portra 160" thumbnail={portra160sudthumbnail }>
+                Le train n'est pas à destination de Paris, mais bien de Bandol !
                 </ArticleGridItem>
             </Section>
             

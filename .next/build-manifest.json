@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/articles.js"
     ],
-    "/articles/lisbayonne": [
+    "/articles/portra160sudfrance": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/articles/lisbayonne.js"
+      "static/chunks/pages/articles/portra160sudfrance.js"
     ]
   },
   "ampFirstPages": []
