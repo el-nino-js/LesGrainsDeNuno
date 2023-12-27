@@ -18,6 +18,9 @@ import pic7 from '../../public/images/2023/sudfrance/8.jpg'
 import pic8 from '../../public/images/2023/sudfrance/9.jpg'
 import pic9 from '../../public/images/2023/sudfrance/10.jpg'
 import pic10 from '../../public/images/2023/sudfrance/11.jpg'
+import pic11 from '../../public/images/2023/sudfrance/12.jpg'
+import pic12 from '../../public/images/2023/sudfrance/13.jpg'
+import pic13 from '../../public/images/2023/sudfrance/14.jpg'
 
 
 
@@ -124,6 +127,20 @@ const Article = () => {
                 <P>
                 La condensation s'est emparée des calanques. Dans une bâtisse, le café italien nous garde au chaud.</P>
                 <br></br>
+                <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/m5ypwlqltz34wscxqgrev/12.jpg?rlkey=vjhh5j3etvcwyx2d8wlju9zg8&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic11}></Image> </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/ngnkm9pkj94sxaiu5ait5/13.jpg?rlkey=66pe0so9wlqvbq5qrbzko72ax&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic12}></Image> </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/swd7xg00xq21hgvn371ib/14.jpg?rlkey=6nscvux0frufb86wgiy1l4bwa&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic13}></Image> </a>
+                    </section>
                     
 <br></br><br></br><br></br><br></br><br></br><br></br>
 
