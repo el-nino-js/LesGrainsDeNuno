@@ -23,7 +23,7 @@ const Page = () => {
                         <Heading as="h2" variant="page-title">
                             Nuno Silva-Pinto
                         </Heading>
-                        <i>Aspirant à l'ingénierie logicielle <br/> M.Sc.A en Génie Informatique Cyber-Sec <br/> Détenteur d'un doctorat en clanchage à Mario-Kart <br/> Grimpeur intermédiaire V3-V6 (jaune) <br/> ex-barista notoire </i>
+                        <i>Architecte-Anal. en Cyberdéfense <br/> M.Sc.A en Génie Informatique Cyber-Sec <br/> Grimpeur intermédiaire V3-V6 (jaune-orange) </i>
                     </Box>
                     <Box flexShrink={0}
                         mt={{ base: 4, md: 0 }}

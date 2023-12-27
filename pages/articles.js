@@ -149,6 +149,30 @@ return (
             
         </SimpleGrid>
 
+        <SimpleGrid columns={[1,1,2]} gap={6}>
+            <Section delay={0.3}>
+                <ArticleGridItem id="ektar100suisse" title="Ektar100" thumbnail={portra160sudthumbnail }>
+                Le train n'est pas à destination de Paris, mais bien de Bandol !
+                </ArticleGridItem>
+            </Section>
+            
+        </SimpleGrid>
+
+        <SimpleGrid columns={[1,1,2]} gap={6}>
+            <Section delay={0.3}>
+                <ArticleGridItem id="lisbayonne" title="Cinestill 400D" thumbnail={cinestill400dlisbayonnethumbnail}>
+                    Saudade
+                </ArticleGridItem>
+            </Section>
+
+            <Section delay={0.3}>
+                <ArticleGridItem id="portra160sudfrance" title="Portra 160" thumbnail={portra160sudthumbnail }>
+                Le train n'est pas à destination de Paris, mais bien de Bandol !
+                </ArticleGridItem>
+            </Section>
+            
+        </SimpleGrid>
+
         <Section delay={0.2}>
             <Divider my={6} />
                 <Heading as="h3" fontSize={20} mb={4}>
