@@ -6,6 +6,7 @@ import velvia50lagosthumbnail from '../public/images/2018/velvia50lagos/lagothum
 import vanessanuthumbnail from '../public/images/2022/vanessa/vanessa_article.png'
 
 import fjordthumbnail from '../public/images/2018/velvia50lagos/fjord.png'
+import swissthumbnail from '../public/images/ArticlesThumbnail/swissthumb.png'
 import ir200thumbnail from '../public/images/2018/velvia50lagos/ir200.png'
 import fragmentthumbnail from '../public/images/2018/velvia50lagos/fragment.png'
 import galiciethumbnail from '../public/images/ArticlesThumbnail/galiciethumbnail.jpg'
@@ -151,23 +152,8 @@ return (
 
         <SimpleGrid columns={[1,1,2]} gap={6}>
             <Section delay={0.3}>
-                <ArticleGridItem id="ektar100suisse" title="Ektar100" thumbnail={portra160sudthumbnail }>
-                Le train n'est pas à destination de Paris, mais bien de Bandol !
-                </ArticleGridItem>
-            </Section>
-            
-        </SimpleGrid>
-
-        <SimpleGrid columns={[1,1,2]} gap={6}>
-            <Section delay={0.3}>
-                <ArticleGridItem id="lisbayonne" title="Cinestill 400D" thumbnail={cinestill400dlisbayonnethumbnail}>
-                    Saudade
-                </ArticleGridItem>
-            </Section>
-
-            <Section delay={0.3}>
-                <ArticleGridItem id="portra160sudfrance" title="Portra 160" thumbnail={portra160sudthumbnail }>
-                Le train n'est pas à destination de Paris, mais bien de Bandol !
+                <ArticleGridItem id="ektar100suisse" title="Ektar100" thumbnail={swissthumbnail }>
+                Le gruyère ce n'est pas pour les bébés
                 </ArticleGridItem>
             </Section>
             
