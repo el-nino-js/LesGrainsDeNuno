@@ -63,7 +63,7 @@ const Article = () => {
                     <h2 className={s.h2}>Vacas</h2>
                     
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/scl/fi/hekacsb0fcfwthhoa0vnk/1.jpg?rlkey=3lyz5r9uvwd6qdzjaaurm2ano&raw=1" target="_blank" rel="noreferrer">
+                        <a href="https://www.dropbox.com/scl/fi/vexybvaehzx3ym3btsmw7/1.jpg?rlkey=zx0pjh711u7dbj57m015sekqy&raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic0}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
@@ -82,13 +82,8 @@ const Article = () => {
                     </section>
                     
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/scl/fi/wy1o82aqtu2qrghh0i0zs/5.jpg?rlkey=hwautl4bhkpgk1q5y5v0fohyk&raw=1" target="_blank" rel="noreferrer">
+                        <a href="https://www.dropbox.com/scl/fi/3sg1o029k9aw8zmhyt2om/12.jpg?rlkey=gkdz0606j8lcypo59jinho3p6&raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic4}></Image> </a>
-                    </section>
-
-                    <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/scl/fi/po29ee95pr96ykq66mtvb/6.jpg?rlkey=yh7g9casok5n47hri865boabg&raw=1" target="_blank" rel="noreferrer">
-                        <Image className={s.onethirdportimage} src={pic5}></Image> </a>
                     </section>
 
                     <section className={s.onethirdport}>
@@ -107,17 +102,17 @@ const Article = () => {
                     </section>
 
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/scl/fi/y72qk7ncewxvojhunlr3j/10.jpg?rlkey=8igixedv4p3h7mbc24p2ujxxy&raw=1" target="_blank" rel="noreferrer">
+                        <a href="https://www.dropbox.com/scl/fi/wy1o82aqtu2qrghh0i0zs/5.jpg?rlkey=hwautl4bhkpgk1q5y5v0fohyk&raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic9}></Image> </a>
                     </section>
 
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/scl/fi/qx3oj2x045j5oz92vj6te/11.jpg?rlkey=wrrj7lkbcbtxiaegzs4v172he&raw=1" target="_blank" rel="noreferrer">
+                        <a href="https://www.dropbox.com/scl/fi/y72qk7ncewxvojhunlr3j/10.jpg?rlkey=8igixedv4p3h7mbc24p2ujxxy&raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic10}></Image> </a>
                     </section>
 
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/scl/fi/3sg1o029k9aw8zmhyt2om/12.jpg?rlkey=gkdz0606j8lcypo59jinho3p6&raw=1" target="_blank" rel="noreferrer">
+                        <a href="https://www.dropbox.com/scl/fi/qx3oj2x045j5oz92vj6te/11.jpg?rlkey=wrrj7lkbcbtxiaegzs4v172he&raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic11}></Image> </a>
                     </section>
 
