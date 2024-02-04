@@ -10,8 +10,8 @@ import pic1 from '../public/images/2022/lumnyc/1.jpg'
 import pic2 from '../public/images/2023/fp4/1.jpg'
 import pic3 from '../public/images/2023/ouronolum/8.jpg'
 import pic4 from '../public/images/Portofolio/thumbnail.jpg'
-import pic5 from '../public/images/Portofolio/thumbnail.jpg'
-import pic6 from '../public/images/Portofolio/thumbnail.jpg'
+import pic5 from '../public/images/Portofolio/2.jpg'
+import pic6 from '../public/images/Portofolio/4.jpg'
 import Image from 'next/image'
 
 const Portfolio = () => (
@@ -51,11 +51,11 @@ const Portfolio = () => (
                         <Image className={s.onethirdportimage} src={pic4}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/3h420kmd24d5vjx/thumbnail.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/scl/fi/o7rzz9cbqtexhsw2dz556/2.jpg?rlkey=khno4cc1mmz8czp5p387ea4aa&raw=1" target="_blank">
                         <Image className={s.onethirdportimage} src={pic5}></Image> </a>
                     </section>
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/3h420kmd24d5vjx/thumbnail.jpg?raw=1" target="_blank">
+                        <a href="https://www.dropbox.com/scl/fi/euuidb1hwnar3qbr0urpw/4.jpg?rlkey=05b8domg29jxlyf06uk3v2lc3&raw=1" target="_blank">
                         <Image className={s.onethirdportimage} src={pic6}></Image>
                         </a>
     
