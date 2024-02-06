@@ -110,9 +110,6 @@ const Navbar = props => {
                 <NextLink href="/menu" passHref>
                   <MenuItem as={Link}>La Graine à Nuno ☕</MenuItem>
                 </NextLink>
-                <NextLink href="/villeroyaume-canada" passHref>
-                  <MenuItem as={Link}>🏰</MenuItem>
-                </NextLink>
                 
               </MenuList>
                 </Menu>

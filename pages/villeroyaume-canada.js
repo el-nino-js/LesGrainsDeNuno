@@ -34,10 +34,20 @@ const Page = () => {
 
     const generateRandomNumber = () => {
       const currentDate = new Date();
-      const seed = currentDate.toISOString().split('T')[0];
-      const randomValue = parseInt(seed.split('-').join(''), 10) % 5 + 1;
+      const currentTime = currentDate.getTime();
+      const uniqueIdentifier = getUniqueIdentifier(); // Function to get a unique identifier (can use user ID if available)
+
+      const combinedSeed = `${currentDate.toISOString().split('T')[0]}-${currentTime}-${uniqueIdentifier}`;
+      const randomValue = parseInt(combinedSeed.split('-').join(''), 10) % 5 + 1;
       setRandomNumber(randomValue);
       localStorage.setItem('weatherRandomNumber', randomValue.toString());
+    };
+     
+    const getUniqueIdentifier = () => {
+      // Implement logic to get a unique identifier for the user (e.g., user ID, session ID, etc.)
+      // You might use a library or authentication system for this purpose
+      // For simplicity, you can use a random number as a placeholder for now
+      return Math.floor(Math.random() * 100000).toString();
     };
 
     getStoredRandomNumber();
@@ -74,6 +84,7 @@ const Page = () => {
       {weatherData && (
         <div className="weather-info">
           <p className="temperature">Température: {weatherData.main.temp}°C</p>
+          <p className="temperature">T.Res: {weatherData.main.feels_like}°C</p>
           {isSunny() ? (
             <p className="sunny-message">Le ciel brille sur le Villeroyaume!</p>
           ) : (

@@ -74,6 +74,7 @@ const Page = () => {
       {weatherData && (
         <div className="weather-info">
           <p className="temperature">Temperature: {weatherData.main.temp}°C</p>
+          <p className="temperature">T.Res: {weatherData.main.feels_like}°C</p>
           {isSunny() ? (
             <p className="sunny-message">Le ciel brille sur l'Ibekuroyaume!</p>
           ) : (
