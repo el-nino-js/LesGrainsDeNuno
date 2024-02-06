@@ -25,6 +25,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/articles/chats": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/articles/chats.js"
+    ],
     "/villeroyaume-canada": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
