@@ -29,6 +29,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/villeroyaume-canada.js"
+    ],
+    "/villeroyaume-japon": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/villeroyaume-japon.js"
     ]
   },
   "ampFirstPages": []

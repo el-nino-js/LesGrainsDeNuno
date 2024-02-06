@@ -73,8 +73,10 @@ const Page = () => {
       <h1 className="weather-header">🏯</h1>
       {weatherData && (
         <div className="weather-info">
-          <p className="temperature">Temperature: {weatherData.main.temp}°C</p>
-          <p className="temperature">T.Res: {weatherData.main.feels_like}°C</p>
+          <b className="temperature">
+              Température: {Math.round(weatherData.main.temp)}°
+              <b className="smaller">  {Math.round(weatherData.main.feels_like)}°C</b>
+              </b>
           {isSunny() ? (
             <p className="sunny-message">Le ciel brille sur l'Ibekuroyaume!</p>
           ) : (
@@ -104,6 +106,11 @@ const Page = () => {
         .weather-header {
           font-size: 24px;
           margin-bottom: 15px;
+        }
+
+        .smaller {
+          font-size: 0.8em;
+          color: grey;
         }
 
         .weather-info {
