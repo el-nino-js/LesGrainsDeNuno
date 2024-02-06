@@ -79,8 +79,12 @@ const Navbar = props => {
                 <LinkItem href="/menu" path={path}>
                 La Graine à Nuno ☕
                 </LinkItem>
+                
                 </Stack>
         <Box flex={1} align="right">
+        <LinkItem href="/villeroyaume-canada" path={path}>
+                🏰
+                </LinkItem>
             <ThemeToggleButton />
             <Box ml={2} display={{base: 'inline-block', md:'none'}}>
                 <Menu>
@@ -105,6 +109,9 @@ const Navbar = props => {
                 </NextLink>
                 <NextLink href="/menu" passHref>
                   <MenuItem as={Link}>La Graine à Nuno ☕</MenuItem>
+                </NextLink>
+                <NextLink href="/villeroyaume-canada" passHref>
+                  <MenuItem as={Link}>🏰</MenuItem>
                 </NextLink>
                 
               </MenuList>

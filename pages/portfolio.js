@@ -15,7 +15,7 @@ import pic6 from '../public/images/Portofolio/4.jpg'
 import Image from 'next/image'
 
 const Portfolio = () => (
-    <Layout title="Portfolio">
+    <Layout title="Portfolios">
         <Container >
             <a name="about"/>
         <div className={s.clearfix}></div>

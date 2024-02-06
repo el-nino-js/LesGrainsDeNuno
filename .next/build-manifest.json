@@ -25,15 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/articles": [
+    "/villeroyaume-canada": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/articles.js"
+      "static/chunks/pages/villeroyaume-canada.js"
     ],
-    "/portfolio": [
+    "/villeroyaume-japon": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/portfolio.js"
+      "static/chunks/pages/villeroyaume-japon.js"
     ]
   },
   "ampFirstPages": []
