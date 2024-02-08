@@ -40,7 +40,7 @@ const Page = () => {
       const uniqueIdentifier = getUniqueIdentifier(); // Function to get a unique identifier (can use user ID if available)
 
       const combinedSeed = `${currentDate}-${currentTime}-${uniqueIdentifier}`;
-      const randomValue = parseInt(combinedSeed.split('-').join(''), 10) % 5 + 1;
+      const randomValue = parseInt(combinedSeed.split('-').join(''), 10) % 7 + 1;
       setRandomNumber(randomValue);
       localStorage.setItem('weatherRandomNumber', randomValue.toString());
       localStorage.setItem('weatherRandomNumberDate', currentDate);
@@ -80,7 +80,7 @@ const Page = () => {
     if (!weatherData) return false;
 
     const weatherCondition = weatherData.weather[0].main.toLowerCase();
-    const isClearSky = weatherCondition === 'clear' || weatherData.clouds.all < 40;
+    const isClearSky = weatherCondition === 'clear' || weatherData.clouds.all < 50;
 
     return isClearSky;
   };
@@ -94,6 +94,7 @@ const Page = () => {
            <b className="temperature">
               Température: {Math.round(weatherData.main.temp)}°
               <b className="smaller">  {Math.round(weatherData.main.feels_like)}°C</b>
+
               </b>
 
           {isSunny() ? (
