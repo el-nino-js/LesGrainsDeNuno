@@ -25,7 +25,9 @@ const Page = () => {
     // Generate a random number between 1 and 5 based on the current date
     const getStoredRandomNumber = () => {
       const storedNumber = localStorage.getItem('weatherRandomNumber');
-      if (storedNumber) {
+      const storedDate = localStorage.getItem('weatherRandomNumberDate');
+
+      if (storedNumber && storedDate === getCurrentDate()) {
         setRandomNumber(parseInt(storedNumber, 10));
       } else {
         generateRandomNumber();
@@ -33,16 +35,22 @@ const Page = () => {
     };
 
     const generateRandomNumber = () => {
-      const currentDate = new Date();
-      const currentTime = currentDate.getTime();
+      const currentDate = getCurrentDate();
+      const currentTime = new Date().getTime();
       const uniqueIdentifier = getUniqueIdentifier(); // Function to get a unique identifier (can use user ID if available)
 
-      const combinedSeed = `${currentDate.toISOString().split('T')[0]}-${currentTime}-${uniqueIdentifier}`;
+      const combinedSeed = `${currentDate}-${currentTime}-${uniqueIdentifier}`;
       const randomValue = parseInt(combinedSeed.split('-').join(''), 10) % 5 + 1;
       setRandomNumber(randomValue);
       localStorage.setItem('weatherRandomNumber', randomValue.toString());
+      localStorage.setItem('weatherRandomNumberDate', currentDate);
     };
      
+    const getCurrentDate = () => {
+      const today = new Date();
+      return today.toISOString().split('T')[0];
+    };
+
     const getUniqueIdentifier = () => {
       // Implement logic to get a unique identifier for the user (e.g., user ID, session ID, etc.)
       // You might use a library or authentication system for this purpose
@@ -72,7 +80,7 @@ const Page = () => {
     if (!weatherData) return false;
 
     const weatherCondition = weatherData.weather[0].main.toLowerCase();
-    const isClearSky = weatherCondition === 'clear' && weatherData.clouds.all < 20;
+    const isClearSky = weatherCondition === 'clear' || weatherData.clouds.all < 40;
 
     return isClearSky;
   };
