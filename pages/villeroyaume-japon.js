@@ -62,7 +62,7 @@ const Page = () => {
     const fetchWeatherData = async () => {
       try {
         const apiKey = '665e91eea190260c754947e46ff00fad';
-        const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Montreal&appid=${apiKey}&units=metric`;
+        const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Ikebukuro&appid=${apiKey}&units=metric`;
 
         const response = await axios.get(apiUrl);
         setWeatherData(response.data);
@@ -78,7 +78,7 @@ const Page = () => {
     if (!weatherData) return false;
 
     const weatherCondition = weatherData.weather[0].main.toLowerCase();
-    const isClearSky = weatherCondition === 'clear' || weatherData.clouds.all < 40;
+    const isClearSky = weatherCondition === 'clear' || weatherData.clouds.all < 50;
 
     return isClearSky;
   };
