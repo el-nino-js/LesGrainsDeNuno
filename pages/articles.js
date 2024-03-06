@@ -21,7 +21,7 @@ import portra160sudthumbnail from '../public/images/ArticlesThumbnail//portra160
 import cinestill400dlisbayonnethumbnail from '../public/images/ArticlesThumbnail//cinestill400dlisbayonnethumbnail.png'
 import gold200paristhumbnail from '../public/images/ArticlesThumbnail//gold200paristhumbnail.png'
 import fp4euthumbnail from '../public/images/ArticlesThumbnail//fp4euthumbnail.png'
-
+import aurora800thumbnail from '../public/images/ArticlesThumbnail//aurora800thumbnail.png'
 import thumbBaby from '../public/images/2021/baby.jpg'
 import thumbCat from '../public/images/2022/cat/cathumbnail.png'
 
@@ -152,12 +152,18 @@ return (
 
         <SimpleGrid columns={[1,1,2]} gap={6}>
             <Section delay={0.3}>
-                <ArticleGridItem id="ektar100suisse" title="Ektar100" thumbnail={swissthumbnail }>
+                <ArticleGridItem id="ektar100suisse" title="Ektar 100" thumbnail={swissthumbnail }>
                 Le gruyère ce n'est pas pour les bébés
                 </ArticleGridItem>
             </Section>
-            
+            <Section delay={0.3}>
+                <ArticleGridItem id="aurora800" title="Aurora 800" thumbnail={aurora800thumbnail}>
+                Ouvre tes yeux!
+                </ArticleGridItem>
+            </Section>
         </SimpleGrid>
+
+
 
         <Section delay={0.2}>
             <Divider my={6} />
