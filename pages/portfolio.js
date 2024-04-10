@@ -12,6 +12,8 @@ import pic3 from '../public/images/2023/ouronolum/8.jpg'
 import pic4 from '../public/images/Portofolio/thumbnail.jpg'
 import pic5 from '../public/images/Portofolio/2.jpg'
 import pic6 from '../public/images/Portofolio/4.jpg'
+import pic7 from '../public/images/Portofolio/5.jpg'
+import pic8 from '../public/images/Portofolio/6.jpg'
 import Image from 'next/image'
 
 const Portfolio = () => (
@@ -58,7 +60,15 @@ const Portfolio = () => (
                         <a href="https://www.dropbox.com/scl/fi/euuidb1hwnar3qbr0urpw/4.jpg?rlkey=05b8domg29jxlyf06uk3v2lc3&raw=1" target="_blank">
                         <Image className={s.onethirdportimage} src={pic6}></Image>
                         </a>
-    
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/s/g54m97mzzuhuhxy/1.jpg?raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic7}></Image> </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/nojqb4126w6xhuzcoevjm/545.jpg?rlkey=k74b6tvpkse7h99hxfuw9qwy8&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic8}></Image>
+                        </a>
                     </section>
                     <div className={s.clearfix}></div>
                         <a name="serv">
