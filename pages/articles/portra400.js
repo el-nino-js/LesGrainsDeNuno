@@ -33,8 +33,9 @@ const Article = () => {
             <Title>
               Portra400 - Rimouski à -40°C <Badge>2023</Badge>
             </Title>
-            La balance des couleurs et les contrastes n'ont besoin que de peu de changement, tout est là, avec peu de traitement.
-            Authentique et proche de la réalité, la portra 160 documente adéquatement un traducteur de bande dessinée, sur son île déserte, qui se fait prendre par Les Grandes Marées. 
+            La Portra 400 est un arrêt obligatoire pour les passionnés de la photographie argentique. Avec ses caractéristiques distinctives,
+             cette Kodak emblématique offre une palette de couleurs subtile et une latitude exceptionnelle, capturant les nuances
+              les plus délicates des teints de peau. Les adeptes de l'argentique reconnaissent en elle une fidélité incomparable dans la reproduction des tons chair et des dégradés, faisant de chaque cliché un véritable chef-d'œuvre intemporel. Pour les passionnés qui chérissent le processus photographique traditionnel, la Portra 400 incarne un choix incontournable, célébrant la beauté et l'authenticité de la photographie analogique dans un monde de plus en plus numérique.
             <br></br> <br></br>
             À faible grain, faible contraste, faible ISO, ses paysages nuageux ressortent avec un vert plaisant et
             les teints de peau sous un magenta-orange campé. Une versatilité qui n'est toutefois pas autant au rendez-vous que pour la Portra 400.
