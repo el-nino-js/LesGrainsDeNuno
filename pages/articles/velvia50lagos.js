@@ -28,6 +28,21 @@ import pic19 from '../../public/images/2018/velvia50lagos/19.jpg'
 import pic20 from '../../public/images/2018/velvia50lagos/20.jpg'
 import pic21 from '../../public/images/2018/velvia50lagos/21.jpg'
 
+import pic22 from '../../public/images/2024/Velvia50dc/1.jpg'
+import pic23 from '../../public/images/2024/Velvia50dc/2.jpg'
+import pic24 from '../../public/images/2024/Velvia50dc/3.jpg'
+import pic25 from '../../public/images/2024/Velvia50dc/4.jpg'
+import pic26 from '../../public/images/2024/Velvia50dc/5.jpg'
+import pic27 from '../../public/images/2024/Velvia50dc/6.jpg'
+import pic28 from '../../public/images/2024/Velvia50dc/7.jpg'
+import pic29 from '../../public/images/2024/Velvia50dc/8.jpg'
+import pic30 from '../../public/images/2024/Velvia50dc/9.jpg'
+import pic31 from '../../public/images/2024/Velvia50dc/10.jpg'
+import pic32 from '../../public/images/2024/Velvia50dc/11.jpg'
+import pic33 from '../../public/images/2024/Velvia50dc/12.jpg'
+
+
+
 
 import Image from 'next/image'
 
@@ -36,13 +51,16 @@ const Article = () => {
         <Layout Title="JacobLeCoq">
             <Container>
             <Title>
-              Velvia 50 - Lagos <Badge>2018</Badge>
+              Velvia 50 - Lagos - Washington Dc <Badge>2018</Badge>
             </Title>
                 <P>Planifier d'un point A au point B, repassant par les rails du Comboio du Portugal. Peter Pan et Crochet sont gagas
                     de vivre un véritable monde imaginaire. Le long trajet sous le soleil chaud de l'Andalousie s'accompagne de vidéo en .mp4 d'un combat épique
                     entre Madara et les 5 Kages, ou bien de l'amant du Porto qui s'évade étoufé de colère, ou des deux étudiantes qui préparent la rentrée
-                    des nouveaux arrivants en génie logiciel de l'École Polytechnique, ou enfin entre deux patnès de la 67 qui apprécie
-                    leur amitié traverser une nouvelle épreuve.
+                    des nouveaux arrivants en génie à l'École Polytechnique, ou enfin entre deux étrangés de la 67 qui ont apprécié voir
+                    leur amitié traverser une ultime épreuve.
+                </P><br></br><br></br>
+                <P>Un avion passe devant le monument. Le centre du monde? Selon une quelconque perspective, il pourrait s'agir d'un mirage auquel la Maison Blanche fait davantage
+                    office des rivages de l'au-delà. Le son des moteurs de la ligne grise m'emmène en Virginie. Je sais d'où je viens. Je connais ma maison. Devant ce hangar contenant de multiples vaisseaux, les étoiles je veux les toucher. Arrivé à destination, je sens que mon rêve prend de la distance. J'ai peur de perdre ma flamme. J'ai besoin d'un bol d'air frais. Je prend le métro vers Dupont, là où je peux me sentir un peu plus à la maison. Je suis ok.
                 </P>
                 
                 <a name="about"/>
@@ -50,7 +68,7 @@ const Article = () => {
             <section className={s.leftcolumn}>
                 <Heading as="h2" className={s.h2}>À Propos</Heading>
                 <Paragraph text-indent={6} className={s.p}> 
-                La plage est un lieu qui reconnecte, ,réalise, disparaît, oublie.
+                Reconnecter, ,Réaliser, Disparaître, Oublier... Recommencer?
                 </Paragraph>
             </section>
             <section className={s.sidebar}>
@@ -152,8 +170,71 @@ const Article = () => {
                         <a href="https://www.dropbox.com/s/gqnz15oyuew7f25/velvia50197.jpg?raw=1" target="_blank">
                         <Image className={s.onethirdportimage} src={pic21}></Image>
                         </a>
-    
                     </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/riw4zk4beyv4mcpmbrcal/1.jpg?rlkey=r8m5u7p0dmsqzixth24ma9rw0&st=8w7xwvyx&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic22}></Image>
+                        </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/xx7tuv3t5bhsrsiodth9i/2.jpg?rlkey=ov1txdy06lxymlebh8gtlb3zm&st=oncau34a&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic23}></Image>
+                        </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/w0t853178a2l313kveya0/3.jpg?rlkey=b0uv50zjp2t8rq6ohehzi8kq2&st=855cqhzj&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic24}></Image>
+                        </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/rg3qy56ufc0eq22hwf7s7/4.jpg?rlkey=zqb9mwheqkzprgb70ii7h46w9&st=wmxxt6rm&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic25}></Image>
+                        </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/0swgo2glgvx2wi1rpa9me/5.jpg?rlkey=rqrpihrjb5jfovzgnht1qh51g&st=qvtdnlb6&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic26}></Image>
+                        </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/azd6772594f9wly60gncb/6.jpg?rlkey=eccpeuuhs4y2dl0lkmsmb285v&st=hsf9byvf&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic27}></Image>
+                        </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/v1xctnvf89w5sl8bue81v/7.jpg?rlkey=fhrhvkgg44c0ga7ip5jeaobdx&st=2hd2avk6&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic28}></Image>
+                        </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/ommwngmfi471l43smq107/8.jpg?rlkey=g93pu99o86fpemojto3luftrc&st=kjas04dh&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic29}></Image>
+                        </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/gj4efc3l4armm7lhpyh8k/9.jpg?rlkey=f3u5mesau214161hzjqe414j3&st=ahpeancd&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic30}></Image>
+                        </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/hf8w8tow5kav4c561fbkt/10.jpg?rlkey=6g6jdakkqs4u39v6bip90pzwk&st=juq7umm8&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic31}></Image>
+                        </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/2bv7yczkfng6oohg9s45y/11.jpg?rlkey=oc5szlm25o70ae4ubaes35o35&st=60hhaf5p&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic32}></Image>
+                        </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/d9c1u2e67ji70rqeiw7oz/12.jpg?rlkey=wiucoukl9mzqnxr7yru3e3ple&st=iiylj755&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic33}></Image>
+                        </a>
+                    </section>
+                    
                     <div className={s.clearfix}></div>
                         <a name="serv">
                     
