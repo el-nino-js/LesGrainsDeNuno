@@ -23,7 +23,7 @@ const Page = () => {
                         <Heading as="h2" variant="page-title">
                             Nuno Silva-Pinto
                         </Heading>
-                        <i>Architecte-Anal. en Cyberdéfense <br/> M.Sc.A en Génie Informatique Cyber-Sec <br/> Grimpeur intermédiaire V3-V6 (jaune-orange) </i>
+                        <i>SecOps en Cyberdéfense <br/> M.Sc.A en Génie Informatique Cyber-Sec <br/> Grimpeur intermédiaire V3-V6 (jaune-orange) </i>
                     </Box>
                     <Box flexShrink={0}
                         mt={{ base: 4, md: 0 }}
@@ -96,15 +96,19 @@ const Page = () => {
                     </Heading>
                         <BioSection>
                             <BioYear>1995</BioYear>
-                            Né à Montréal/Mooniyang, Québec.  
+                            Né à Montréal  
                         </BioSection>
                         <BioSection>
                             <BioYear>2021</BioYear>
                             Complète un Baccalauréat en Génie Logiciel à l'École Polytechnique Montréal
                         </BioSection>
                         <BioSection>
-                            <BioYear>2023</BioYear>
-                            Tel l'élargissement d'une station de métro montréalaise sur la ligne bleu, le retard pour cette section ne vous quittera plus.
+                            <BioYear>2024</BioYear>
+                            Complète une Maîtrise-Recherche en Génie Informatique à l'École Polytechnique Montréal
+                        </BioSection>
+                        <BioSection>
+                            <BioYear>2024</BioYear>
+                            Intègre l'équipe SecOps du Ministère des Transports et de la Mobilité Durable
                         </BioSection>
                 </Section>
                 <Section delay={0.2}>

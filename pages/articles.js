@@ -163,6 +163,19 @@ return (
             </Section>
         </SimpleGrid>
 
+        <SimpleGrid columns={[1,1,2]} gap={6}>
+            <Section delay={0.3}>
+                <ArticleGridItem id="portra400" title="Ektar 100" thumbnail={swissthumbnail }>
+                Le gruyère ce n'est pas pour les bébés
+                </ArticleGridItem>
+            </Section>
+            <Section delay={0.3}>
+                <ArticleGridItem id="aurora800" title="Aurora 800" thumbnail={aurora800thumbnail}>
+                Ouvre tes yeux!
+                </ArticleGridItem>
+            </Section>
+        </SimpleGrid>
+
 
 
         <Section delay={0.2}>
