@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/articles.js"
     ],
-    "/articles/portra400": [
+    "/articles/goldparis": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/articles/portra400.js"
+      "static/chunks/pages/articles/goldparis.js"
     ]
   },
   "ampFirstPages": []
