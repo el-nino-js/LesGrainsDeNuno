@@ -38,21 +38,21 @@ const Article = () => {
         <Layout Title="Kodak Gold 200 - Saint-Germain-en-Lait">
             <Container>
             <Title>
-            Gold 200 - Voyage de Maître Partie 6/7 <Badge>2023</Badge>
+            Gold 200 - Génies en herbe <Badge>2023/2024</Badge>
             </Title>
             <b>Juin 2023 </b>
-            Les tons chauds de la Kodak Gold 200 lui valent coup de coeur. Sa balance est légèrement poussée vers le jaune,
-             ses couleurs sont plutôt saturées, ce qui en fait une excellente pellicule pour les photos en extérieur lors de journées ensoleillées. 
-             Un moment où la Kodak Gold excelle c'est définitivement lors du golden hour.  <br></br> C’est là que ses teintes chaudes ressortent
+            Les tons chauds de la Kodak Gold 200 lui valent son coup de coeur. Sa balance est légèrement poussée vers le jaune,
+             ses couleurs sont plutôt saturées, ce qui en fait une excellente pellicule pour les photos en extérieur, lors de journées ensoleillées. 
+             Un moment où la Kodak Gold excelle c'est définitivement lors du golden hour.  <br></br> C'est là que ses teintes chaudes ressortent
             des couleurs dorées resplendissantes. La ville de Paris, en cet instant, devient un véritable havre de paix. Avec
-            ses long couchées de soleil, elle dégage, avec chauvinisme, son titre de Ville Lumière. 
+            ses longs couchées de soleil, elle dégage, avec chauvinisme, son titre de Ville Lumière. 
 
             <br></br><br></br>
             <b>Juin 2024 </b>
-            On plit bagage pour une aventure vers notre beau Québec. Le road-trip débute en destination un camping à Rivière-du-loup. Ce périple commence au Normandin, chaîne de restaurant québécoise
-            omni-présente sauf dans les recoins de Montréal. Après un petit déjeuner délicieux comme sale, malheur soit mes mains de sauterelles, on roule vers la microbrasserie des têtes d'allumettes.
-            Du soleil, de la bière et des chiens, quoi demander mieux? À notre arrivé au camping, on fait là rencontre d'un renard au visage curieux. Le lendemain matin, on se réveille avec une amie. Il s'agit de Christine. C'est le nom que nous 
-            avons donné à notre amie la poule. 
+            On plit bagage pour une aventure vers notre beau Québec. Le road-trip débute en destination d'un camping à Rivière-du-loup. Ce périple est à midi au Normandin, chaîne de restaurant québécoise
+            omniprésente sauf dans les recoins de Montréal. Après un petit déjeuner délicieux comme sale, malheur soit mes mains d'ourson en peluche, on roule vers la microbrasserie des têtes d'allumettes.
+            Du soleil, de la bière et des chiens, que demander mieux? Au camping, on fait là rencontre d'un renard au visage curieux. Le lendemain matin, on se réveille avec une amie. Il s'agit de Cristine. C'est le nom que nous 
+            avons donné à notre voisine la poule. 
 
                 <a name="about"/>
         <div className={s.clearfix}></div>
@@ -170,7 +170,7 @@ const Article = () => {
                     </section>
 
 
-                        </section>
+                        </section>            <br></br><br></br>
             </Container>
         </Layout>
     )
