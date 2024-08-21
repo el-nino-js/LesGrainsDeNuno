@@ -13,6 +13,15 @@ import pic2 from '../../public/images/2023/ektachrome/3.jpg'
 import pic3 from '../../public/images/2023/ektachrome/4.jpg'
 import pic4 from '../../public/images/2023/ektachrome/5.jpg'
 import pic5 from '../../public/images/2023/ektachrome/6.jpg'
+import pic10 from '../../public/images/2023/ektachrome/10.jpg'
+import pic11 from '../../public/images/2023/ektachrome/11.jpg'
+import pic12 from '../../public/images/2023/ektachrome/12.jpg'
+import pic13 from '../../public/images/2023/ektachrome/13.jpg'
+import pic14 from '../../public/images/2023/ektachrome/14.jpg'
+import pic16 from '../../public/images/2023/ektachrome/16.jpg'
+import pic17 from '../../public/images/2023/ektachrome/17.jpg'
+import pic18 from '../../public/images/2023/ektachrome/18.jpg'
+
 
 
 
@@ -82,6 +91,48 @@ J'ai été surpris à quel point l'Ektachrome rendait l'image naturelle sous les
                     <section className={s.onethirdport}>
                         <a href="https://www.dropbox.com/s/44l8f77nvl75mp7/6.jpg?raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic5}></Image> </a>
+                    </section>
+                    <br/> <br/>   <br/> <br/>   <br/> <br/>   <br/> <br/>   <br/> <br/>   <br/> <br/>   <br/> <br/>
+
+                    <h2 className={s.h2}>Road Trip</h2>
+                    
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/mm4zt0c41i7z3hes9om64/10.jpg?rlkey=83ioz3unkbivclupo4dr4gsta&st=d2u1j5si&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic10}></Image> </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/tqu1mob6xb0ecodzji2bu/11.jpg?rlkey=7mhdxc7x042xded9km19p6k0j&st=uuib2r1i&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic11}></Image> </a>
+                    </section>
+                    
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/ropvjxo5dqtd256fi6fnn/12.jpg?rlkey=wi10kza2t6c0t2dkk60e2swb5&st=73h9f3k5&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic12}></Image> </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/yf630jewf6m5a2ap1bzxr/13.jpg?rlkey=rxlsogztmjj41zschwiqyzk9v&st=8cpkv2fy&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic13}></Image> </a>
+                    </section>
+                    
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/4c18iyx5uymtih7bg66i0/14.jpg?rlkey=jgrm9hewb8e00tf4cbkvocc8n&st=sm5b5a5t&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic14}></Image> </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/ich5gl6cx6cpcmxwd8mbh/16.jpg?rlkey=28yr76n5bugtt2zr3llr1ba6w&st=0u8yemn4&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic16}></Image> </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/iz6nnx98fqsbz01lu179w/17.jpg?rlkey=ph9li659yn41ect3adzxskprs&st=fr55o76p&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic17}></Image> </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/iz4gsyvs0htjzove7i6fz/18.jpg?rlkey=7u2xco9hrmjhiwbe099g4fl74&st=l0wtcmja&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic18}></Image> </a>
                     </section>
                     
                     <div className={s.clearfix}></div>

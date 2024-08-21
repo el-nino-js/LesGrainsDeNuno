@@ -7,6 +7,7 @@ import vanessanuthumbnail from '../public/images/2022/vanessa/vanessa_article.pn
 
 import fjordthumbnail from '../public/images/2018/velvia50lagos/fjord.png'
 import swissthumbnail from '../public/images/ArticlesThumbnail/swissthumb.png'
+import portra400thumbnail from '../public/images/ArticlesThumbnail/portra400thumbnail.png'
 import ir200thumbnail from '../public/images/2018/velvia50lagos/ir200.png'
 import fragmentthumbnail from '../public/images/2018/velvia50lagos/fragment.png'
 import galiciethumbnail from '../public/images/ArticlesThumbnail/galiciethumbnail.jpg'
@@ -165,7 +166,7 @@ return (
 
         <SimpleGrid columns={[1,1,2]} gap={6}>
             <Section delay={0.3}>
-                <ArticleGridItem id="portra400" title="Ektar 100" thumbnail={swissthumbnail }>
+                <ArticleGridItem id="portra400" title="Ektar 100" thumbnail={portra400thumbnail}>
                 Le gruyère ce n'est pas pour les bébés
                 </ArticleGridItem>
             </Section>

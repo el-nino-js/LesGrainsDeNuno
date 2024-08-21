@@ -25,10 +25,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/portfolio": [
+    "/articles": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/portfolio.js"
+      "static/chunks/pages/articles.js"
+    ],
+    "/articles/ektachrome": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/articles/ektachrome.js"
+    ],
+    "/articles/luminarnyc": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/articles/luminarnyc.js"
     ]
   },
   "ampFirstPages": []
