@@ -18,6 +18,7 @@ import pic5 from '../public/images/Portofolio/2.jpg'
 import pic6 from '../public/images/Portofolio/4.jpg'
 import pic7 from '../public/images/Portofolio/5.jpg'
 import pic8 from '../public/images/Portofolio/6.jpg'
+import pic9 from '../public/images/Portofolio/5-2.jpg'
 import pic17 from '../public/images/2023/gold200/18.jpg'
 import Image from 'next/image'
 
@@ -54,11 +55,15 @@ const Portfolio = () => (
                         <p className={s.sub} >{useColorModeValue("Orange", "Inspecteur")}</p>
                     </section>
 
-
                     <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/scl/fi/o7rzz9cbqtexhsw2dz556/2.jpg?rlkey=khno4cc1mmz8czp5p387ea4aa&raw=1" target="_blank">
-                        <Image className={s.onethirdportimage} src={pic5}></Image> </a>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/o7rzz9cbqtexhsw2dz556/2.jpg?rlkey=khno4cc1mmz8czp5p387ea4aa&raw=1"
+                        , "https://www.dropbox.com/scl/fi/xq3x0nbszjub98px95mk9/delta400-carleton86.jpg?rlkey=oyq0z6g6mwp2a4q800pt1n8hh&st=6ha07adz&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic5, pic9)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Mooh", "Praia")}</p>
                     </section>
+
+ 
                     <section className={s.onethirdport}>
                         <a href="https://www.dropbox.com/scl/fi/euuidb1hwnar3qbr0urpw/4.jpg?rlkey=05b8domg29jxlyf06uk3v2lc3&raw=1" target="_blank">
                         <Image className={s.onethirdportimage} src={pic6}></Image>

@@ -190,3 +190,4 @@
 .next/cache/webpack/client-development/index.pack.old
 .next/cache/webpack/server-development/13.pack
 .next/cache/webpack/server-development/17.pack
+node_modules/caniuse-lite/data/regions/VI.js

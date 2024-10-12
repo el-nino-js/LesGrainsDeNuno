@@ -25,20 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/articles": [
+    "/portfolio": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/articles.js"
+      "static/chunks/pages/portfolio.js"
     ],
-    "/articles/ektachrome": [
+    "/villeroyaume-japon": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/articles/ektachrome.js"
-    ],
-    "/articles/luminarnyc": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/articles/luminarnyc.js"
+      "static/chunks/pages/villeroyaume-japon.js"
     ]
   },
   "ampFirstPages": []

@@ -25,7 +25,6 @@
     "three": "^0.140.2"
   },
   "devDependencies": {
-
     "prettier": "^2.4.1"
   }
 }
