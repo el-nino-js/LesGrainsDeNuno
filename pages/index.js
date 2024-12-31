@@ -15,13 +15,13 @@ const Page = () => {
             <Container>
                 
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} align="center">
-                <i><b>Aucune histoire ne bat le <br></br> talent inébranlable du Japon. - Nuno-G S-Pinto</b> <br></br> «Propos pris hors-contexte par Kenny N.»</i>
+                <i><b>Fragments de soirées, photos, montages et autres intérêts virvoletant </b></i>
                 </Box>
                 <br/>
                 <Box display={{md: 'flex'}}>
                     <Box flexGrow={1}>
                         <Heading as="h2" variant="page-title">
-                            Nuno Silva-Pinto
+                            Nunautilus 
                         </Heading>
                         <i>SecOps en Cyberdéfense <br/> M.Sc.A en Génie Informatique Cyber-Sec <br/> Grimpeur intermédiaire V3-V6 (jaune-orange) </i>
                     </Box>
@@ -51,34 +51,23 @@ const Page = () => {
                     <Paragraph>
                         Amateur de photographie argentique
                         <br></br><br></br>
-                        &nbsp; Je peux sinon vous faire perdurer ce{' '}
+                        &nbsp; Je garde ici mon cyber cahier créatif. J'ai tenté divers clichés que je souhaite garder et où j'ai voulu tenter d'y donner un sens.
+                        Mes principales passions vont vers la prise de photo, les techniques de chambres noires, l'informatique, la randonnée, l'animation et l'horreur.  
+                        
+                        Je peux sinon vous faire perdurer ce{' '}
                         <NextLink href="http://www.nihongonosekai.com/newspapers/Japanese_Naturally/articles/19930822jn.htm">
                             <Link href="http://www.nihongonosekai.com/newspapers/Japanese_Naturally/articles/19930822jn.htm">jiko manzoku</Link>
                         </NextLink>,
-                        en vous décrivant  mon amour pour la {' '}
-                         <NextLink href="https://www.imdb.com/name/nm0234237/?ref_=tt_ov_st">
-                            <Link href="https://www.imdb.com/name/nm0234237/?ref_=tt_ov_st">soupe à la tomate</Link>
-                        </NextLink>, 
-                         de mon mémoire sur papirus de 20 pages sur «Pourquoi {' '}
-                         <NextLink href="https://myanimelist.net/profile/nunudes">
-                            <Link href="https://myanimelist.net/profile/nunudes">B... </Link>
-                        </NextLink>
-                         est un Masterpiece»
-                         
-                         , de mon timey wimey {' '} 
-                        <NextLink href="https://www.youtube.com/watch?v=M7EXlS9-XpU">
-                            <Link href="https://www.youtube.com/watch?v=M7EXlS9-XpU">queer </Link>
-                        </NextLink>
-                        
-                         spectrum,
-                        de mon Top 10 des recettes de {' '}
-                        <NextLink href="https://www.ricardocuisine.com/">
-                            <Link href="https://www.ricardocuisine.com/">Ricardo mon boy</Link>
-                        </NextLink>
-                        , ou de ma religion assumée en tant que fervant disciple de l'{' '}
+                        en vous présentant cet 
                         <NextLink href="https://encredemine.wordpress.com/">
-                            <Link href="https://encredemine.wordpress.com/">Asatoïsme</Link>
+                            <Link href="https://encredemine.wordpress.com/"> ami inspirant</Link>
                         </NextLink>.
+                        <br></br><br></br>
+                        Je prends des milliers de photos argentiques depuis 2017, en couleur, en noir et blanc, ou en diapositive. J'ai constaté un grand intérêt pour ce type de photographie.
+Tellement de techniques sont à découvrir ! Le plus je m'engage dans des projets photo, le plus j'en apprends. J'ai appris à réaliser mes propres développements avec des tanks de développement, à mesurer les dillutions de mes produits chimiques, peaufiner mes tirages, évaluer le développement (BnW et C41) et scanner un 35mm ou un moyen format. Le plus difficile reste de demeurer calme et patient. Mes débuts ont été parsemés de frustrations.
+
+                        <br></br><br></br>
+                        À ceuzes qui souhaiteraient se lancer, n'ayez pas peur : on apprend vite une fois commencé. Cela peut sembler complexe et décourageant quand on essaie d'intellectualiser tous les concepts dans le cachochon. Se motiver et passer à l’action est bien plus important que de chercher à atteindre l'expertise ou la perfection immédiate. Les erreurs sont inévitables, mais elles font partie du processus d’apprentissage et d’évolution. Soyez bienveillant envers vous-mêmes. Un bon repos avant d'entamer des projets complexes s’avére salutaire. Enfin, surtout, amusez-vous !
                         <br></br><br></br>
                         &nbsp; Pour de plus ample découverte, votre visite est la bienvenue.
                     </Paragraph>
@@ -96,19 +85,19 @@ const Page = () => {
                     </Heading>
                         <BioSection>
                             <BioYear>1995</BioYear>
-                            Né à Montréal  
+                            Né au Canada
                         </BioSection>
                         <BioSection>
                             <BioYear>2021</BioYear>
-                            Complète un Baccalauréat en Génie Logiciel à l'École Polytechnique Montréal
+                            Complète un Baccalauréat en Génie Logiciel
                         </BioSection>
                         <BioSection>
                             <BioYear>2024</BioYear>
-                            Complète une Maîtrise-Recherche en Génie Informatique à l'École Polytechnique Montréal
+                            Complète une Maîtrise-Recherche en Génie Informatique
                         </BioSection>
                         <BioSection>
                             <BioYear>2024</BioYear>
-                            Intègre l'équipe SecOps du Ministère des Transports et de la Mobilité Durable
+                            Intègre l'équipe SecOps
                         </BioSection>
                 </Section>
                 <Section delay={0.2}>
@@ -139,7 +128,7 @@ const Page = () => {
                             
                             <Link href={useColorModeValue(angelIG, devilIG)} target="_blank">
                                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoInstagram} />}>
-                                {useColorModeValue('@nuninho.js', '@djizzkstra')}
+                                {useColorModeValue('@nuninh.o', '@djizzkstra')}
                                 </Button>
                             </Link>
                         </ListItem>
