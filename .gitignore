@@ -195,6 +195,7 @@ node_modules/caniuse-lite/data/regions/VI.js
 node_modules/caniuse-lite/data/regions/VE.js
 *.pack
 *.webp
+*.old
 /.next/cache/images/1hHxmIFDAZntn6RUDqK6oK4qg+wQyHv0Ry-FCP5JF2Y=
 /.next/cache/images
 /.next/cache/images
@@ -202,7 +203,7 @@ node_modules/caniuse-lite/data/regions/VE.js
 /.next/cache
 /.next/cache/images
 /.next
-/.next
+/.next/
 .next/static/webpack/ed167c40f7bede1a.webpack.hot-update.json
 .next/cache/images/3POXCywM04yPNkUGcKbHT0Uhfedq-An3eNnJ6-9vdKc=/60.1721701709973.lQtEFWKLRJSE0tqNG6sr9Qhgt4s2M2wqOWMQ1w08NP0=.png
 .next/cache/images/47PkGeS4ByMUdTobcb1jZcKIyUZt1xceq8u6RZA1v5M=/60.1707234132323.cxpOrHr53aILyoc9uNJlYYwf2altZhuOmZfMudlqEK0=.jpeg

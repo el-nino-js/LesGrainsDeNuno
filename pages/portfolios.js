@@ -35,7 +35,7 @@ import pic14 from '../public/images/Portofolio/14.JPG'
 
 import Image from 'next/image'
 
-const Portfolio = () => (
+const Portfolios = () => (
    <Layout title="Portfolios">
         <Container >
             <a name="about"/>
@@ -140,4 +140,4 @@ Que ce soit lors d'événements ou en studio, je m'efforce de créer des images 
         </Container>
     </Layout>
 )
-export default Portfolio
+export default Portfolios
