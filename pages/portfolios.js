@@ -44,6 +44,7 @@ const Portfolios = () => (
             <div className={s.clearfix}></div>
                 <a name="port"></a>
                     <h2 className={s.h2}>Mon Portfolio</h2>
+                    <br></br><Paragraph><b>Cliquez sur le mode sombre pour les photos en noir et blanc.</b></Paragraph> <br></br>
              
                     <section className={s.onethirdport}>
                         <a 
@@ -117,11 +118,24 @@ const Portfolios = () => (
                    
                         </a>
                         <section>
-                            <h2 className={s.h2}>Mes Services</h2>
+                            <h2 className={s.h2}>Moi et Mes Services</h2>
+                            
                             <Paragraph>
 Photographe passionné, je capture des moments avec une esthétique propre à ma personne. Engagé avant tout dans la photographie argentique, mon portfolio se veut comme des fragments de moments ayant capturés mes émotions comme mon sujet.
-Que ce soit lors d'événements ou en studio, je m'efforce de créer des images qui racontent cette symbiose.
-                            </Paragraph>
+Je publie depuis 2023.<Paragraph></Paragraph> Vous m'avez connu sous différentes itérations: étudiant en maîtrise optimiste, voyageuse techno libertine notoire, barista wannabe-bobo à l'identité fade superficielle, nerd de jeux de société compétitif à Mario Kart, extrêmiste de la vie privé, etc.
+</Paragraph>
+
+<Paragraph>
+Après plusieurs années à prendre des photos, je me réinvente à travers ce site web et donner de ma présence encore une fois. Je me vois comme revenant chez moi, même si plusieurs versions de moi existe sur Internet et dans les bases de données
+des GAFAMs. Je vis ma vie dans une équipe d'informatique à Montréal au jour le jour et je jouis de mes rencontres et de mes passions le soir. 
+<Paragraph></Paragraph>
+En journée, je nage, je grimpe, je pitonne, j'aime mes proches, je bois du matcha, je lis les nouvelles, je discute de la société ou de n'importe quoi. Je prépare des projets de photos, tire en chambre noire, joue à un jeux vidéo indie, cuisine et bois du vin. En gros, je vis ma vie. 
+</Paragraph>
+<Paragraph>
+
+Je profite de ma nouvelle vie de salarié, pour programmer mon quotidien comme je le souhaite. Je filtre encore ma vie et compile qui je souhaite être. Encore un peu d'effort doit être entreprit pour fixer certains bogues avant le prochain déploiement. Je reste toutefois fier de ma version actuelle et du chemin qu'elle a traversé.
+</Paragraph>
+
                         </section>
                       
                     <div className={s.clearfix}></div>
@@ -133,9 +147,11 @@ Que ce soit lors d'événements ou en studio, je m'efforce de créer des images 
                     <div className={s.clearfix}></div>
                         <h2 className={s.h2}>Contacter-moi</h2>
                         <section className={s.contact}>
-                         <p className={s.contactp}>Nuno Silva-Pinto<br className={s.break}></br></p> <p className={s.contactp}>nuno.silva-pinto@outlook.com</p> 
+                         <p className={s.contactp}>Nuneautilus<br className={s.break}></br></p> <p className={s.contactp}>el_psy_congroo@outlook.com</p> 
                              <p className={s.contactp}> Montréal</p><p className={s.contactp} >Québec</p>
                             </section> 
+<br></br>
+                    <p className={s.contactp}>Envoyez moi un message par courriel. J'essaierai de vous répondre dans les plus brefs délais!</p>
                     <div className={s.clearfix}></div>
         </Container>
     </Layout>
