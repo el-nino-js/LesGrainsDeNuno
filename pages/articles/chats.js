@@ -197,8 +197,8 @@ const Article = () => {
                             <Paragraph>
                             Pour une douce dédicace de votre {useColorModeValue("adorable boule de poils","affreux démon")}, envoyez vos photos à 
                             {''}
-                            <NextLink href="mailto:el_psy_congroo@outlook.com">
-                                <Link href="mailto:el_psy_congroo@outlook.com"> el_psy_congroo@outlook.com</Link>
+                            <NextLink href="mailto:c.rumble785@simplelogin.com">
+                                <Link href="mailto:c.rumble785@simplelogin.com"> c.rumble785@simplelogin.com</Link>
                             </NextLink>
 
                             </Paragraph>

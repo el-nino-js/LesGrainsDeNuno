@@ -25,6 +25,8 @@ import pic17 from '../public/images/2023/gold200/18.jpg'
 import pic20 from '../public/images/Portofolio/20.JPG'
 import pic21 from '../public/images/Portofolio/21.JPG'
 import pic22 from '../public/images/Portofolio/22.JPG'
+import pic23 from '../public/images/Portofolio/23.JPG'
+import pic25 from '../public/images/Portofolio/25.JPG'
 
 //Bnw
 import pic10 from '../public/images/Portofolio/10.JPG'
@@ -32,6 +34,8 @@ import pic11 from '../public/images/Portofolio/11.JPG'
 import pic12 from '../public/images/Portofolio/12.JPG'
 import pic13 from '../public/images/Portofolio/13.JPG'
 import pic14 from '../public/images/Portofolio/14.JPG'
+import pic24 from '../public/images/Portofolio/24.JPG'
+import pic26 from '../public/images/Portofolio/26.JPG'
 
 import Image from 'next/image'
 
@@ -112,28 +116,44 @@ const Portfolios = () => (
                         <Image  className={s.onethirdportimage} src= {useColorModeValue(pic22, pic14)}></Image> </a> 
                         <p className={s.sub} >{useColorModeValue("Madeira", "Refroidissement")}</p>
                     </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/i24ol5angm3s7pvuabxxa/23.JPG?rlkey=p3as4ulk1x5n9cdxka0bhkxjn&st=s441wbjb&raw=1"
+                        , "https://www.dropbox.com/scl/fi/r8jpdic7ebane3cfvwbiy/24.JPG?rlkey=ns6f1jec3g7xnukouaf70s1cz&st=2dohlsux&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic23, pic24)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Fulgurante", "PolyJam")}</p>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/eo10rm1u7559oejb93l28/25.JPG?rlkey=f2n0c89xvykmxf3j5wuzcq5lt&st=5itjfppg&raw=1"
+                        , "https://www.dropbox.com/scl/fi/xm3c3f5ylkwr9mdr04z6t/26.JPG?rlkey=829du3ky1y84gfpk2zbgx363z&st=57c9gjaq&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic25, pic26)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Texugo", "Texugo")}</p>
+                    </section>
                 
                     <div className={s.clearfix}></div>
                         <a name="serv">
                    
                         </a>
                         <section>
-                            <h2 className={s.h2}>Moi et Mes Services</h2>
+                            <h2 className={s.h2}>Mes Services</h2>
                             
                             <Paragraph>
-Photographe passionné, je capture des moments avec une esthétique propre à ma personne. Engagé avant tout dans la photographie argentique, mon portfolio se veut comme des fragments de moments ayant capturés mes émotions comme mon sujet.
-Je publie depuis 2023.<Paragraph></Paragraph> Vous m'avez connu sous différentes itérations: étudiant en maîtrise optimiste, voyageuse techno libertine notoire, barista wannabe-bobo à l'identité fade superficielle, nerd de jeux de société compétitif à Mario Kart, extrêmiste de la vie privé, etc.
+Photographe par passion, je capture des moments avec une esthétique propre à ma personne. Engagé avant tout dans la photographie argentique, mon portfolio se veut comme des fragments de moments ayant capturés mes émotions autant que mon sujet.
+Je publie depuis 2023.<Paragraph></Paragraph> Certains m'ont connu sous différentes itérations: étudiant en maîtrise optimiste, voyageuse techno libertine notoire, barista wannabe-bobo superficiel, nerd de jeux de société compétitif à Mario Kart, extrêmiste de la vie privé, etc.
 </Paragraph>
-
+<br></br>
 <Paragraph>
-Après plusieurs années à prendre des photos, je me réinvente à travers ce site web et donner de ma présence encore une fois. Je me vois comme revenant chez moi, même si plusieurs versions de moi existe sur Internet et dans les bases de données
+Après plusieurs années à prendre des photos, je me réinvente à travers ce site web pour donner de ma présence encore une fois. Je me vois comme revenant chez moi, même si plusieurs versions parcourt les Internets et les bases de données
 des GAFAMs. Je vis ma vie dans une équipe d'informatique à Montréal au jour le jour et je jouis de mes rencontres et de mes passions le soir. 
-<Paragraph></Paragraph>
-En journée, je nage, je grimpe, je pitonne, j'aime mes proches, je bois du matcha, je lis les nouvelles, je discute de la société ou de n'importe quoi. Je prépare des projets de photos, tire en chambre noire, joue à un jeux vidéo indie, cuisine et bois du vin. En gros, je vis ma vie. 
+<Paragraph></Paragraph><br></br>
+En journée, je nage, je grimpe, je pitonne, j'aime mes proches, je bois du chimarrão, je lis les nouvelles, je discute de la société ou de n'importe quoi. Je prépare des projets de photos, tire en chambre noire, joue à un jeux vidéo indie, cuisine et bois du vin. En gros, je projete mon existance.
 </Paragraph>
 <Paragraph>
-
-Je profite de ma nouvelle vie de salarié, pour programmer mon quotidien comme je le souhaite. Je filtre encore ma vie et compile qui je souhaite être. Encore un peu d'effort doit être entreprit pour fixer certains bogues avant le prochain déploiement. Je reste toutefois fier de ma version actuelle et du chemin qu'elle a traversé.
+<br></br>
+Je profite de ma nouvelle vie de salarié, pour programmer mon quotidien comme je le souhaite. Je filtre encore ma vie et compile qui je souhaite être. Des efforts sont entreprit pour fixer quelques bogues avant un prochain déploiement. Je reste toutefois fier qui je suis et du chemin que j'ai traversé.
 </Paragraph>
 
                         </section>
@@ -147,7 +167,7 @@ Je profite de ma nouvelle vie de salarié, pour programmer mon quotidien comme j
                     <div className={s.clearfix}></div>
                         <h2 className={s.h2}>Contacter-moi</h2>
                         <section className={s.contact}>
-                         <p className={s.contactp}>Nuneautilus<br className={s.break}></br></p> <p className={s.contactp}>el_psy_congroo@outlook.com</p> 
+                         <p className={s.contactp}>Nuneautilus<br className={s.break}></br></p> <p className={s.contactp}>c.rumble785@simplelogin.com</p> 
                              <p className={s.contactp}> Montréal</p><p className={s.contactp} >Québec</p>
                             </section> 
 <br></br>
