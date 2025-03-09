@@ -218,3 +218,4 @@ node_modules/caniuse-lite/data/regions/VE.js
 .next/cache/webpack/client-development/20.pack
 .next/cache/webpack/server-development/4.pack
 .next/static/media/3.bce65113.jpg
+*.pack

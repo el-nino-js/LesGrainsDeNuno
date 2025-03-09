@@ -13,7 +13,7 @@ import pic0 from '../public/images/nunobnw.jpg'
 import pic1 from '../public/images/2022/lumnyc/1.jpg'
 import pic2 from '../public/images/2023/fp4/1.jpg'
 import pic3 from '../public/images/2023/ouronolum/8.jpg'
-import pic4 from '../public/images/Portofolio/thumbnail.jpg'
+import pic4 from '../public/images/Portofolio/1-1.JPG'
 import pic5 from '../public/images/Portofolio/2.jpg'
 import pic6 from '../public/images/Portofolio/4.jpg'
 import pic7 from '../public/images/Portofolio/5.jpg'
@@ -27,6 +27,13 @@ import pic21 from '../public/images/Portofolio/21.JPG'
 import pic22 from '../public/images/Portofolio/22.JPG'
 import pic23 from '../public/images/Portofolio/23.JPG'
 import pic25 from '../public/images/Portofolio/25.JPG'
+import pic27 from '../public/images/Portofolio/27.JPG'
+import pic29 from '../public/images/Portofolio/29.PNG'
+import pic31 from '../public/images/Portofolio/31.JPG'
+import pic33 from '../public/images/Portofolio/33.JPG'
+import pic35 from '../public/images/Portofolio/35.JPG'
+import pic37 from '../public/images/Portofolio/37.JPG'
+import pic39 from '../public/images/Portofolio/39.JPG'
 
 //Bnw
 import pic10 from '../public/images/Portofolio/10.JPG'
@@ -36,6 +43,13 @@ import pic13 from '../public/images/Portofolio/13.JPG'
 import pic14 from '../public/images/Portofolio/14.JPG'
 import pic24 from '../public/images/Portofolio/24.JPG'
 import pic26 from '../public/images/Portofolio/26.JPG'
+import pic28 from '../public/images/Portofolio/28.JPG'
+import pic30 from '../public/images/Portofolio/30.JPG'
+import pic32 from '../public/images/Portofolio/32.JPG'
+import pic34 from '../public/images/Portofolio/34.JPG'
+import pic36 from '../public/images/Portofolio/36.JPG'
+import pic38 from '../public/images/Portofolio/38.JPG'
+import pic40 from '../public/images/Portofolio/40.JPG'
 
 import Image from 'next/image'
 
@@ -66,10 +80,10 @@ const Portfolios = () => (
                     </section>
                      <section className={s.onethirdport}>
                         <a 
-                        href={useColorModeValue("https://www.dropbox.com/s/3h420kmd24d5vjx/thumbnail.jpg?raw=1"
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/2p2v6s3c36ppe3dofhmgw/11-1-7.JPG?rlkey=oyfu6bzz962jo520ycem60uu3&st=7gsdpqe3&raw=1"
                         , "https://www.dropbox.com/scl/fi/nojqb4126w6xhuzcoevjm/545.jpg?rlkey=k74b6tvpkse7h99hxfuw9qwy8&raw=1")} target="_blank" rel="noreferrer">
                         <Image  className={s.onethirdportimage} src= {useColorModeValue(pic4, pic8)}></Image> </a> 
-                        <p className={s.sub} >{useColorModeValue("Orange", "Inspecteur")}</p>
+                        <p className={s.sub} >{useColorModeValue("Amour", "Inspecteur")}</p>
                     </section>
                      <section className={s.onethirdport}>
                         <a 
@@ -132,6 +146,70 @@ const Portfolios = () => (
                         <Image  className={s.onethirdportimage} src= {useColorModeValue(pic25, pic26)}></Image> </a> 
                         <p className={s.sub} >{useColorModeValue("Texugo", "Texugo")}</p>
                     </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/0y4qbac3c9no17hwv9fp2/27.JPG?rlkey=iowuuqtkk8ykjgybvnw2emeo3&st=26nwulpe&raw=1"
+                        , "https://www.dropbox.com/scl/fi/x179s5cs5knk26eaakw4l/28.JPG?rlkey=vcwu3hdqiqy7ahg9royrlwr3r&st=tzx4yr0s&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic27, pic28)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Balade", "Face à la mer")}</p>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/p3nhrtas2fa8tnb7utoog/29.JPG?rlkey=owrt49h1scnu6m37097ypaw06&st=uo7k14ci&raw=1"
+                        , "https://www.dropbox.com/scl/fi/pzro7747vcoilidkwkbl6/30.JPG?rlkey=b0fjgh8l46y766botkszpod8n&st=b79v9nkx&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic29, pic30)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Andalousia", "Silvares")}</p>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/v9rmhtuldsdcp9ndnylub/31.JPG?rlkey=fogx7g3wod6t2ft724610x8uz&st=la52kj8p&raw=1"
+                        , "https://www.dropbox.com/scl/fi/yaiealgdkr9uuf8vsyemu/32.JPG?rlkey=yzrbxu3pc3bly3tqmf9coj0i2&st=oz6ya2qk&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic31, pic32)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Pinhão", "Nazaré")}</p>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/cyom0yhzmkigo16lmrsr4/33.JPG?rlkey=snr14v3f6m35pm4t7ph6wtzpq&st=4h6oio5y&raw=1"
+                        , "https://www.dropbox.com/scl/fi/pqtqnrb51fu3fye2q3kak/34.JPG?rlkey=t0s5rdldo13lxqlfxad2udqbp&st=10rcogbz&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic33, pic34)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Pulpe", "Pulpe")}</p>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/wdtl4e38ghi05decwrhfv/35.JPG?rlkey=uf6wc4ojzpgjh99lm65vwkvao&st=sehu7fdn&raw=1"
+                        , "https://www.dropbox.com/scl/fi/hsxb04ubhkn9p2ntx2zbn/36.JPG?rlkey=iemnndjbyw3bjgdz9xnmanou3&st=7xgefvp5&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic36, pic35)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Pallacanestro", "Pallacanestro")}</p>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/wdtl4e38ghi05decwrhfv/35.JPG?rlkey=uf6wc4ojzpgjh99lm65vwkvao&st=sehu7fdn&raw=1"
+                        , "https://www.dropbox.com/scl/fi/hsxb04ubhkn9p2ntx2zbn/36.JPG?rlkey=iemnndjbyw3bjgdz9xnmanou3&st=7xgefvp5&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic36, pic35)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Pallacanestro", "Pallacanestro")}</p>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/j1cutuzjh4niefwrtj7kh/37.JPG?rlkey=o3mdfh2rb0lx20zv6bxpwdvut&st=zgnyrqwj&&raw=1"
+                        , "https://www.dropbox.com/scl/fi/ozzmo4grdfe4od7k1cv07/38.JPG?rlkey=e0meixbjhpwv8y7buzeo1at07&st=79d75udg&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic37, pic38)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Bonifacio", "Nazaré 2")}</p>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/n93s29ogn6b4b63ph6zsj/39.JPG?rlkey=ayjiufbymmaykzfs1njmdeya3&st=y7agunf4&raw=1"
+                        , "https://www.dropbox.com/scl/fi/8dtvnbmbh2rgve8ikp573/40.JPG?rlkey=a4ie1bkkm9ccum79at1oes340&st=2rr3cusq&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic39, pic40)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Sé", "Lua")}</p>
+                    </section>
                 
                     <div className={s.clearfix}></div>
                         <a name="serv">
@@ -153,7 +231,7 @@ En journée, je nage, je grimpe, je pitonne, j'aime mes proches, je bois du chim
 </Paragraph>
 <Paragraph>
 <br></br>
-Je profite de ma nouvelle vie de salarié, pour programmer mon quotidien comme je le souhaite. Je filtre encore ma vie et compile qui je souhaite être. Des efforts sont entreprit pour fixer quelques bogues avant un prochain déploiement. Je reste toutefois fier qui je suis et du chemin que j'ai traversé.
+Je profite de ma nouvelle vie de salarié, pour programmer mon quotidien comme je le souhaite. Je filtre encore ma vie et compile qui je souhaite être. Des efforts sont entreprit pour fixer quelques bogues avant un prochain déploiement. Je reste toutefois fier de qui je suis et du chemin que j'ai traversé.
 </Paragraph>
 
                         </section>
