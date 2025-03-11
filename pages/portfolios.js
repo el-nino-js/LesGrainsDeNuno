@@ -189,14 +189,6 @@ const Portfolios = () => (
 
                     <section className={s.onethirdport}>
                         <a 
-                        href={useColorModeValue("https://www.dropbox.com/scl/fi/wdtl4e38ghi05decwrhfv/35.JPG?rlkey=uf6wc4ojzpgjh99lm65vwkvao&st=sehu7fdn&raw=1"
-                        , "https://www.dropbox.com/scl/fi/hsxb04ubhkn9p2ntx2zbn/36.JPG?rlkey=iemnndjbyw3bjgdz9xnmanou3&st=7xgefvp5&raw=1")} target="_blank" rel="noreferrer">
-                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic36, pic35)}></Image> </a> 
-                        <p className={s.sub} >{useColorModeValue("Pallacanestro", "Pallacanestro")}</p>
-                    </section>
-
-                    <section className={s.onethirdport}>
-                        <a 
                         href={useColorModeValue("https://www.dropbox.com/scl/fi/j1cutuzjh4niefwrtj7kh/37.JPG?rlkey=o3mdfh2rb0lx20zv6bxpwdvut&st=zgnyrqwj&&raw=1"
                         , "https://www.dropbox.com/scl/fi/ozzmo4grdfe4od7k1cv07/38.JPG?rlkey=e0meixbjhpwv8y7buzeo1at07&st=79d75udg&raw=1")} target="_blank" rel="noreferrer">
                         <Image  className={s.onethirdportimage} src= {useColorModeValue(pic37, pic38)}></Image> </a> 
