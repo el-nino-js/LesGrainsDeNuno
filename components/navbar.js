@@ -71,13 +71,13 @@ const Navbar = props => {
                 Portfolios
                 </LinkItem>
                 <LinkItem href="/articles" path={path}>
-                Articles
+                📸 Argentique
                 </LinkItem>
-                <LinkItem href="/posts" path={path}>
-                Posts
+                <LinkItem href="/blogue" path={path}>
+                📝Blogue
                 </LinkItem>
                 <LinkItem href="/menu" path={path}>
-                La Graine à Nuno ☕
+                ☕ La Graine à Nuno 
                 </LinkItem>
                 
                 </Stack>
