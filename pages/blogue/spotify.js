@@ -7,7 +7,7 @@ import Paragraph from '../../components/paragraph'
 import NextLink from 'next/link'
 
 import s from '../components/style.module.css'
-import pic1 from '../../public/images/2022/vanessa/2.jpg'
+import pic1 from '../../public/images/2025/wrapped.PNG'
 import pic3 from '../../public/images/2022/vanessa/4.jpg'
 import pic4 from '../../public/images/2022/vanessa/5.jpg'
 import pic5 from '../../public/images/2022/vanessa/6.jpg'
@@ -28,23 +28,33 @@ const Article = () => {
             <Title>
               Hasta la vista, spotify! <Badge>2025</Badge>
             </Title>
-                <P> Ma quête de vie privée devant nombre globe hyperconnecté n'est pas de tout repos.
-                    Devant, la rapidité de la merdification des politiques gouvernementales se développe et du monopole de surveillance qui ne fait que croître, 2025 m'indique être une bonne année pour s'y mettre.
-                    S'il  nous serait invraisemblable de partager nos émotions les plus intimes à nos proches, un paradoxe me vient lorsque je songe à la dépendance toutefois que
-                    nous faisons des applications auquels nous ouvrons nos âmes pour surveiller nos émotions. Le capitalisme de surveillance se base sur les données récupérer d'autres applications pour le transmettre
-                    à ce magna de la diffusion de musique. Ironiquement, c'est avec Brio que je dois dire que Spotify fait un beau travaille en
-                    instaurant un marketing de la surveillance aussi plaisant qu'un Wrapped devant une application qui fait du mieux qu'elle peut pour
-                    prédire nos émotions, mais aussi influencer nos goûts musicaux quittent à produire ses propres artistes fantômnes. Plus encore, devant
-                    la surveillance de masse, nous ne participeons pas seulement à notre propre surveillance,
-                    mais nous la célébrons et la partageons au reste du monde.
-
-                    <br></br><br></br>
-
-                    Toutefois, je dois l'admettre que ma dépendance envers ce média est aussi tenace vu l'aisance d'utilisation qu'elle me procurait.
-                    J'ai essayé différente solution, pour résulter ensuite à une flemme et une methodologie pénible sans que cela me rapporte grand chose. En tombant sur ce blogue, j'ai réalisé que la solution
-                    était devant moi: Jellyfin. Ce serveur multimédia libre et gratuit me permet de partager mes séries et films sur mon réseau. Par contre, et c'est aussi une autre beauté, elle permet le partage de musique!.
+                <P> Ma quête de vie privée devant notre globe hyperconnecté poursuis sa quête. 2025 m'indique être une bonne année pour m'y mettre. <br></br>
+                    
+                    La rapidité de la <NextLink href="https://www.nytimes.com/2025/04/18/us/politics/trump-national-security.html">
+                            <Link href="https://www.nytimes.com/2025/04/18/us/politics/trump-national-security.html"> merdification des politiques gouvernementales</Link>
+                        </NextLink>, bat son plein avec un <NextLink href="https://arstechnica.com/gadgets/2024/05/microsofts-new-recall-feature-will-record-everything-you-do-on-your-pc/">
+                            <Link href="https://arstechnica.com/gadgets/2024/05/microsofts-new-recall-feature-will-record-everything-you-do-on-your-pc/"> monopole de surveillance. </Link>
+                        </NextLink>
+                    S'il nous est invraisemblable de partager nos émotions les plus intimes à nos proches, le paradoxe survient lorsqu'on songe à la dépendance que
+                    nous faisons des applications auxquelles nous ouvrons nos âmes pour prédire nos émotions.<br></br> </P><Image src={pic1}></Image> Ce <i>capitaleavesdrop</i> se base sur les données, récupérer d'autres applications depuis notre activité en ligne, pour le transmettre
+                    à ce magna de la diffusion de musique. Ironiquement, c'est avec brio que Spotify fait un beau travaille en
+                    instaurant un marketing aussi plaisant qu'un <NextLink href="https://www.wired.com/story/spotify-wrapped-user-data/">
+                            <Link href="https://www.wired.com/story/spotify-wrapped-user-data/"> Wrapped </Link>
+                        </NextLink> annuel qui fait du mieux qu'elle peut pour
+                    prédire nos émotions, mais aussi influencer nos goûts musicaux, quittent à produire ses propres <NextLink href="https://harpers.org/archive/2025/01/the-ghosts-in-the-machine-liz-pelly-spotify-musicians/">
+                            <Link href="https://harpers.org/archive/2025/01/the-ghosts-in-the-machine-liz-pelly-spotify-musicians/">artistes fantomnes</Link>
+                        </NextLink>. Plus encore, devant
+                    l'écran de Big Brother, nous ne participons pas seulement à l'invasion de notre vie privé, mais la glorifions et la partageons au reste du monde.
                     
                     <br></br><br></br>
+         <Heading as="h2" className={s.h2}>Par où commencer?</Heading>
+                    
+
+                    Ma dépendance envers ce média est aussi tenace vu l'aisance d'utilisation qu'elle me procure.
+                    J'ai tenté différente solution. Aucun d'elle me plaisait et résultait ensuite à une flemme et une méthodologie pénible sans que cela me rapporte grand-chose. <br></br>
+                    En tombant sur un blogue, une solution palpable vers l'auto-suffisance : Jellyfin. Ce serveur multimédia libre et gratuit me permet de partager mes séries et films sur mon réseau. Par contre, et c'est aussi une autre beauté, elle permet le partage de musique !
+                    <br></br><br></br>
+
                     J'ai commencé à rassembler tous mes fichiers musicaux ( mp3, ou flac) sur mon ordinateur, à travers des groupes discords et spotDL. Je suppose que les lecteurs de musique sont passés de mode, et la technologie de lecture locale des fichiers n'a pas beaucoup évolué ces derniers temps. Pendant quelques jours, j'ai utilisé le bon vieux lecteur VLC, mais j'ai été surpris de constater à quel point il est médiocre pour gérer flacles fichiers.
 
                     J'ai tenté MusicBees, mais sa connexion entre mon cellulaire et le PC est pesante. Il m'aurait fallut réaliser deux configurations sur deux appareils. Ce que je désirais, c'était une synchronisation avec un serveur.  Sans internet ni ordinateur portable allumé pour héberger le serveur, je ne pouvais pas écouter de musique sur mon téléphone, ce qui rendait certains vols particulièrement longs.
@@ -67,12 +77,14 @@ Si des logiciels comme celui-ci continuent de s'améliorer, j'imagine un avenir 
 
 
 
-                </P>
+               
+                <section className={s.sidebar}>
                 
-                <a name="about"/>
+            </section>
+
         <div className={s.clearfix}></div>
             <section className={s.leftcolumn}>
-                <Heading as="h2" className={s.h2}>À Propos</Heading>
+                
                 <Paragraph text-indent={6} className={s.p}> 
                 <NextLink href="https://www.vanessamassera.com ">
                     <Link href="https://www.vanessamassera.com ">Vanessa Massera</Link>
@@ -82,9 +94,7 @@ Si des logiciels comme celui-ci continuent de s'améliorer, j'imagine un avenir 
 
                 </Paragraph>
             </section>
-            <section className={s.sidebar}>
-                <Image className={s.img} src={pic1}></Image>
-            </section>
+            
             <div className={s.clearfix}></div>
                 <a name="port"></a>
                     <h2 className={s.h2}>Expo</h2>

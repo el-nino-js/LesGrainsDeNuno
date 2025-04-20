@@ -40,7 +40,7 @@ return (
 
         <SimpleGrid columns={[1,1,2]} gap={6}>
             <Section delay={0.3}>
-                <BlogueGridItem id="spotify" title="Velvia 50" thumbnail={velvia50lagosthumbnail}>
+                <BlogueGridItem id="spotify" title="Self-host" thumbnail={velvia50lagosthumbnail}>
                   Hasta la vista Spofity
                 </BlogueGridItem>
             </Section>
