@@ -77,16 +77,11 @@ const Article = () => {
                     Puis j'ai découvert qu'il existe des applications qui communiquent avec le serveur Jellyfin et permettent de télécharger
                      de la musique depuis votre bibliothèque pour une écoute hors ligne.
                       Fintunes , Manet , Finamp , et j'en passe. Finamp est celle que j'ai finalement intégrée à mon téléphone quotidiennement. Manet n'est pas mal non plus, mais j'ai une préférence pour
-                      la gratuité et l'efficacité de l'interface de Finamp.
+                    la gratuité et l'efficacité de Finamp.
 
                       <br></br>
                     <Image src={pic3}></Image>
                     <br></br><br></br>
-
-                    Merci de t'être rendu jusqu'ici pis que l’idée de t’auto-héberger te parle, ben go, lance-toi ! C’est pas si long que ça à mettre en place, et c’est bien faisable comme projet de côté. Si t’as déjà un petit peu d’expérience avec un terminal, t’auras pas trop de misère à le configurer. Une fois que c’est en marche, tu vas pouvoir accéder à toute ta bibliothèque, peu importe t’es où pis sur n’importe quel appareil. 
-                    Avec des logiciels comme ça qui n'arrêtent pas de s’améliorer, je vois un futur sans besoin de dépendre des serveurs de compagnies pour écouter notre musique, regarder nos films ou garder nos souvenirs. On a juste à continuer de simplifier les choses et pousser l’open source dans l’bon sens du poil !
-
-
 
                
                 <section className={s.sidebar}>
@@ -94,41 +89,6 @@ const Article = () => {
             </section>
 
         <div className={s.clearfix}></div>
-            <section className={s.leftcolumn}>
-                
-                <Paragraph text-indent={6} className={s.p}> 
-                <NextLink href="https://www.vanessamassera.com ">
-                    <Link href="https://www.vanessamassera.com ">Vanessa Massera</Link>
-                </NextLink>
-                , spécialisée en éléctroacoustique, exprime ses idées poétiques. Elles sont ancrées à travers les différents
-                 milieux auxquels elle s'en retrouve inspirée.
-
-                </Paragraph>
-            </section>
-            
-            <div className={s.clearfix}></div>
-                <a name="port"></a>
-                    <h2 className={s.h2}>Expo</h2>
-                    
-                    
-                    
-                    <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/s/lvnfbwal6fl3zwj/Vanessa-11.jpg?raw=1" target="_blank" rel="noreferrer">
-                        <Image className={s.onethirdportimage} src={pic1}></Image> </a>
-                    </section>
-                    
-                    
-                    <div className={s.clearfix}></div>
-                        <a name="serv">
-                    
-                        </a>
-                        <section>
-                            <h2 className={s.h2}>Nota Bene</h2>
-                            <Paragraph>
-                            Obrigado por esses momentos lindos. Saudades com a tua alfacinha de Lisboa. 
-                            </Paragraph>
-                        </section>
-                      
                
             
             </Container>
