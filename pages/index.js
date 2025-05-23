@@ -21,9 +21,9 @@ const Page = () => {
                 <Box display={{md: 'flex'}}>
                     <Box flexGrow={1}>
                         <Heading as="h2" variant="page-title">
-                            Nunautilus 
+                            Nuneautilus 
                         </Heading>
-                        <i>SecOps en Cyberdéfense <br/> M.Sc.A en Génie Informatique Cyber-Sec <br/> Grimpeur intermédiaire V3-V6 (jaune-orange) </i>
+                        <i>SecOps en Cyberdéfense <br/> M.Sc.A en Génie Informatique Cyber-Sec <br/> Grimpeur intermédiaire V3-V6 (jaune-orange) <br/> Amateur de photographie argentique </i>
                     </Box>
                     <Box flexShrink={0}
                         mt={{ base: 4, md: 0 }}
@@ -49,7 +49,7 @@ const Page = () => {
                     Bonjour / Oi
                     </Heading>
                     <Paragraph>
-                        Amateur de photographie argentique
+                        
                         <br></br><br></br>
                         &nbsp; Je garde ici mon cyber cahier créatif. J'ai tenté divers clichés que je souhaite garder et où j'ai voulu tenter d'y donner un sens.
                         Mes principales passions vont vers la prise de photo, les techniques de chambres noires, l'informatique, la randonnée, l'animation et l'horreur.  

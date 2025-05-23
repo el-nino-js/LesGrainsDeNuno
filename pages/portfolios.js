@@ -50,6 +50,12 @@ import pic34 from '../public/images/Portofolio/34.JPG'
 import pic36 from '../public/images/Portofolio/36.JPG'
 import pic38 from '../public/images/Portofolio/38.JPG'
 import pic40 from '../public/images/Portofolio/40.JPG'
+import pic41 from '../public/images/Portofolio/41.JPG'
+import pic42 from '../public/images/Portofolio/42.JPG'
+import pic43 from '../public/images/Portofolio/43.JPG'
+import pic44 from '../public/images/Portofolio/44.JPG'
+import pic45 from '../public/images/Portofolio/45.JPG'
+import pic46 from '../public/images/Portofolio/46.JPG'
 
 import Image from 'next/image'
 
@@ -202,6 +208,34 @@ const Portfolios = () => (
                         <Image  className={s.onethirdportimage} src= {useColorModeValue(pic39, pic40)}></Image> </a> 
                         <p className={s.sub} >{useColorModeValue("Sé", "Lua")}</p>
                     </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/k7vnlxt730d2tl3bazdkm/45.jpg?rlkey=hdpb0uul6ufgqj55btlj42xig&st=pxr0b12q&raw=1"
+                        , "https://www.dropbox.com/scl/fi/trvppt3lnanxg8x8vqvai/46.jpg?rlkey=qjcjeavqkeke1uawy96c4xodz&st=v2yni5e9&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic45, pic46)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Stage", "Exit")}</p>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/8dtvnbmbh2rgve8ikp573/40.jpg?rlkey=a4ie1bkkm9ccum79at1oes340&st=oxrsvedn&raw=1"
+                        , "https://www.dropbox.com/scl/fi/6fl6t0em3922j3ia4dfw7/41.jpg?rlkey=x7whf469ls3yzg9dvnvcinout&st=f4fgy1fi&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic41, pic42)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Heat", "Gaz")}</p>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/xase8dp703w3h9xqqwno6/42.jpg?rlkey=rjcxieebj16j5l54h864676gz&st=5koxwyg3&raw=1"
+                        , "https://www.dropbox.com/scl/fi/4wpwdr2cn56b7bgftpy92/43.jpg?rlkey=7g6mc3luq6nplq1ky8mxj9168&st=90lksk5n&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic43, pic44)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Spotlight", "Insight")}</p>
+                    </section>
+
+                    
+
+                    
                 
                     <div className={s.clearfix}></div>
                         <a name="serv">
