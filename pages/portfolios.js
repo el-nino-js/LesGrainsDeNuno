@@ -10,7 +10,7 @@ import { Title } from '../components/article'
 import NextLink from 'next/link'
 import s from './components/style.module.css'
 import pic0 from '../public/images/nunobnw.jpg'
-import pic1 from '../public/images/2022/lumnyc/1.jpg'
+import pic1 from '../public/images/Portofolio/1-2.jpg'
 import pic2 from '../public/images/2023/fp4/1.jpg'
 import pic3 from '../public/images/2023/ouronolum/8.jpg'
 import pic4 from '../public/images/Portofolio/1-1.JPG'
@@ -72,7 +72,7 @@ const Portfolios = () => (
              
                     <section className={s.onethirdport}>
                         <a 
-                        href={useColorModeValue("https://www.dropbox.com/s/mcbtz6b1fpksmoo/11.jpg?raw=1"
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/gejocgyrl566si2sd0mo8/1-2.jpg?rlkey=bacgwkkri4lvhp7bjgcrmmj3z&st=bev1nlhd&raw=1"
                         , "https://www.dropbox.com/s/bhfvddrttbul4om/FP4PARIS%207.jpg?raw=1")} target="_blank" rel="noreferrer">
                         <Image  className={s.onethirdportimage} src= {useColorModeValue(pic1, pic2)}></Image> </a> 
                         <p className={s.sub} >{useColorModeValue("Jaywalker", "Escale")}</p>
