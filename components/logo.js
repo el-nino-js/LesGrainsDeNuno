@@ -18,8 +18,23 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-  
- 
+  const footPrintImg = `/images/hasselblad${useColorModeValue('', '-dark')}.png`
+
+  return (
+    <Link href="/" passHref>
+      <LogoBox>
+        <Image src={footPrintImg} width={20} height={20} alt="logo" />
+        <Text
+          color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+          fontFamily='"M PLUS Rounded 1c", sans-serif'
+          fontWeight="bold"
+          ml={3}
+        >
+          Poussin des forêts
+        </Text>
+      </LogoBox>
+    </Link>
+  )
 }
 
 export default Logo
