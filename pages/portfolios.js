@@ -1,6 +1,4 @@
- /* eslint-disable @next/next/no-img-element */
- /* eslint-disable react/jsx-no-target-blank */
- /* eslint-disable react/no-unknown-property */
+
 import { Container, Heading, SimpleGrid, Badge, Link, useColorModeValue} from '@chakra-ui/react'
 import Layout from '../components/layouts/article' 
 import Paragraph from '../components/paragraph'
@@ -13,7 +11,7 @@ import pic0 from '../public/images/nunobnw.jpg'
 import pic1 from '../public/images/Portofolio/1-2.jpg'
 import pic2 from '../public/images/2023/fp4/1.jpg'
 import pic3 from '../public/images/2023/ouronolum/8.jpg'
-import pic4 from '../public/images/Portofolio/1-1.JPG'
+import pic4 from '../public/images/Portofolio/1-1.jpg'
 import pic5 from '../public/images/Portofolio/2.jpg'
 import pic6 from '../public/images/Portofolio/4.jpg'
 import pic7 from '../public/images/Portofolio/5.jpg'
@@ -22,40 +20,40 @@ import pic9 from '../public/images/Portofolio/5-2.jpg'
 import pic17 from '../public/images/2023/gold200/18.jpg'
 
 //Couleur
-import pic20 from '../public/images/Portofolio/20.JPG'
-import pic21 from '../public/images/Portofolio/21.JPG'
-import pic22 from '../public/images/Portofolio/22.JPG'
-import pic23 from '../public/images/Portofolio/23.JPG'
-import pic25 from '../public/images/Portofolio/25.JPG'
-import pic27 from '../public/images/Portofolio/27.JPG'
-import pic29 from '../public/images/Portofolio/29.PNG'
-import pic31 from '../public/images/Portofolio/31.JPG'
-import pic33 from '../public/images/Portofolio/33.JPG'
-import pic35 from '../public/images/Portofolio/35.JPG'
-import pic37 from '../public/images/Portofolio/37.JPG'
-import pic39 from '../public/images/Portofolio/39.JPG'
+import pic20 from '../public/images/Portofolio/20.jpg'
+import pic21 from '../public/images/Portofolio/21.jpg'
+import pic22 from '../public/images/Portofolio/22.jpg'
+import pic23 from '../public/images/Portofolio/23.jpg'
+import pic25 from '../public/images/Portofolio/25.jpg'
+import pic27 from '../public/images/Portofolio/27.jpg'
+import pic29 from '../public/images/Portofolio/29.png'
+import pic31 from '../public/images/Portofolio/31.jpg'
+import pic33 from '../public/images/Portofolio/33.jpg'
+import pic35 from '../public/images/Portofolio/35.jpg'
+import pic37 from '../public/images/Portofolio/37.jpg'
+import pic39 from '../public/images/Portofolio/39.jpg'
 
 //Bnw
-import pic10 from '../public/images/Portofolio/10.JPG'
-import pic11 from '../public/images/Portofolio/11.JPG'
-import pic12 from '../public/images/Portofolio/12.JPG'
-import pic13 from '../public/images/Portofolio/13.JPG'
-import pic14 from '../public/images/Portofolio/14.JPG'
-import pic24 from '../public/images/Portofolio/24.JPG'
-import pic26 from '../public/images/Portofolio/26.JPG'
-import pic28 from '../public/images/Portofolio/28.JPG'
-import pic30 from '../public/images/Portofolio/30.JPG'
-import pic32 from '../public/images/Portofolio/32.JPG'
-import pic34 from '../public/images/Portofolio/34.JPG'
-import pic36 from '../public/images/Portofolio/36.JPG'
-import pic38 from '../public/images/Portofolio/38.JPG'
-import pic40 from '../public/images/Portofolio/40.JPG'
-import pic41 from '../public/images/Portofolio/41.JPG'
-import pic42 from '../public/images/Portofolio/42.JPG'
-import pic43 from '../public/images/Portofolio/43.JPG'
-import pic44 from '../public/images/Portofolio/44.JPG'
-import pic45 from '../public/images/Portofolio/45.JPG'
-import pic46 from '../public/images/Portofolio/46.JPG'
+import pic10 from '../public/images/Portofolio/10.jpg'
+import pic11 from '../public/images/Portofolio/11.jpg'
+import pic12 from '../public/images/Portofolio/12.jpg'
+import pic13 from '../public/images/Portofolio/13.jpg'
+import pic14 from '../public/images/Portofolio/14.jpg'
+import pic24 from '../public/images/Portofolio/24.jpg'
+import pic26 from '../public/images/Portofolio/26.jpg'
+import pic28 from '../public/images/Portofolio/28.jpg'
+import pic30 from '../public/images/Portofolio/30.jpg'
+import pic32 from '../public/images/Portofolio/32.jpg'
+import pic34 from '../public/images/Portofolio/34.jpg'
+import pic36 from '../public/images/Portofolio/36.jpg'
+import pic38 from '../public/images/Portofolio/38.jpg'
+import pic40 from '../public/images/Portofolio/40.jpg'
+import pic41 from '../public/images/Portofolio/41.jpg'
+import pic42 from '../public/images/Portofolio/42.jpg'
+import pic43 from '../public/images/Portofolio/43.jpg'
+import pic44 from '../public/images/Portofolio/44.jpg'
+import pic45 from '../public/images/Portofolio/45.jpg'
+import pic46 from '../public/images/Portofolio/46.jpg'
 
 import Image from 'next/image'
 
@@ -246,13 +244,13 @@ const Portfolios = () => (
                             
                             <Paragraph>
 Photographe par passion, je capture des moments avec une esthétique propre à ma personne. Engagé avant tout dans la photographie argentique, mon portfolio se veut comme des fragments de moments ayant capturés mes émotions autant que mon sujet.
-Je publie depuis 2023.<Paragraph></Paragraph> Certains m'ont connu sous différentes itérations: étudiant en maîtrise optimiste, voyageuse techno libertine notoire, barista wannabe-bobo superficiel, nerd de jeux de société compétitif à Mario Kart, extrêmiste de la vie privé, etc.
+Je publie depuis 2023.</Paragraph><Paragraph> Certains m'ont connu sous différentes itérations: étudiant en maîtrise optimiste, voyageuse techno libertine notoire, barista wannabe-bobo superficiel, nerd de jeux de société compétitif à Mario Kart, extrêmiste de la vie privé, etc.
 </Paragraph>
 <br></br>
 <Paragraph>
 Après plusieurs années à prendre des photos, je me réinvente à travers ce site web pour donner de ma présence encore une fois. Je me vois comme revenant chez moi, même si plusieurs versions parcourt les Internets et les bases de données
 des GAFAMs. Je vis ma vie dans une équipe d'informatique à Montréal au jour le jour et je jouis de mes rencontres et de mes passions le soir. 
-<Paragraph></Paragraph><br></br>
+<br></br>
 En journée, je nage, je grimpe, je pitonne, j'aime mes proches, je bois du chimarrão, je lis les nouvelles, je discute de la société ou de n'importe quoi. Je prépare des projets de photos, tire en chambre noire, joue à un jeux vidéo indie, cuisine et bois du vin. En gros, je projete mon existance.
 </Paragraph>
 <Paragraph>
@@ -271,7 +269,8 @@ Je profite de ma nouvelle vie de salarié, pour programmer mon quotidien comme j
                     <div className={s.clearfix}></div>
                         <h2 className={s.h2}>Contacter-moi</h2>
                         <section className={s.contact}>
-                         <p className={s.contactp}>Nuneautilus<br className={s.break}></br></p> <p className={s.contactp}>c.rumble785@simplelogin.com</p> 
+                         <p className={s.contactp}>Nuneautilus<br className={s.break}></br></p> <p className={s.contactp}>	
+nuninho.js@proton.me</p> 
                              <p className={s.contactp}> Montréal</p><p className={s.contactp} >Québec</p>
                             </section> 
 <br></br>

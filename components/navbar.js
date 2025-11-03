@@ -1,19 +1,23 @@
 import Logo from './logo'
 import NextLink from 'next/link'
 import {
-    Container,
-    Box,
-    Link,
-    Stack,
-    Heading,
-    Flex,
-    Menu,
-    MenuItem,
-    MenuList,
-    MenuButton,
-    IconButton,
-    useColorModeValue
-}   from '@chakra-ui/react'
+  Container,
+  Box,
+  Link,
+  Stack,
+  Heading,
+  Flex,
+  IconButton,
+  useColorModeValue
+} from '@chakra-ui/react'
+
+import {
+  Menu,
+  MenuItem,
+  MenuList,
+  MenuButton,
+} from '@chakra-ui/menu'
+
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 
@@ -21,7 +25,7 @@ const LinkItem = ({ href, path, children}) => {
     const active = path === href
     const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
     return (
-        <NextLink href={href}>
+        <NextLink href={href} legacyBehavior>
             <Link
                 p={2}
                 bg={active ? 'glasseTeal' : undefined}
@@ -96,19 +100,19 @@ const Navbar = props => {
               />
               <MenuList>
                 <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+                  About
                 </NextLink>
-                <NextLink href="/portfolios" passHref>
-                  <MenuItem as={Link}>Portfolio</MenuItem>
+                <NextLink href="/portfolios" passHref legacyBehavior>
+                  Portfolio
                 </NextLink>
-                <NextLink href="/articles" passHref>
-                  <MenuItem as={Link}>Articles</MenuItem>
+                <NextLink href="/articles" passHref legacyBehavior>
+                  Articles
                 </NextLink>
-                <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>Posts</MenuItem>
+                <NextLink href="/posts" passHref legacyBehavior>
+                  Posts
                 </NextLink>
                 <NextLink href="/menu" passHref>
-                  <MenuItem as={Link}>La Graine à Nuno ☕</MenuItem>
+                  La Graine à Nuno ☕
                 </NextLink>
                 
               </MenuList>

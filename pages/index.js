@@ -56,11 +56,11 @@ const Page = () => {
                         
                         Je peux sinon vous faire perdurer ce{' '}
                         <NextLink href="http://www.nihongonosekai.com/newspapers/Japanese_Naturally/articles/19930822jn.htm">
-                            <Link href="http://www.nihongonosekai.com/newspapers/Japanese_Naturally/articles/19930822jn.htm">jiko manzoku</Link>
+                            jiko manzoku
                         </NextLink>,
                         en vous présentant cet 
                         <NextLink href="https://encredemine.wordpress.com/">
-                            <Link href="https://encredemine.wordpress.com/"> ami inspirant</Link>
+                            ami inspirant
                         </NextLink>.
                         <br></br><br></br>
                         Je prends des milliers de photos argentiques depuis 2017, en couleur, en noir et blanc, ou en diapositive. J'ai constaté un grand intérêt pour ce type de photographie.
@@ -107,7 +107,7 @@ Tellement de techniques sont à découvrir ! Le plus je m'engage dans des projet
                         <BioSection>
                             {' '}
                         <NextLink href="/articles/chats">
-                            <Link href="/articles/chats">Les chats</Link>
+                            Les chats
                         </NextLink>
                       
                         </BioSection>

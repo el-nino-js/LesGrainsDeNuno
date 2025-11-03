@@ -22,7 +22,7 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
 
 export const ArticleGridItem = ({children, id, title, thumbnail}) => (
     <Box w="100%" align="center">
-        <NextLink href={`/articles/${id}`}>
+        <NextLink href={`/articles/${id}`} legacyBehavior>
             <LinkBox cursor="pointer">
                 <Image 
                     src={thumbnail}

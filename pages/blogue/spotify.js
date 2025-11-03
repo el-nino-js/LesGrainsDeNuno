@@ -7,9 +7,9 @@ import Paragraph from '../../components/paragraph'
 import NextLink from 'next/link'
 
 import s from '../components/style.module.css'
-import pic1 from '../../public/images/2025/wrapped.PNG'
-import pic2 from '../../public/images/2025/wrapped1.PNG'
-import pic3 from '../../public/images/2025/wrapped3.PNG'
+import pic1 from '../../public/images/2025/wrapped.png'
+import pic2 from '../../public/images/2025/wrapped1.png'
+import pic3 from '../../public/images/2025/wrapped3.png'
 
 
 
@@ -26,19 +26,19 @@ const Article = () => {
                 <P> Ma quête de vie privée devant notre globe hyperconnecté poursuis sa quête. 2025 m'indique être une bonne année pour m'y mettre. <br></br>
                     
                     La rapidité de la <NextLink href="https://www.nytimes.com/2025/04/18/us/politics/trump-national-security.html">
-                            <Link href="https://www.nytimes.com/2025/04/18/us/politics/trump-national-security.html"> merdification des politiques gouvernementales</Link>
+                             merdification des politiques gouvernementales
                         </NextLink>, bat son plein avec un <NextLink href="https://arstechnica.com/gadgets/2024/05/microsofts-new-recall-feature-will-record-everything-you-do-on-your-pc/">
-                            <Link href="https://arstechnica.com/gadgets/2024/05/microsofts-new-recall-feature-will-record-everything-you-do-on-your-pc/"> monopole de surveillance. </Link>
+                             monopole de surveillance.
                         </NextLink>
                     S'il nous est invraisemblable de partager nos émotions les plus intimes à nos proches, le paradoxe survient lorsqu'on songe à la dépendance que
                     nous faisons des applications auxquelles nous ouvrons nos âmes pour prédire nos émotions.<br></br> </P>
                     <br></br><Image src={pic1}></Image> <br></br> Ce <i>capitaleavesdrop</i> se base sur les données, récupérer d'autres applications depuis notre activité en ligne, pour le transmettre
                     à ce magna de la diffusion de musique. Ironiquement, c'est avec brio que Spotify fait un beau travaille en
                     instaurant un marketing aussi plaisant qu'un <NextLink href="https://www.wired.com/story/spotify-wrapped-user-data/">
-                            <Link href="https://www.wired.com/story/spotify-wrapped-user-data/"> Wrapped </Link>
+                            Wrapped
                         </NextLink> annuel qui fait du mieux qu'elle peut pour
                     prédire nos émotions, mais aussi influencer nos goûts musicaux, quittent à produire ses propres <NextLink href="https://harpers.org/archive/2025/01/the-ghosts-in-the-machine-liz-pelly-spotify-musicians/">
-                            <Link href="https://harpers.org/archive/2025/01/the-ghosts-in-the-machine-liz-pelly-spotify-musicians/">artistes fantomnes</Link>
+                            artistes fantomnes
                         </NextLink>. Plus encore, devant
                     l'écran de Big Brother, nous ne participons pas seulement à l'invasion de notre vie privé, mais la glorifions et la partageons au reste du monde.
                     
@@ -50,7 +50,7 @@ const Article = () => {
                     J'ai tenté différentes solutions. Aucune d'elle ne me plaisait et a résulté vers une flemme de la méthodologie pénible sans que cela me rapporte grand-chose. <br></br>
                     Ce
                     <NextLink href="https://coppolaemilio.com/entries/i-left-spotify-what-happened-next/">
-                            <Link href="https://coppolaemilio.com/entries/i-left-spotify-what-happened-next/"> blogue</Link>
+                           blogue
                     </NextLink> répondait exactement à mes besoins vers l'auto-suffisance : utiliser Jellyfin. Il s'agit d'un serveur multimédia libre et gratuit qui me permet de partager mes séries et films sur mon réseau. Par contre, et c'est aussi sa beauté, elle permet le partage de musique !
                     <br></br><br></br>
 
