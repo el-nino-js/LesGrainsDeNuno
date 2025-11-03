@@ -7,9 +7,9 @@ import Paragraph from '../../components/paragraph'
 import NextLink from 'next/link'
 
 import s from '../components/style.module.css'
-import pic1 from '../../public/images/2025/wrapped.png'
-import pic2 from '../../public/images/2025/wrapped1.png'
-import pic3 from '../../public/images/2025/wrapped3.png'
+import pic1 from '../../src/assets/images/2025/wrapped.png'
+import pic2 from '../../src/assets/images/2025/wrapped1.png'
+import pic3 from '../../src/assets/images/2025/wrapped3.png'
 
 
 
