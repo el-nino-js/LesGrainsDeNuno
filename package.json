@@ -11,9 +11,6 @@
   "keywords": [],
   "author": "Nuno Silva Pinto",
   "license": "MIT",
-  "engines": {
-  "node": ">=20.9.0"
-},
   "dependencies": {
     "@chakra-ui/icons": "^2.2.4",
     "@chakra-ui/menu": "^2.2.1",
