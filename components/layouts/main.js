@@ -12,7 +12,7 @@ const Main = ({children, router}) => {
             <meta charSet="utf-8" />
 	        <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
-            <title>Poussin des forêts - Page Principale</title>
+            <title>Grão de Prata - Page Principale</title>
             </Head>
 
             <Navbar path={router.asPath} />

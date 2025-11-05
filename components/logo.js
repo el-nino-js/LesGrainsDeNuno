@@ -30,7 +30,7 @@ const Logo = () => {
           fontWeight="bold"
           ml={3}
         >
-          Poussin des forêts
+          Grão de Prata 
         </Text>
       </LogoBox>
     </Link>

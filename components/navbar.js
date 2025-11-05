@@ -99,20 +99,20 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <NextLink href="/" passHref>
-                  About
+                <NextLink href="/" passHref legacyBehavior>
+                  <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
                 <NextLink href="/portfolios" passHref legacyBehavior>
-                  Portfolio
+                  <MenuItem as={Link}>Portfolio</MenuItem>
                 </NextLink>
                 <NextLink href="/articles" passHref legacyBehavior>
-                  Articles
+                  <MenuItem as={Link}>Articles</MenuItem>
                 </NextLink>
                 <NextLink href="/posts" passHref legacyBehavior>
-                  Posts
+                  <MenuItem as={Link}>Posts</MenuItem>
                 </NextLink>
-                <NextLink href="/menu" passHref>
-                  La Graine à Nuno ☕
+                <NextLink href="/menu" passHref legacyBehavior>
+                  <MenuItem as={Link}>La Graine à Nuno ☕</MenuItem>
                 </NextLink>
                 
               </MenuList>
