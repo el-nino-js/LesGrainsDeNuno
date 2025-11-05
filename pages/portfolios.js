@@ -54,7 +54,20 @@ import pic43 from '../src/assets/images/Portofolio/43.jpg'
 import pic44 from '../src/assets/images/Portofolio/44.jpg'
 import pic45 from '../src/assets/images/Portofolio/45.jpg'
 import pic46 from '../src/assets/images/Portofolio/46.jpg'
-
+import pic47 from '../src/assets/images/Portofolio/47.jpg'
+import pic48 from '../src/assets/images/Portofolio/48.jpg'
+import pic481 from '../src/assets/images/Portofolio/481.jpg'
+import pic482 from '../src/assets/images/Portofolio/482.jpg'
+import pic483 from '../src/assets/images/Portofolio/483.jpg'
+import pic484 from '../src/assets/images/Portofolio/484.jpg'
+import pic49 from '../src/assets/images/Portofolio/49.jpg'
+import pic50 from '../src/assets/images/Portofolio/50.jpg'
+import pic51 from '../src/assets/images/Portofolio/51.jpg'
+import pic52 from '../src/assets/images/Portofolio/52.jpg'
+import pic53 from '../src/assets/images/Portofolio/53.jpg'
+import pic54 from '../src/assets/images/Portofolio/54.jpg'
+import pic55 from '../src/assets/images/Portofolio/55.jpg'
+import pic56 from '../src/assets/images/Portofolio/56.jpg'
 
 import Image from 'next/image'
 
@@ -69,13 +82,7 @@ const Portfolios = () => (
                     <h2 className={s.h2}>Mon Portfolio</h2>
                     <br></br><Paragraph><b>Cliquez sur le mode sombre pour les photos en noir et blanc.</b></Paragraph> <br></br>
              
-                    <section className={s.onethirdport}>
-                        <a 
-                        href={useColorModeValue("https://www.dropbox.com/scl/fi/gejocgyrl566si2sd0mo8/1-2.jpg?rlkey=bacgwkkri4lvhp7bjgcrmmj3z&st=bev1nlhd&raw=1"
-                        , "https://www.dropbox.com/s/bhfvddrttbul4om/FP4PARIS%207.jpg?raw=1")} target="_blank" rel="noreferrer">
-                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic1, pic2)}></Image> </a> 
-                        <p className={s.sub} >{useColorModeValue("Jaywalker", "Escale")}</p>
-                    </section>
+                    
                     <section className={s.onethirdport}>
                         <a 
                         href={useColorModeValue("https://www.dropbox.com/scl/fi/hbyocakqm16gzerv98xjg/8.jpg?rlkey=7hmgnfgglbbfn9qxf3cvxkefl&raw=1"
@@ -141,7 +148,7 @@ const Portfolios = () => (
                         href={useColorModeValue("https://www.dropbox.com/scl/fi/i24ol5angm3s7pvuabxxa/23.JPG?rlkey=p3as4ulk1x5n9cdxka0bhkxjn&st=s441wbjb&raw=1"
                         , "https://www.dropbox.com/scl/fi/r8jpdic7ebane3cfvwbiy/24.JPG?rlkey=ns6f1jec3g7xnukouaf70s1cz&st=2dohlsux&raw=1")} target="_blank" rel="noreferrer">
                         <Image  className={s.onethirdportimage} src= {useColorModeValue(pic23, pic24)}></Image> </a> 
-                        <p className={s.sub} >{useColorModeValue("Fulgurante", "PolyJam")}</p>
+                        <p className={s.sub} >{useColorModeValue("Polyjam", "Fulgurante")}</p>
                     </section>
 
                     <section className={s.onethirdport}>
@@ -210,6 +217,14 @@ const Portfolios = () => (
 
                     <section className={s.onethirdport}>
                         <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/omkt0liprs4yenls56nl6/53.jpg?rlkey=mo06yciuql1fmmuqf8wb0eoy8&st=hzcjkaav&raw=1"
+                        , "https://www.dropbox.com/scl/fi/kgvehyr4d965f3t27sksn/54.jpg?rlkey=x1vhkcl4hhj1zgivea34kj96g&st=o4svlqe2&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic53, pic54)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Légèreté", "Conduction")}</p>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
                         href={useColorModeValue("https://www.dropbox.com/scl/fi/k7vnlxt730d2tl3bazdkm/45.jpg?rlkey=hdpb0uul6ufgqj55btlj42xig&st=pxr0b12q&raw=1"
                         , "https://www.dropbox.com/scl/fi/trvppt3lnanxg8x8vqvai/46.jpg?rlkey=qjcjeavqkeke1uawy96c4xodz&st=v2yni5e9&raw=1")} target="_blank" rel="noreferrer">
                         <Image  className={s.onethirdportimage} src= {useColorModeValue(pic45, pic46)}></Image> </a> 
@@ -218,10 +233,30 @@ const Portfolios = () => (
 
                     <section className={s.onethirdport}>
                         <a 
-                        href={useColorModeValue("https://www.dropbox.com/scl/fi/8dtvnbmbh2rgve8ikp573/40.jpg?rlkey=a4ie1bkkm9ccum79at1oes340&st=oxrsvedn&raw=1"
-                        , "https://www.dropbox.com/scl/fi/6fl6t0em3922j3ia4dfw7/41.jpg?rlkey=x7whf469ls3yzg9dvnvcinout&st=f4fgy1fi&raw=1")} target="_blank" rel="noreferrer">
-                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic41, pic42)}></Image> </a> 
-                        <p className={s.sub} >{useColorModeValue("Heat", "Gaz")}</p>
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/iyd6y2bn5z52zx1je1r74/56.jpg?rlkey=k6vowrpoj7v9evngkrlv0zgkf&st=he3pebz2&raw=1"
+                        , "https://www.dropbox.com/scl/fi/iyd6y2bn5z52zx1je1r74/56.jpg?rlkey=k6vowrpoj7v9evngkrlv0zgkf&st=ghw35v7v&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic55, pic56)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Gaivota", "Barco")}</p>
+                    </section>
+                    
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/72fgoi6atzs58zhzhf0kq/51.jpg?rlkey=ryynopywt2qd81gxhnms6pkzt&st=bcuy5z86&raw=1"
+                        , "https://www.dropbox.com/scl/fi/uzy7mwwde3ccego2thvwt/52.jpg?rlkey=4ruuckftp0ytfoqp26wrkdsfu&st=ca990vrg&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic51, pic52)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Duo", "Edo")}</p>
+                    </section>s
+                    
+                    
+
+                    
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/yq7an8mg32c6g2fziiwid/48.jpg?rlkey=6v4fp8nhi3zmjleh1kwrmoiss&st=9puuyaox&raw=1"
+                        , "https://www.dropbox.com/s/bhfvddrttbul4om/FP4PARIS%207.jpg?raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic48, pic2)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Paragem", "Escale")}</p>
                     </section>
 
                     <section className={s.onethirdport}>
@@ -232,6 +267,46 @@ const Portfolios = () => (
                         <p className={s.sub} >{useColorModeValue("Spotlight", "Insight")}</p>
                     </section>
 
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/gejocgyrl566si2sd0mo8/1-2.jpg?rlkey=bacgwkkri4lvhp7bjgcrmmj3z&st=bev1nlhd&raw=1"
+                        , "https://www.dropbox.com/scl/fi/axwqehwkz54vmdymogr6z/47.jpg?rlkey=3m2cu6o1xfhxzrqwcx2odk5j9&st=f1x8tsxs&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic1, pic47)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Jeans", "Texture")}</p>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/66v1fhmj9ygavno9dognu/482.jpg?rlkey=sg0rbarfptdv5u5cicjm74358&st=acd0518v&raw=1"
+                        , "https://www.dropbox.com/scl/fi/29w5wddf7x74ha1zso4e1/481.jpg?rlkey=n9rb9j1wecb6a03amshajqlt9&st=ugjhvzf5&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic482, pic481)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Confiture", "Prata")}</p>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/kd5ntci8qmm3mwqosemo7/484.jpg?rlkey=94o0slqh2iv0jezqije8kqlni&st=3t35q5tg&raw=1"
+                        , "https://www.dropbox.com/scl/fi/fsthuw14d4p5w8b5oxwh7/483.JPG?rlkey=agntjrhjyiumtrda973szrtz3&st=jzrmivs9&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic484, pic483)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Marmelade", "Flu")}</p>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/8i3ebsy53pc1cs4l3w7y8/49.jpg?rlkey=6qza6oqpxuq69hsrzu74a2q36&st=r38izph5&raw=1"
+                        , "https://www.dropbox.com/scl/fi/l7atatev8xnpyiyjbnb3l/50.jpg?rlkey=k0088jcd4t0d2cole8elzkpqi&st=08w5yl4f&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic49, pic50)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Rock", "Indé")}</p>
+                    </section>
+                    
+                    
+                    <section className={s.onethirdport}>
+                        <a 
+                        href={useColorModeValue("https://www.dropbox.com/scl/fi/8dtvnbmbh2rgve8ikp573/40.jpg?rlkey=a4ie1bkkm9ccum79at1oes340&st=oxrsvedn&raw=1"
+                        , "https://www.dropbox.com/scl/fi/6fl6t0em3922j3ia4dfw7/41.jpg?rlkey=x7whf469ls3yzg9dvnvcinout&st=f4fgy1fi&raw=1")} target="_blank" rel="noreferrer">
+                        <Image  className={s.onethirdportimage} src= {useColorModeValue(pic41, pic42)}></Image> </a> 
+                        <p className={s.sub} >{useColorModeValue("Heat", "Gaz")}</p>
+                    </section>
                     
 
                     
