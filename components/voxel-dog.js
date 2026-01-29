@@ -11,6 +11,7 @@ function easeOutCirc(x) {
 
 const VoxelDog = () => {
   const refContainer = useRef()
+  const initialized = useRef(false)
   const [loading, setLoading] = useState(true)
   const [renderer, setRenderer] = useState()
   const [_camera, setCamera] = useState()
@@ -38,6 +39,8 @@ const VoxelDog = () => {
 
   /* eslint-disable react-hooks/exhaustive-deps */
   useEffect(() => {
+      if (initialized.current) return
+  initialized.current = true
     const { current: container } = refContainer
     if (container && !renderer) {
       const scW = container.clientWidth
@@ -75,7 +78,7 @@ const VoxelDog = () => {
       controls.autoRotate = true
       controls.target = target
       setControls(controls)
-      loadGLTFModel(scene, '/terre.glb', {
+     loadGLTFModel(scene, '/terre.glb', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {

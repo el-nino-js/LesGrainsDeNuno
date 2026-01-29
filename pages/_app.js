@@ -16,6 +16,7 @@ const Website = ({ Component, pageProps, router }) => {
           onExitComplete={() => {
             if (typeof window !== 'undefined') {
               window.scrollTo({ top: 0 })
+              
             }
           }}
         >
