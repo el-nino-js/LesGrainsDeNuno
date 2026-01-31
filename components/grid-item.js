@@ -22,7 +22,9 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
 
 export const ArticleGridItem = ({children, id, title, thumbnail}) => (
     <Box w="100%" align="center">
-        <NextLink href={`/articles/${id}`} legacyBehavior>
+        <NextLink href={`/articles/${id}`}>
+            {/* @next-codemod-error This Link previously used the now removed `legacyBehavior` prop, and has a child that might not be an anchor. The codemod bailed out of lifting the child props to the Link. Check that the child component does not render an anchor, and potentially move the props manually to Link. */
+            }
             <LinkBox cursor="pointer">
                 <Image 
                     src={thumbnail}
