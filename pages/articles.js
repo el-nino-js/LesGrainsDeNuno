@@ -20,6 +20,7 @@ import ektachromethumbnail from '../public/images/ArticlesThumbnail//ektachromet
 import sucrethumbnail from '../public/images/ArticlesThumbnail//sucrethumbnail.png'
 import portra160sudthumbnail from '../public/images/ArticlesThumbnail//portra160sudthumbnail.png'
 import cinestill400dlisbayonnethumbnail from '../public/images/ArticlesThumbnail//cinestill400dlisbayonnethumbnail.png'
+import camerodrome from '../public/images/ArticlesThumbnail/camerodrome.jpg'
 import gold200paristhumbnail from '../public/images/ArticlesThumbnail//gold200paristhumbnail.png'
 import fp4euthumbnail from '../public/images/ArticlesThumbnail//fp4euthumbnail.png'
 import aurora800thumbnail from '../public/images/ArticlesThumbnail//aurora800thumbnail.png'
@@ -171,8 +172,8 @@ return (
                 </ArticleGridItem>
             </Section>
             <Section delay={0.3}>
-                <ArticleGridItem id="aurora800" title="Aurora 800" thumbnail={aurora800thumbnail}>
-                Ouvre tes yeux!
+                <ArticleGridItem id="camerodrome" title="Camerodrome" thumbnail={camerodrome}>
+                Long live the new flesh!
                 </ArticleGridItem>
             </Section>
         </SimpleGrid>
