@@ -26,6 +26,7 @@ import fp4euthumbnail from '../public/images/ArticlesThumbnail//fp4euthumbnail.p
 import aurora800thumbnail from '../public/images/ArticlesThumbnail//aurora800thumbnail.png'
 import thumbBaby from '../public/images/2021/baby.jpg'
 import thumbCat from '../public/images/2022/cat/cathumbnail.png'
+import kodako from '../public/images/ArticlesThumbnail//kodakolor.png'
 
 import NextLink from 'next/link'
 import Image from 'next/image'
@@ -180,7 +181,7 @@ return (
 
         <SimpleGrid columns={[1,1,2]} gap={6}>
             <Section delay={0.3}>
-                <ArticleGridItem id="kodacolor200" title="Kodacolor 200" thumbnail={portra400thumbnail}>
+                <ArticleGridItem id="kodacolor200" title="Kodacolor 200" thumbnail={kodako}>
                 On São Roque
                 </ArticleGridItem>
             </Section>

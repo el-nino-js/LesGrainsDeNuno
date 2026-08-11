@@ -26,7 +26,7 @@ const Article = () => {
         <Layout Title="Kodacolor 200 - On São Roque !">
             <Container>
             <Title>
-            Camerodrome <Badge>2025</Badge>
+            Camerodrome <Badge>2026</Badge>
             </Title>
             Sortie avec sa soeur jumelle la Kodakcolor 100, cette petite 200 était censé rayonner le début d'un nouveau chapitre de Kodak. Au final, on aura eu droit à un bref moment de gloire. Son prix et ses couleurs, certe agréables, on retrouve peu de 
             nouveauté de ce que nous a sorti Kodak. Les images restent cohérentes à ce qui existe déjà. Si les aspirations n'auront que fait peu rêver, on peut voir de Kodak qu'il préserve sa cohérence en terme de couleur.
