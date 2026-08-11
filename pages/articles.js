@@ -178,6 +178,19 @@ return (
             </Section>
         </SimpleGrid>
 
+        <SimpleGrid columns={[1,1,2]} gap={6}>
+            <Section delay={0.3}>
+                <ArticleGridItem id="kodacolor200" title="Kodacolor 200" thumbnail={portra400thumbnail}>
+                On São Roque
+                </ArticleGridItem>
+            </Section>
+            <Section delay={0.3}>
+                <ArticleGridItem id="camerodrome" title="Camerodrome" thumbnail={camerodrome}>
+                Long live the new flesh!
+                </ArticleGridItem>
+            </Section>
+        </SimpleGrid>
+
 
 
         <Section delay={0.2}>
