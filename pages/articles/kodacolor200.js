@@ -26,11 +26,11 @@ const Article = () => {
         <Layout Title="Kodacolor 200 - On São Roque !">
             <Container>
             <Title>
-            Camerodrome <Badge>2026</Badge>
+            On São Roque ! <Badge>2026</Badge>
             </Title>
-            Sortie avec sa soeur jumelle la Kodakcolor 100, cette petite 200 était censé rayonner le début d'un nouveau chapitre de Kodak. Au final, on aura eu droit à un bref moment de gloire. Son prix et ses couleurs, certe agréables, on retrouve peu de 
-            nouveauté de ce que nous a sorti Kodak. Les images restent cohérentes à ce qui existe déjà. Si les aspirations n'auront que fait peu rêver, on peut voir de Kodak qu'il préserve sa cohérence en terme de couleur.
-            Il s'agit de Kodak sans s'écliser. Son résultat est assez banal, mais son ambition demeure.
+            Sortie avec sa soeur jumelle la Kodakcolor 100, cette petite 200 rayonne le début d'un chapitre de Kodak. On aura eu droit à un bref moment de nouvelle couleur. Puis, Kodak lança son rebranding avec de nouveaux logos. Son prix et ses couleurs, certes agréables, on retrouve peu de 
+            nouveauté de ce que nous a sorti Kodak. Les images restent cohérentes à ce qui existe déjà. Si les aspirations n'auront que fait peu rêver, on peut voir de Kodak qu'il préserve sa cohérence des primaires.
+            Il s'agit de Kodak sans s'écliser.
              <a name="about"/>
         <div className={s.clearfix}></div>
             <section className={s.leftcolumn}>
@@ -46,7 +46,7 @@ const Article = () => {
            
  <div className={s.clearfix}></div>
                 <a name="port"></a>
-                    <h2 className={s.h2}>Néo</h2>
+                    <h2 className={s.h2}>Abacaxi</h2>
                     
                     <section className={s.onethirdport}>
                         <a href="https://www.dropbox.com/scl/fi/q940gbt6i8dgb65cignef/1.jpg?rlkey=2nbbze7gqxrxz92yhmymohu2i&st=jqguiesu&?raw=1" target="_blank" rel="noreferrer">

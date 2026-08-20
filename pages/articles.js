@@ -27,6 +27,7 @@ import aurora800thumbnail from '../public/images/ArticlesThumbnail//aurora800thu
 import thumbBaby from '../public/images/2021/baby.jpg'
 import thumbCat from '../public/images/2022/cat/cathumbnail.png'
 import kodako from '../public/images/ArticlesThumbnail//kodakolor.png'
+import odysseythumbnail from '../public/images/ArticlesThumbnail//odysseythumb.png'
 
 import NextLink from 'next/link'
 import Image from 'next/image'
@@ -146,7 +147,7 @@ return (
             </Section>
 
             <Section delay={0.3}>
-                <ArticleGridItem id="portra160sudfrance" title="Portra 160" thumbnail={portra160sudthumbnail }>
+                <ArticleGridItem id="portra160sudfrance" title="Portra 160" thumbnail={portra160sudthumbnail}>
                 Le train n'est pas à destination de Paris, mais bien de Bandol !
                 </ArticleGridItem>
             </Section>
@@ -186,8 +187,8 @@ return (
                 </ArticleGridItem>
             </Section>
             <Section delay={0.3}>
-                <ArticleGridItem id="camerodrome" title="Camerodrome" thumbnail={camerodrome}>
-                Long live the new flesh!
+                <ArticleGridItem id="apollo18" title="Apollo 18" thumbnail={odysseythumbnail}>
+                Comment louer une Odyssée ?
                 </ArticleGridItem>
             </Section>
         </SimpleGrid>
