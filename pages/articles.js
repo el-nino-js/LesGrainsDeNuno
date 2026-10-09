@@ -28,6 +28,7 @@ import thumbBaby from '../public/images/2021/baby.jpg'
 import thumbCat from '../public/images/2022/cat/cathumbnail.png'
 import kodako from '../public/images/ArticlesThumbnail//kodakolor.png'
 import odysseythumbnail from '../public/images/ArticlesThumbnail//odysseythumb.png'
+import fujifilm400humbnail from '../public/images/ArticlesThumbnail//fujifilmthumbnail.png'
 
 import NextLink from 'next/link'
 import Image from 'next/image'
@@ -189,6 +190,19 @@ return (
             <Section delay={0.3}>
                 <ArticleGridItem id="apollo18" title="Apollo 18" thumbnail={odysseythumbnail}>
                 Comment louer une Odyssée ?
+                </ArticleGridItem>
+            </Section>
+        </SimpleGrid>
+
+        <SimpleGrid columns={[1,1,2]} gap={6}>
+            <Section delay={0.3}>
+                <ArticleGridItem id="fujifilm400" title="Fujifilm 400" thumbnail={fujifilm400humbnail}>
+                Que jeunesse pousse
+                </ArticleGridItem>
+            </Section>
+            <Section delay={0.3}>
+                <ArticleGridItem id="fujifilm400" title="Fujifilm 400" thumbnail={fujifilm400humbnail}>
+                Que jeunesse pousse
                 </ArticleGridItem>
             </Section>
         </SimpleGrid>

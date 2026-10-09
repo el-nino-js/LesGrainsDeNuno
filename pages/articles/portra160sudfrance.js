@@ -22,8 +22,15 @@ import pic11 from '../../public/images/2023/sudfrance/12.jpg'
 import pic12 from '../../public/images/2023/sudfrance/13.jpg'
 import pic13 from '../../public/images/2023/sudfrance/14.jpg'
 
-
-
+import pic21 from '../../public/images/2026/portra160/01.jpg'
+import pic22 from '../../public/images/2026/portra160/02.jpg'
+import pic23 from '../../public/images/2026/portra160/03.jpg'
+import pic24 from '../../public/images/2026/portra160/04.jpg'
+import pic25 from '../../public/images/2026/portra160/05.jpg'
+import pic26 from '../../public/images/2026/portra160/06.jpg'
+import pic27 from '../../public/images/2026/portra160/07.jpg'
+import pic28 from '../../public/images/2026/portra160/08.jpg'
+import pic29 from '../../public/images/2026/portra160/09.jpg'
 import Image from 'next/image'
 
 const Article = () => {
@@ -102,10 +109,6 @@ const Article = () => {
                         <Image className={s.onethirdportimage} src={pic6}></Image> </a>
                     </section>
 
-                    <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/scl/fi/sryv57kg0loeer1vqqqda/11.jpg?rlkey=zw2eybytb01oebph18n6kaf22&raw=1" target="_blank" rel="noreferrer">
-                        <Image className={s.onethirdportimage} src={pic10}></Image> </a>
-                    </section>
 
 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 <Paragraph><b>Acte II</b></Paragraph>
@@ -140,6 +143,51 @@ const Article = () => {
                     <section className={s.onethirdport}>
                         <a href="https://www.dropbox.com/scl/fi/swd7xg00xq21hgvn371ib/14.jpg?rlkey=6nscvux0frufb86wgiy1l4bwa&raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic13}></Image> </a>
+                    </section>
+                    
+<br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+
+                <Paragraph><b>Acte IV</b></Paragraph>
+                <P>
+                Les parties que vous ne prévoyez pas rendent le voyage plus amusant</P>
+                <br></br>
+                <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/yv1aetm1j80ecfko8pv19/01.jpg?rlkey=7i7886lpjxzvx1rgvg0t55doh&st=954z2j9s&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic21}></Image> </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/y4ufq98xcgwhnh0rtujzz/02.jpg?rlkey=ikr1xmfpgmqi9wlgyru747m3c&st=u3uom70r&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic22}></Image> </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/r2cafphqwm955t0d99u8k/03.jpg?rlkey=fmv4kkqgbf3ya5q977310iogk&st=g0qamh7u&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic23}></Image> </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/2nqmxsri1y4eep9xvwrs2/04.jpg?rlkey=476kyrpagjqfdyf2in61a9naf&st=e7u5i870&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic24}></Image> </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/ye2ckejl8tbznzcnso79o/05.jpg?rlkey=w44a7vfunyl9tjwmwqv0nddis&st=k2hy73e2&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic25}></Image> </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/wnsht79gnctqkokti6fob/06.jpg?rlkey=rvwpc7gsxppl32nsbs3ih1f6y&st=vecaikdp&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic26}></Image> </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/aaf4z039016agkw1b4c6w/07.jpg?rlkey=uxvjrfn4ifdybnsgx7zille7v&st=kt3ts04b&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic27}></Image> </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/i9ruw21iy8726a3zgd8qd/08.jpg?rlkey=crz9up313vn29nxzi00pq3hls&st=nodim6c9&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic28}></Image> </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/wc3qvyefv2sa1fjcb8o8f/09.jpg?rlkey=nesw1qy83i7bdgt19oq3zyn19&st=ay2e40in&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic29}></Image> </a>
                     </section>
                     
 <br></br><br></br><br></br><br></br><br></br><br></br>
