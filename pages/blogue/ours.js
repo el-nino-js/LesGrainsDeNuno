@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Container, Badge, Heading, Link, useColorModeValue, Button} from '@chakra-ui/react'
+import { Container, Badge, Heading, Link, Button} from '@chakra-ui/react'
 import { Title } from '../../components/article'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
@@ -135,7 +135,7 @@ const Article = () => {
                         <Image className={s.onethirdportimage} src={pic10}></Image> </a>
                     </section>Alors Petit Ours se blottit contre son grand ventre tout chaud. Grand Ours l'enveloppa de ses pattes, comme un voile touffu. 
                           Dehors, l'hiver pouvait bien souffler. Pour l'instant, il y avait leur chaleur, leur présence et leur certitude de ne pas être seul.
-                           Les deux ours s'endormirent serrés l'un contre l'autre, laissant le monde essayer de se rebâtir un peu avant les printemps... <section className={s.onethirdport}>
+                           Les deux ours s'endormirent serrés l'un contre l'autre, laissant le monde essayer de se rebâtir un peu avant le printemps... <section className={s.onethirdport}>
                         <a href="https://www.dropbox.com/scl/fi/4n5spkuueodsrse8olbl1/1-3.jpg?rlkey=zwvdy3hpwmb5j37687ojkc2f1&st=n98rm72z&raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic12}></Image> </a>
                     </section>

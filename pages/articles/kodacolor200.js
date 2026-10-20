@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Container, Badge, Heading, Link, useColorModeValue, Button} from '@chakra-ui/react'
+import { Container, Badge, Heading, Link, Button} from '@chakra-ui/react'
 import { Title } from '../../components/article'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'

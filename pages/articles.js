@@ -26,6 +26,7 @@ import fp4euthumbnail from '../public/images/ArticlesThumbnail//fp4euthumbnail.p
 import aurora800thumbnail from '../public/images/ArticlesThumbnail//aurora800thumbnail.png'
 import thumbBaby from '../public/images/2021/baby.jpg'
 import thumbCat from '../public/images/2022/cat/cathumbnail.png'
+import thumbCabri from '../public/images/ArticlesThumbnail//cabrithumbnail.jpg'
 import kodako from '../public/images/ArticlesThumbnail//kodakolor.png'
 import odysseythumbnail from '../public/images/ArticlesThumbnail//odysseythumb.png'
 import fujifilm400humbnail from '../public/images/ArticlesThumbnail//fujifilmthumbnail.png'
@@ -229,7 +230,14 @@ return (
                 <ArticleGridItem id="chats" title="Chats" thumbnail={thumbCat}>
                     Palmarès des plus beaux chats
                 </ArticleGridItem>
-            </Section>    
+            </Section>
+
+            <Section delay={0.5}>
+                <ArticleGridItemExt link="https://popho.ca" title="Plomberie Cabri" thumbnail={thumbCabri}>
+                    Votre eau. Notre mission!
+                </ArticleGridItemExt>
+            </Section>  
+
         </SimpleGrid>
     </Container>
     )
