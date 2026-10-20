@@ -111,7 +111,9 @@ const Article = () => {
                             <b>2e Guerre Mondiale</b>
                         </NextLink>, alors qu'on subit des hausses massives des dépenses militaires,
                      les effets du vieillissement de la population et des bouleversements climatiques. S'ensuit cette magnifique ruée vers l'IA
-                      qui fait rêver d'investissements et qui est rendue un too-good-to-fail.
+                      qui fait rêver d'investissements et qui est rendue un <NextLink href="isaiprofitable.com">
+                            <b>too good to fail</b>
+                        </NextLink>.
                       <br></br><br></br>
                        La planète remerciera les PDG de l'IA qui sonnent
                        l'alarme au moment parfait pour eux de poser des réglementations Regulatory Capture choisies pour les favoriser plutôt que des modèles d'outre-mer ou indépendants.
