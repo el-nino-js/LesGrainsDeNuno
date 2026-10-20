@@ -34,7 +34,7 @@ const Article = () => {
             <Title>
             Que jeunesse pousse ! <Badge>2026</Badge>
             </Title>
-            Depuis mes premières expériences avec Fujifilm, j'ai associé ces pellicules à un mélange particulier de nuances verdâtres, à une esthétique japonaise discrète et à un grain fin.
+            Depuis mes premières expériences avec Fujifilm, j'ai associé cette pellicules à un mélange particulier de nuances verdâtres, à une esthétique japonaise discrète et à un grain fin.
             Malheureusement, ces caractéristiques emblématiques semblaient étonnamment absentes des deux nouvelles pellicules que jai eu l'occasion d'essayer. 
             J'évoque également les rumeurs selon lesquelles Fujifilm commercialiserait des pellicules Kodak reconditionnées sous sa propre marque.
              Je trouve cette hypothèse peu probable, étant donné que le prix de vente conseillé ne semble pas correspondre à celui des références Kodak évoquées.
@@ -44,11 +44,11 @@ const Article = () => {
 
 La différence avec la génération précédente : la vieille Fujifilm présente des tonalités plus vertes, particulièrement dans les ombres, tandis que la nouvelle Fujifilm 400 offre une palette plus jaune et chaude.
  Elle semble davantage adaptée aux tons de peau, évoquant le rendu de la Portra 400 sur mes sujets floraux. La pellicule reproduit des couleurs riches, 
- particulièrement lorsque les photos sont prises à la lumière naturelle du soleil. Je comprends donc assezles appréhensions de nombreux photographes à l'égard de ces nouvelles pellicules Fujifilm,
+ particulièrement lorsque les photos sont prises à la lumière naturelle du soleil. Je comprends donc assez les appréhensions de nombreux photographes à l'égard de ces nouvelles pellicules Fujifilm,
   surtout lorsqu'on les compare à leurs anciennes versions. <br></br> <br></br>
 
 Franchement, je trouve que les anciennes pellicules sont meilleures. Ça ne veut pas dire qu'il faille surfer sur le passée.  J'ajouterai à cet article quelques anciennes photos afin de vous proposer un comparatif.
- Cela ne devrait toutefois pas vous empêcher d'explorer ces nouvelle pousse. Parmis plusieurs plusieurs films 35mm, il peut être dur de faire un choix. Cela va autant pour trouver la couleur de ses convictions politiques. N'en déplaise à celles et ceux qui
+ Cela ne devrait toutefois pas vous empêcher d'explorer ces nouvelles pousses. Parmis plusieurs plusieurs films 35mm, il peut être dur de faire un choix. Cela va autant pour trouver la couleur de ses convictions politiques. N'en déplaise à celles et ceux qui
               ont trouvés leur attachement vers une vague <span style={{ color: "red", fontWeight: "bold" }}>rouuuuge</span>, même si le passé nous rappellera des enveloppes brunes qui  <span style={{ color: "brown", fontWeight: "bold" }}>bouuuugent</span>.<br></br> <br></br>
 
 Mes préférences vont vers une vague d'espoir. En cette période de révolte, avec une jeunesse plus que polarisée. Elle nous montre aussi loin de ses DMs, une cri du coeur devant l'hypocrisie des adultes. Ceux qui leur disait de

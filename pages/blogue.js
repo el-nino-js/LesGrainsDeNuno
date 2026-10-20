@@ -3,6 +3,7 @@ import Section from '../components/section'
 import { ArticleGridItem, BlogueGridItem, ArticleGridItemExt } from '../components/grid-item'
 
 import spotifythumbnail from '../public/images/ArticlesThumbnail/spotifythumbnail.png'
+import oursthumbnail from '../public/images/ArticlesThumbnail/oursthumbnail.jpg'
 
 
 import NextLink from 'next/link'
@@ -21,6 +22,11 @@ return (
             <Section delay={0.3}>
                 <BlogueGridItem id="spotify" title="Self-host" thumbnail={spotifythumbnail}>
                   Hasta la vista Spofity
+                </BlogueGridItem>
+            </Section>
+            <Section delay={0.3}>
+                <BlogueGridItem id="ours" title=" Divers Nation" thumbnail={oursthumbnail}>
+                  L'histoire de Petit Ours et Grand Ours
                 </BlogueGridItem>
             </Section>
             
