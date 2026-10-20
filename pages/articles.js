@@ -227,16 +227,18 @@ return (
             </Section>  
 
             <Section delay={0.5}>
+                <ArticleGridItemExt link="https://www.cabri.pro/" title="Plomberie Cabri" thumbnail={thumbCabri}>
+                    Votre eau. Notre mission!
+                </ArticleGridItemExt>
+            </Section> 
+
+            <Section delay={0.5}>
                 <ArticleGridItem id="chats" title="Chats" thumbnail={thumbCat}>
                     Palmarès des plus beaux chats
                 </ArticleGridItem>
             </Section>
 
-            <Section delay={0.5}>
-                <ArticleGridItemExt link="https://popho.ca" title="Plomberie Cabri" thumbnail={thumbCabri}>
-                    Votre eau. Notre mission!
-                </ArticleGridItemExt>
-            </Section>  
+             
 
         </SimpleGrid>
     </Container>

@@ -52,7 +52,7 @@ Franchement, je trouve que les anciennes pellicules sont meilleures. Ça ne veut
               ont trouvés leur attachement vers une vague <span style={{ color: "red", fontWeight: "bold" }}>rouuuuge</span>, même si le passé nous rappellera des enveloppes brunes qui  <span style={{ color: "brown", fontWeight: "bold" }}>bouuuugent</span>.<br></br> <br></br>
 
 Mes préférences vont vers une vague d'espoir. En cette période de révolte, avec une jeunesse plus que polarisée. Elle nous montre aussi loin de ses DMs, un cri du coeur devant l'hypocrisie des adultes. Ceux qui leur disaient de
-sacrifier leur jeunese dehors en s'enfermant pour leur grands-parents. Ces mêmes qui ont vôtées pour des politiciens anti-gouvernements et des lois favorisant des innovations techno-polluantes. C'est alors ces jeunes qu'on
+sacrifier leur jeunese dehors en s'enfermant pour leurs grands-parents. Ces mêmes qui ont vôtées pour des politiciens anti-gouvernements et des lois favorisant des innovations techno-polluantes. C'est alors ces jeunes qu'on
 traite de cringe pour leur bataille d'aura, leur manque de libido, leur consommation de fast-fashion et de matchas, alors que l'humilation devrait se rendre à l'ère de la normalisation des violences sexuelles.
 On retire les conditions de ses écoles, mais on augmente le budget des centres de données. Comme quoi il plus facile de frapper l'immigré, le prolétaire ou cette relève qui n'a pas encore assez comprise la dûreté de la vie...  <br></br> <br></br>
 

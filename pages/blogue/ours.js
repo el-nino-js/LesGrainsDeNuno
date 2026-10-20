@@ -84,11 +84,30 @@ const Article = () => {
 
                 <Paragraph><b>Acte II - Kodacolor 100 - L'hibernation</b></Paragraph>
                 <P>
-                   
-                     <section className={s.onethirdport}>
+                   <section className={s.onethirdport}>
                         <a href="https://www.dropbox.com/scl/fi/7nzbw5zlinjj0po5mb081/1-5.jpg?rlkey=8709qfdmgdmyzw4avwslfam48&st=i4shaubw&raw=1" target="_blank" rel="noreferrer">
                         <Image className={s.onethirdportimage} src={pic14}></Image> </a>
-                    </section>Devant la beauté que l'automne passagé apporte à Charlevoix, son air frais m'aura amener sa brise de réconfort. Le record de vitesse en skateboard a été conquis cette été sur la route longeant le traversier de l'île-aux-coudres. 
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/ceetg8ktewy7rfwgyzlw4/1-2.jpg?rlkey=ilp8us3oxphr89w4j6c5uivtv&st=iu4uul8d&aw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic11}></Image> </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/0s1up0s53x14p2ygkjwvt/1-4.jpg?rlkey=5yv5zqtcsv4mpfvj821lwrsh0&st=ak8fk43j&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic13}></Image> </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/dvg1s5uie1hpm71fw0yqm/1-1.jpg?rlkey=3uoq065m8uj3lzyzcz7z4ch83&st=3d2vwpcz&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic10}></Image> </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/4n5spkuueodsrse8olbl1/1-3.jpg?rlkey=zwvdy3hpwmb5j37687ojkc2f1&st=n98rm72z&raw=1" target="_blank" rel="noreferrer">
+                        <Image className={s.onethirdportimage} src={pic12}></Image> </a>
+                    </section>
+<br></br><br></br><br></br><br></br>
+<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+
+                     Devant la beauté que l'automne passagé apporte à Charlevoix, son air frais m'aura amener sa brise de réconfort. Le record de vitesse en skateboard a été conquis cette été sur la route longeant le traversier de l'île-aux-coudres. 
                     Ce même été, un record de chaleur à été gagné, cette fois par la Terre.                    
                     <br></br><br></br>
                     Du côté de la France, les couleurs <span style={{ color: "red", fontWeight: "bold" }}>rouuuuges</span> ont pris un autre tournant. La colère s'est enflammée et ce ne sont plus les pauvres qui sortent en France pour manifester.
@@ -119,28 +138,16 @@ const Article = () => {
                        l'alarme au moment parfait pour eux de poser des réglementations Regulatory Capture choisies pour les favoriser plutôt que des modèles d'outre-mer ou indépendants.
                         Ces dirigeants seraient sûrement fans de Louis-Jean Cormier : « Mais où sont les règles du jeu qu'on y mette le feu ».
                     <br></br><br></br>
-                    <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/scl/fi/ceetg8ktewy7rfwgyzlw4/1-2.jpg?rlkey=ilp8us3oxphr89w4j6c5uivtv&st=iu4uul8d&aw=1" target="_blank" rel="noreferrer">
-                        <Image className={s.onethirdportimage} src={pic11}></Image> </a>
-                    </section>Devant ce blogue axé sur la photographie surtout, j'en ai perdu ma balance interne et fait sortir mes températures plus chaudes.
+                    Devant ce blogue axé sur la photographie surtout, j'en ai perdu ma balance interne et fait sortir mes températures plus chaudes.
                      Je veux tout de même apporter un espoir avec ce conte.<br></br><br></br>
                      <i>C'est l'histoire de Grand Ours, qui vécut une année difficile. Les arbres ont brûlés et les rivières se sont asséchées.
                          Désormais, c'est l'hiver et son anxiété l'empêche d'hiberner en paix. 
                          <br></br><br></br>
-                         <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/scl/fi/0s1up0s53x14p2ygkjwvt/1-4.jpg?rlkey=5yv5zqtcsv4mpfvj821lwrsh0&st=ak8fk43j&raw=1" target="_blank" rel="noreferrer">
-                        <Image className={s.onethirdportimage} src={pic13}></Image> </a>
-                    </section>Son ami Petit Ours arriva lorsque Grand Ours était en proie d'idées sombres dans son esprit. Il ouvrit grand ses petits bras et lui dit : « Je ne sais comment on va résoudre ça, Grand Ours, mais nous n'avons pas besoin de traverser toutes ces tempêtes la même journée. Nous prendrons le temps qu'il faudra, ensemble. Nous nous réchaufferons et reprendrons des forces, mais nous avancerons vers notre Praxis en Ours libres et non comme ces fous du bus de Rhinocéros.»
+                         Son ami Petit Ours arriva lorsque Grand Ours était en proie d'idées sombres dans son esprit. Il ouvrit grand ses petits bras et lui dit : « Je ne sais comment on va résoudre ça, Grand Ours, mais nous n'avons pas besoin de traverser toutes ces tempêtes la même journée. Nous prendrons le temps qu'il faudra, ensemble. Nous nous réchaufferons et reprendrons des forces, mais nous avancerons vers notre Praxis en Ours libres et non comme ces fous du bus de Rhinocéros.»
                          <br></br><br></br>
-                          <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/scl/fi/dvg1s5uie1hpm71fw0yqm/1-1.jpg?rlkey=3uoq065m8uj3lzyzcz7z4ch83&st=3d2vwpcz&raw=1" target="_blank" rel="noreferrer">
-                        <Image className={s.onethirdportimage} src={pic10}></Image> </a>
-                    </section>Alors Petit Ours se blottit contre son grand ventre tout chaud. Grand Ours l'enveloppa de ses pattes, comme un voile touffu. 
-                          Dehors, l'hiver pouvait bien souffler. Pour l'instant, il y avait leur chaleur, leur présence et leur certitude de ne pas être seul.
-                           Les deux ours s'endormirent serrés l'un contre l'autre, laissant le monde essayer de se rebâtir un peu avant le printemps... <section className={s.onethirdport}>
-                        <a href="https://www.dropbox.com/scl/fi/4n5spkuueodsrse8olbl1/1-3.jpg?rlkey=zwvdy3hpwmb5j37687ojkc2f1&st=n98rm72z&raw=1" target="_blank" rel="noreferrer">
-                        <Image className={s.onethirdportimage} src={pic12}></Image> </a>
-                    </section>
+                          Alors Petit Ours se blottit contre son grand ventre tout chaud. Grand Ours l'enveloppa de ses pattes, comme un voile touffu. 
+                          Dehors, l'hiver pouvait bien geler tout sur son passage. Pour l'instant, il y avait leur chaleur, leur présence et leur certitude de se blottir ensemble.
+                           Les deux ours s'endormirent serrés l'un contre l'autre, laissant le monde essayer de se rebâtir avant la venue du printemps... 
                     
                            <br></br><br></br></i>
                            Bon, ces personnages provenaient d'un insight avec mes bons chums durant notre chalet à Charlevoix. En vrai, je n'ai pas de solution. Tout ce que je peux offrir, ce sont les paroles d'un gars ordinaire qui vous dit de passer du temps avec les gens que vous aimez et de vous entourer du monde qui vous font sentir bien, qui acceptent les différentes facettes loufoques de qui vous êtes, et sans retenue. 
