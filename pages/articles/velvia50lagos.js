@@ -41,8 +41,19 @@ import pic31 from '../../public/images/2024/Velvia50dc/10.jpg'
 import pic32 from '../../public/images/2024/Velvia50dc/11.jpg'
 import pic33 from '../../public/images/2024/Velvia50dc/12.jpg'
 
-
-
+import pic41 from '../../public/images/2026/velvia50/01.jpg'
+import pic42 from '../../public/images/2026/velvia50/02.jpg'
+import pic43 from '../../public/images/2026/velvia50/03.jpg'
+import pic44 from '../../public/images/2026/velvia50/04.jpg'
+import pic45 from '../../public/images/2026/velvia50/05.jpg'
+import pic46 from '../../public/images/2026/velvia50/06.jpg'
+import pic47 from '../../public/images/2026/velvia50/07.jpg'
+import pic48 from '../../public/images/2026/velvia50/08.jpg'
+import pic49 from '../../public/images/2026/velvia50/09.jpg'
+import pic50 from '../../public/images/2026/velvia50/10.jpg'
+import pic51 from '../../public/images/2026/velvia50/11.jpg'
+import pic52 from '../../public/images/2026/velvia50/12.jpg'
+import pic53 from '../../public/images/2026/velvia50/13.jpg'
 
 import Image from 'next/image'
 
@@ -53,16 +64,21 @@ const Article = () => {
             <Title>
               Velvia 50 - Lagos - Washington Dc <Badge>2018</Badge>
             </Title>
+            <Paragraph><b>Acte I</b></Paragraph>
                 <P>Planifier d'un point A au point B, repassant par les rails du Comboio du Portugal. Peter Pan et Crochet sont gagas
                     de vivre un véritable monde imaginaire. Le long trajet sous le soleil chaud de l'Andalousie s'accompagne de vidéo en .mp4 d'un combat épique
-                    entre Madara et les 5 Kages, ou bien de l'amant du Porto qui s'évade étoufé de colère, ou des deux étudiantes qui préparent la rentrée
-                    des nouveaux arrivants en génie à l'École Polytechnique, ou enfin entre deux étrangés de la 67 qui ont apprécié voir
-                    leur amitié traverser une ultime épreuve.
-                </P><br></br><br></br>
+                    entre des clips de Naruto, ou bien de l'amant du Porto qui s'évade étoufé de colère, ou des deux étudiantes qui préparent la rentrée
+                    des nouveaux arrivants en génie à, ou enfin entre deux étrangés de la 67 qui ont apprécié voir
+                    leur amitié traverser une dernière épreuve.
+                </P><br></br>
                 <P>Un avion passe devant le monument. Le centre du monde? Selon une quelconque perspective, il pourrait s'agir d'un mirage auquel la Maison Blanche fait davantage
                     office des rivages de l'au-delà. Le son des moteurs de la ligne grise m'emmène en Virginie. Je sais d'où je viens. Je connais ma maison. Devant ce hangar contenant de multiples vaisseaux, les étoiles je veux les toucher. Arrivé à destination, je sens que mon rêve prend de la distance. J'ai peur de perdre ma flamme. J'ai besoin d'un bol d'air frais. Je prend le métro vers Dupont, là où je peux me sentir un peu plus à la maison. Je suis ok.
                 </P>
-                
+                <br></br><Paragraph><b>Acte II</b></Paragraph>
+                Je me remémorie l'innocence et le plaisir de pouvoir contribuer à la science à travers mon projet de recherche. Lors de ma conférence à Washington D.C., j'en étais rempli de fierté. Pour qu'elle fleurisse, je demeure convaincu qu'une contribution à la science est motivée à la fois par la communauté qui décuple ses pétales, mais aussi par le chercheur en qui elle a germé. 
+
+            <br></br><br></br><Paragraph><b>Acte III</b></Paragraph>
+            Un jour peut-être que cet univers académique sera à ma porte. En attendant, je côtoie les vaches.<br></br>
                 <a name="about"/>
         <div className={s.clearfix}></div>
             <section className={s.leftcolumn}>
@@ -234,6 +250,83 @@ const Article = () => {
                         <Image className={s.onethirdportimage} src={pic33}></Image>
                         </a>
                     </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/iyvfuv3iz5i4xjkfypjyq/01.jpg?rlkey=zy3uo6p4o1zdleijiyc5n002l&st=3yvuoja0&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic41}></Image>
+                        </a>
+                    </section>
+                    
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/s7gb4mc72wmy6yik9ktk8/02.jpg?rlkey=wedmam48een5a90ff6mew8ous&st=j8ufinia&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic42}></Image>
+                        </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/6c1g3joxkzroc5kxqcp7g/03.jpg?rlkey=lsb741ep51u45go6f0jy8wzlx&st=g2duuuvi&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic43}></Image>
+                        </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/ltby3qbk0qrocao2e6igq/04.jpg?rlkey=c3bnsugg90kycutjw7il4dtoz&st=33rr36m2&&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic44}></Image>
+                        </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/oqpp8k4riklwctj88pjsc/05.jpg?rlkey=lgq8mj3wfbt4f394av0dz62d5&st=kg16qiwc&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic45}></Image>
+                        </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/tgofjmlsz22lnnmmsm04b/06.jpg?rlkey=cbnp393ubs6yts4p05r03qegv&st=j2patm1n&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic46}></Image>
+                        </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/k91ipcdcj5t6c6p2e9uf8/07.jpg?rlkey=k6kisyuljms1lp9mxv2c8p7fs&st=zuea95fv&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic47}></Image>
+                        </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/pkyfec1ix3ma9cl2ibioz/08.jpg?rlkey=zwogbuxls4hdp73oxzre74kh6&st=e6lissh8&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic48}></Image>
+                        </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/lhjjzq2c4b9gy8d8uu1en/09.jpg?rlkey=sqfuo0hbtsuos5vfinyjc87gq&st=zn0ywae9&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic49}></Image>
+                        </a>
+                    </section>
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/yfbkvtpn26oj56ndqeuaz/10.jpg?rlkey=nu1vdjvj12e581z1w4iw09fki&st=njvih07u&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic50}></Image>
+                        </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/i5knorru2o5t6v6ppyirm/11.jpg?rlkey=izgvk32oz7g3oa45bevqm7qvm&st=8xlwwuha&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic51}></Image>
+                        </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/sh4qxvg0d9jzuskfajzim/12.jpg?rlkey=d5li1x3mpmj03nvl3tjdefscv&st=qofactjo&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic52}></Image>
+                        </a>
+                    </section>
+
+                    <section className={s.onethirdport}>
+                        <a href="https://www.dropbox.com/scl/fi/s7xz4q2utijwi3ik2gcc7/13.jpg?rlkey=wg571n8q4uokaahtj2pw9b5zt&st=6349cpci&raw=1" target="_blank">
+                        <Image className={s.onethirdportimage} src={pic53}></Image>
+                        </a>
+                    </section>
                     
                     <div className={s.clearfix}></div>
                         <a name="serv">
@@ -241,7 +334,7 @@ const Article = () => {
                         </a>
                         <section>
                             <h2 className={s.h2}>Nota Bene</h2>
-                            <Paragraph>Arrivederci
+                            <Paragraph>Un aurevoir artificiel blesse. L'adieu sincère guérit.
                             </Paragraph>
                         </section>
             </Container>

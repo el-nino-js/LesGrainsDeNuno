@@ -1,6 +1,18 @@
+/** @type {import('next').NextConfig} */
 module.exports = {
-    reactStrictMode: true,
-    images: {
-      domains: ["dl.dropboxusercontent.com"]
-   }
-  }
+  reactStrictMode: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'graodeprata.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'dl.dropboxusercontent.com',
+        pathname: '/**',
+      },
+    ],
+  },
+};
